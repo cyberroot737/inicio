@@ -1,0 +1,4782 @@
+body
+{
+   background-color: #A9A9A9;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#capa1
+{
+   background-color: transparent;
+   background-image: url(images/balloons_night_moon_142374_1920x1080.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #000000;
+   opacity: 0.8;
+}
+#sticker_ADELANTE_
+{
+   background-color: rgba(0,0,0,0.42);
+   background-image: none;
+}
+#wb_ResponsiveMenu1
+{
+   background-color: rgba(0,0,0,1.00);
+   display: block;
+   font-family: Acme;
+   font-weight: normal;
+   text-align: center;
+   width: 100%;
+}
+#ResponsiveMenu1
+{
+   background-color: #000000;
+   display: inline-block;
+   height: 65px;
+}
+#wb_ResponsiveMenu1 ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#wb_ResponsiveMenu1 ul:after
+{
+   clear: both;
+   content: "";
+   display: block;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #000000;
+   display: list-item;
+   float: left;
+   list-style: none;
+   z-index: 9999;
+}
+#wb_ResponsiveMenu1 ul li i
+{
+   font-size: 20px;
+   width: 20px;
+}
+#wb_ResponsiveMenu1 ul li a 
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   padding: 15px 30px 15px 30px;
+   text-align: center;
+   text-decoration: none;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: 35px;
+}
+.ResponsiveMenu1 a 
+{
+   display: block;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{ 
+   background-color: #FFA500;
+   color: #000000;
+}
+#wb_ResponsiveMenu1 ul ul
+{
+   display: none;
+   position: absolute;
+   top: 65px;
+}
+#wb_ResponsiveMenu1 ul li:hover > ul
+{
+   display: list-item;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   background-color: #000000;
+   color: #FFFFFF;
+   float: none;
+   position: relative;
+   width: 129px;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   color: #000000;
+}
+#wb_ResponsiveMenu1 ul ul li i 
+{
+   margin-right: 6px;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul li a 
+{
+   color: #FFFFFF;
+   padding-top: 15px;
+   padding-right: 20px;
+   padding-bottom: 15px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   left: 129px;
+   position: relative;
+   top: -65px;
+}
+#wb_ResponsiveMenu1 .arrow-down 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-top: 4px solid #FFFFFF;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-bottom: 0 dotted;
+}
+#wb_ResponsiveMenu1 .arrow-left 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 4px;
+   vertical-align: middle;
+   border-left: 4px solid #FFFFFF;
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+   border-right: 0 dotted;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{ 
+   border-top-color: #000000;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{ 
+   border-left-color: #000000;
+}
+#wb_ResponsiveMenu1 .toggle,[id^=ResponsiveMenu1-submenu]
+{
+   display: none;
+}
+@media all and (max-width:768px) 
+{
+#wb_ResponsiveMenu1 
+{
+   margin: 0;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
+{
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+   padding: 15px 20px 15px 20px;
+}
+#wb_ResponsiveMenu1 .toggle + a
+{
+   display: none !important;
+}
+.ResponsiveMenu1 
+{
+   display: none;
+   z-index: 9999;
+}
+#ResponsiveMenu1 
+{
+   background-color: transparent;
+   display: none;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: auto;
+}
+#wb_ResponsiveMenu1 .toggle 
+{
+   display: block;
+   background-color: #000000;
+   color: #FFFFFF;
+   padding: 0px 20px 0px 20px;
+   line-height: 50px;
+   text-decoration: none;
+   border: none;
+   position: relative;
+}
+#wb_ResponsiveMenu1 .toggle:hover 
+{
+   background-color: #FFA500;
+   color: #000000;
+}
+[id^=ResponsiveMenu1-submenu]:checked + ul 
+{
+   display: block !important;
+}
+#ResponsiveMenu1-title
+{
+   height: 65px;
+   line-height: 65px !important;
+   text-align: center;
+}
+#wb_ResponsiveMenu1 ul li 
+{
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul ul .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   padding: 0 40px;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   background-color: #000000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #000000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   padding: 15px 20px 15px 60px;
+}
+#wb_ResponsiveMenu1 ul li a 
+{
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li a br 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul li i 
+{
+   margin-right: 6px;
+}
+#wb_ResponsiveMenu1 ul ul 
+{
+   float: none;
+   position: static;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > ul,
+#wb_ResponsiveMenu1 ul li:hover > ul 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   position: static;
+}
+#ResponsiveMenu1-icon 
+{
+   display: block;
+   position: absolute;
+   left: 30px;
+   top: 20px;
+}
+#ResponsiveMenu1-icon span 
+{
+   display: block;
+   margin-top: 4px;
+   height: 2px;
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+   width: 24px;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #000000;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{ 
+   border-top-color: #000000;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{ 
+   border-top-color: #000000;
+}
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1
+{
+   color: #FFA814;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 96px;
+   line-height: 121px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_1-BIMESTRE
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#1-BIMESTRE
+{
+   box-sizing: border-box;
+   padding: 10px 15px 10px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#1-BIMESTRE > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   float: left;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#1-BIMESTRE:before,
+#1-BIMESTRE:after,
+#1-BIMESTRE .row:before,
+#1-BIMESTRE .row:after
+{
+   display: table;
+   content: " ";
+}
+#1-BIMESTRE:after,
+#1-BIMESTRE .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#1-BIMESTRE > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 10px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2
+{
+   color: #FFD700;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   line-height: 37.5px;
+}
+#wb_Text2 p, #wb_Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_1SEMANA1B
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#1SEMANA1B
+{
+   box-sizing: border-box;
+   padding: 10px 15px 10px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1280px;
+}
+#1SEMANA1B > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#1SEMANA1B > .row > .col-1
+{
+   float: left;
+}
+#1SEMANA1B > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#1SEMANA1B:before,
+#1SEMANA1B:after,
+#1SEMANA1B .row:before,
+#1SEMANA1B .row:after
+{
+   display: table;
+   content: " ";
+}
+#1SEMANA1B:after,
+#1SEMANA1B .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#1SEMANA1B > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text3 p, #wb_Text3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 5px solid #000000;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1280px;
+}
+#LayoutGrid1 > .row
+{
+   display: grid;
+   grid-template-columns: repeat(12, 8.333333%);
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+   grid-column: span 12;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   grid-column: span 8;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   grid-column: span 4;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   width: 100%;
+   grid-column: span 12;
+}
+}
+#wb_Text6 
+{
+   background-color: #000000;
+   background-image: none;
+   border: 10px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text6 div
+{
+   text-align: center;
+}
+#wb_Text7 
+{
+   background-color: #FFA814;
+   background-image: none;
+   border: 10px solid #FFA814;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text7 div
+{
+   text-align: center;
+}
+#wb_Image6
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image6
+{
+   border: 10px solid rgba(169,169,169,0.00);
+   border-radius: 20px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 19px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 19px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line10
+{
+   border-color: #000000;
+   border-color: rgba(0,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 19px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text46 
+{
+   background-color: #006400;
+   background-image: none;
+   border: 10px solid #006400;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text46
+{
+   color: #FFFF00;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text46 p, #wb_Text46 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4 
+{
+   background-color: #1E1E1E;
+   background-image: none;
+   border: 20px solid #1E1E1E;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4
+{
+   color: #FFFF00;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text4 p, #wb_Text4 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image3
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image3
+{
+   border: 10px solid rgba(0,0,0,0.00);
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#Line9
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 35px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text15 
+{
+   background-color: #000000;
+   background-image: none;
+   border: 10px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text15
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   line-height: 37.5px;
+}
+#wb_Text15 p, #wb_Text15 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#YouTube1
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube1
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 35px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text5 
+{
+   background-color: #000000;
+   background-image: none;
+   border: 10px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text5
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   line-height: 37.5px;
+}
+#wb_Text5 p, #wb_Text5 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#YouTube2
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube2
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#Line4
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 35px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text8 
+{
+   background-color: #000000;
+   background-image: none;
+   border: 10px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text8
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   line-height: 37.5px;
+}
+#wb_Text8 p, #wb_Text8 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#YouTube3
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube3
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#Line5
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 35px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text9 
+{
+   background-color: #000000;
+   background-image: none;
+   border: 10px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text9
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   line-height: 37.5px;
+}
+#wb_Text9 p, #wb_Text9 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#YouTube4
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube4
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#Line6
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 35px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text10 
+{
+   background-color: #000000;
+   background-image: none;
+   border: 10px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   line-height: 37.5px;
+}
+#wb_Text10 p, #wb_Text10 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#YouTube5
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube5
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#wb_LayoutGrid6
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid6
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid6 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid6:before,
+#LayoutGrid6:after,
+#LayoutGrid6 .row:before,
+#LayoutGrid6 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid6:after,
+#LayoutGrid6 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid6 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text17 div
+{
+   text-align: center;
+}
+#wb_YouTube3
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 15;
+}
+#Line5
+{
+   display: block;
+   width: 100%;
+   z-index: 16;
+}
+#wb_ResponsiveMenu1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 2;
+}
+#Line4
+{
+   display: block;
+   width: 100%;
+   z-index: 13;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 1017px;
+   top: 85px;
+   width: 280px;
+   height: 293px;
+   z-index: 0;
+}
+#wb_Image3
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 24;
+}
+#wb_MARCADOR1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 67px;
+   height: 60px;
+   visibility: hidden;
+   z-index: 32;
+}
+#Line6
+{
+   display: block;
+   width: 100%;
+   z-index: 19;
+}
+#Line1
+{
+   display: block;
+   width: 100%;
+   z-index: 22;
+}
+#wb_Image6
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 27;
+}
+#capa1_Container
+{
+   width: 1650px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#Line3
+{
+   display: block;
+   width: 100%;
+   z-index: 10;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 400px;
+   top: 197px;
+   width: 725px;
+   height: 122px;
+   z-index: 1;
+}
+#capa1
+{
+   position: relative;
+   text-align: center;
+   width: 100%;
+   height: 410px;
+   float: left;
+   clear: left;
+   display: block;
+   z-index: 30;
+}
+#Line2
+{
+   display: block;
+   width: 100%;
+   z-index: 5;
+}
+#wb_YouTube4
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 18;
+}
+#wb_YouTube5
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 21;
+}
+#MARCADOR1
+{
+   visibility: hidden;
+}
+#sticker_ADELANTE_
+{
+   position: fixed;
+   text-align: center;
+   left: auto;
+   right: 0px;
+   top: 0px;
+   width: 100%;
+   height: 65px;
+   z-index: 31;
+}
+#wb_YouTube1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 9;
+}
+#Line9
+{
+   display: block;
+   width: 100%;
+   z-index: 7;
+}
+#Line10
+{
+   display: block;
+   width: 100%;
+   z-index: 25;
+}
+#wb_YouTube2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 12;
+}
+@media only screen and (min-width: 1280px) and (max-width: 1649px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 331px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/balloons_night_moon_142374_1920x1080.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 1280px;
+}
+#sticker_ADELANTE_
+{
+   height: 61px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 51px;
+   height: 46px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Image2
+{
+   left: 854px;
+   top: 73px;
+   width: 217px;
+   height: 217px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   left: 298px;
+   top: 153px;
+   width: 625px;
+   height: 108px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 85px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   grid-column: span 8;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   grid-column: span 4;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text6
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFA814;
+   background-image: none;
+}
+#wb_Text7
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 14px;
+}
+#Line2
+{
+   width: 100%;
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 14px;
+}
+#Line10
+{
+   width: 100%;
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line10
+{
+   border-color: #000000;
+   border-color: rgba(0,0,0,0.00);
+   border-bottom-width: 14px;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+}
+#wb_Text46
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: #1E1E1E;
+   background-image: none;
+}
+#wb_Text4
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line9
+{
+   width: 100%;
+   height: 27px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line9
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 27px;
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text15
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   width: 100%;
+   height: 27px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 27px;
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   width: 100%;
+   height: 27px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 27px;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   width: 100%;
+   height: 27px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 27px;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text9
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   width: 100%;
+   height: 27px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 27px;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text10
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube5
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 327px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/balloons_night_moon_142374_1920x1080.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 1024px;
+}
+#sticker_ADELANTE_
+{
+   height: 59px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: rgba(0,0,0,0.42);
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 40px;
+   height: 36px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Image2
+{
+   left: 596px;
+   top: 74px;
+   width: 196px;
+   height: 205px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   left: 196px;
+   top: 156px;
+   width: 466px;
+   height: 81px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 64px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   grid-column: span 8;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   grid-column: span 4;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text6
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFA814;
+   background-image: none;
+}
+#wb_Text7
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 11px;
+}
+#Line2
+{
+   width: 100%;
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 11px;
+}
+#Line10
+{
+   width: 100%;
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line10
+{
+   border-color: #000000;
+   border-color: rgba(0,0,0,0.00);
+   border-bottom-width: 11px;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+}
+#wb_Text46
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: #1E1E1E;
+   background-image: none;
+}
+#wb_Text4
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line9
+{
+   width: 100%;
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line9
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 21px;
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text15
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   width: 100%;
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 21px;
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   width: 100%;
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 21px;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   width: 100%;
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 21px;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text9
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   width: 100%;
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 21px;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text10
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube5
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 980px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 334px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/balloons_night_moon_142374_1920x1080.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 980px;
+}
+#sticker_ADELANTE_
+{
+   height: 59px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: rgba(0,0,0,0.42);
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 38px;
+   height: 34px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Image2
+{
+   left: 568px;
+   top: 79px;
+   width: 187px;
+   height: 196px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   left: 161px;
+   top: 153px;
+   width: 477px;
+   height: 81px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 64px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   grid-column: span 8;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   grid-column: span 4;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text6
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFA814;
+   background-image: none;
+}
+#wb_Text7
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 10px;
+}
+#Line2
+{
+   width: 100%;
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 10px;
+}
+#Line10
+{
+   width: 100%;
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line10
+{
+   border-color: #000000;
+   border-color: rgba(0,0,0,0.00);
+   border-bottom-width: 10px;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+}
+#wb_Text46
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: #1E1E1E;
+   background-image: none;
+}
+#wb_Text4
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line9
+{
+   width: 100%;
+   height: 20px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line9
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 20px;
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text15
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   width: 100%;
+   height: 20px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 20px;
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   width: 100%;
+   height: 20px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 20px;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   width: 100%;
+   height: 20px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 20px;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text9
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   width: 100%;
+   height: 20px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 20px;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text10
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube5
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 979px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 296px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/balloons_night_moon_142374_1920x1080.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 800px;
+}
+#sticker_ADELANTE_
+{
+   height: 60px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: rgba(0,0,0,0.42);
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 31px;
+   height: 27px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Image2
+{
+   left: 495px;
+   top: 75px;
+   width: 166px;
+   height: 181px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   left: 154px;
+   top: 149px;
+   width: 389px;
+   height: 68px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 53px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   grid-column: span 8;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   grid-column: span 4;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text6
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFA814;
+   background-image: none;
+}
+#wb_Text7
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#Line2
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#Line10
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line10
+{
+   border-color: #000000;
+   border-color: rgba(0,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+}
+#wb_Text46
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: #1E1E1E;
+   background-image: none;
+}
+#wb_Text4
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line9
+{
+   width: 100%;
+   height: 16px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line9
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 16px;
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text15
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   width: 100%;
+   height: 16px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 16px;
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   width: 100%;
+   height: 16px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 16px;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   width: 100%;
+   height: 16px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 16px;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text9
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   width: 100%;
+   height: 16px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 16px;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text10
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube5
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 305px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/balloons_night_moon_142374_1920x1080.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 768px;
+}
+#sticker_ADELANTE_
+{
+   height: 57px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: rgba(0,0,0,0.42);
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 29px;
+   height: 25px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Image2
+{
+   left: 432px;
+   top: 87px;
+   width: 180px;
+   height: 182px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   left: 151px;
+   top: 165px;
+   width: 373px;
+   height: 61px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 48px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   grid-column: span 8;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   grid-column: span 4;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text6
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFA814;
+   background-image: none;
+}
+#wb_Text7
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#Line2
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#Line10
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line10
+{
+   border-color: #000000;
+   border-color: rgba(0,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+}
+#wb_Text46
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: #1E1E1E;
+   background-image: none;
+}
+#wb_Text4
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line9
+{
+   width: 100%;
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line9
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 15px;
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text15
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   width: 100%;
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 15px;
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   width: 100%;
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 15px;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   width: 100%;
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 15px;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text9
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   width: 100%;
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 15px;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text10
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube5
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 285px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/balloons_night_moon_142374_1920x1080.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 320px;
+}
+#sticker_ADELANTE_
+{
+   height: 63px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: rgba(0,0,0,0.42);
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 12px;
+   height: 10px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Image2
+{
+   left: 106px;
+   top: 93px;
+   width: 108px;
+   height: 115px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   left: 58px;
+   top: 216px;
+   width: 205px;
+   height: 33px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 33px;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   grid-column: span 12;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   grid-column: span 12;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text6
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFA814;
+   background-image: none;
+}
+#wb_Text7
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 2px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 2px;
+}
+#Line2
+{
+   width: 100%;
+   height: 2px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 2px;
+}
+#Line10
+{
+   width: 100%;
+   height: 2px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line10
+{
+   border-color: #000000;
+   border-color: rgba(0,0,0,0.00);
+   border-bottom-width: 2px;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+}
+#wb_Text46
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: #1E1E1E;
+   background-image: none;
+}
+#wb_Text4
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line9
+{
+   width: 100%;
+   height: 6px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line9
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 6px;
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text15
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   width: 100%;
+   height: 6px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 6px;
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   width: 100%;
+   height: 6px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 6px;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   width: 100%;
+   height: 6px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 6px;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text9
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   width: 100%;
+   height: 6px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 6px;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_Text10
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_YouTube5
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+}

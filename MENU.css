@@ -1,0 +1,4605 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#capa1
+{
+   background-color: transparent;
+   background-image: url(images/COLEGIOANTONWALL.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #000000;
+   opacity: 0.8;
+   z-index: -1;
+}
+#sticker_ADELANTE_
+{
+   background-color: rgba(0,0,0,0.00);
+   background-image: none;
+   margin: 0;
+}
+#wb_ResponsiveMenu1
+{
+   background-color: rgba(0,0,0,0.00);
+   display: block;
+   font-family: Acme;
+   font-weight: normal;
+   text-align: center;
+   width: 100%;
+}
+#ResponsiveMenu1
+{
+   background-color: #000000;
+   background-color: rgba(0,0,0,0.00);
+   display: inline-block;
+   height: 70px;
+}
+#wb_ResponsiveMenu1 ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#wb_ResponsiveMenu1 ul:after
+{
+   clear: both;
+   content: "";
+   display: block;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #000000;
+   background-color: rgba(0,0,0,0.00);
+   display: list-item;
+   float: left;
+   list-style: none;
+   z-index: 9999;
+}
+#wb_ResponsiveMenu1 ul li i
+{
+   font-size: 20px;
+   width: 20px;
+}
+#wb_ResponsiveMenu1 ul li a 
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 17px;
+   font-style: normal;
+   padding: 15px 30px 15px 30px;
+   text-align: center;
+   text-decoration: none;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: 40px;
+}
+.ResponsiveMenu1 a 
+{
+   display: block;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{ 
+   background-color: #FFA500;
+   color: #000000;
+}
+#wb_ResponsiveMenu1 ul ul
+{
+   display: none;
+   position: absolute;
+   top: 70px;
+}
+#wb_ResponsiveMenu1 ul li:hover > ul
+{
+   display: list-item;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   background-color: #000000;
+   background-color: rgba(0,0,0,0.41);
+   color: #FFFFFF;
+   float: none;
+   position: relative;
+   width: 130px;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   color: #000000;
+}
+#wb_ResponsiveMenu1 ul ul li i 
+{
+   margin-right: 6px;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul li a 
+{
+   color: #FFFFFF;
+   padding-top: 15px;
+   padding-right: 20px;
+   padding-bottom: 15px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   left: 130px;
+   position: relative;
+   top: -70px;
+}
+#wb_ResponsiveMenu1 .arrow-down 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-top: 4px solid #FFFFFF;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-bottom: 0 dotted;
+}
+#wb_ResponsiveMenu1 .arrow-left 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 4px;
+   vertical-align: middle;
+   border-left: 4px solid #FFFFFF;
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+   border-right: 0 dotted;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{ 
+   border-top-color: #000000;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{ 
+   border-left-color: #000000;
+}
+#wb_ResponsiveMenu1 .toggle,[id^=ResponsiveMenu1-submenu]
+{
+   display: none;
+}
+@media all and (max-width:411px) 
+{
+#wb_ResponsiveMenu1 
+{
+   margin: 0;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
+{
+   font-size: 17px;
+   font-weight: normal;
+   font-style: normal;
+   padding: 15px 20px 15px 20px;
+}
+#wb_ResponsiveMenu1 .toggle + a
+{
+   display: none !important;
+}
+.ResponsiveMenu1 
+{
+   display: none;
+   z-index: 9999;
+}
+#ResponsiveMenu1 
+{
+   background-color: transparent;
+   display: none;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: auto;
+}
+#wb_ResponsiveMenu1 .toggle 
+{
+   display: block;
+   background-color: #000000;
+   background-color: rgba(0,0,0,0.00);
+   color: #FFFFFF;
+   padding: 0px 20px 0px 20px;
+   line-height: 50px;
+   text-decoration: none;
+   border: none;
+   position: relative;
+}
+#wb_ResponsiveMenu1 .toggle:hover 
+{
+   background-color: #FFA500;
+   color: #000000;
+}
+[id^=ResponsiveMenu1-submenu]:checked + ul 
+{
+   display: block !important;
+}
+#ResponsiveMenu1-title
+{
+   height: 70px;
+   line-height: 70px !important;
+   text-align: center;
+}
+#wb_ResponsiveMenu1 ul li 
+{
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul ul .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   padding: 0 40px;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   background-color: #000000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #000000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   padding: 15px 20px 15px 60px;
+}
+#wb_ResponsiveMenu1 ul li a 
+{
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li a br 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul li i 
+{
+   margin-right: 6px;
+}
+#wb_ResponsiveMenu1 ul ul 
+{
+   float: none;
+   position: static;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > ul,
+#wb_ResponsiveMenu1 ul li:hover > ul 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   position: static;
+}
+#ResponsiveMenu1-icon 
+{
+   display: block;
+   position: absolute;
+   left: 30px;
+   top: 23px;
+}
+#ResponsiveMenu1-icon span 
+{
+   display: block;
+   margin-top: 4px;
+   height: 2px;
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+   width: 24px;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #000000;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{ 
+   border-top-color: #000000;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{ 
+   border-top-color: #000000;
+}
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #0000FF;
+   background: linear-gradient(to top, #0000FF 0%, #000000 100%);
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+   border: 2px solid #000000;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1650px;
+}
+#LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 1024px)
+{
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 37px;
+   line-height: 47.5px;
+}
+#wb_Text10 p, #wb_Text10 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image2
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   -webkit-animation: animate-flash 4000ms linear 0ms infinite normal both;
+   -moz-animation: animate-flash 4000ms linear 0ms infinite normal both;
+   animation: animate-flash 4000ms linear 0ms infinite normal both;
+   display: inline-block;
+   width: 101px;
+   height: 144px;
+   vertical-align: top;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text11
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 35px;
+   line-height: 43.5px;
+}
+#wb_Text11 p, #wb_Text11 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Shape1
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#wb_Shape1 a img
+{
+   position: relative;
+   left: 0;
+}
+#wb_Shape1 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape1 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape1 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape1 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape2
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#wb_Shape2 a img
+{
+   position: relative;
+   left: 0;
+}
+#wb_Shape2 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape2 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape2 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape2 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape3
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#wb_Shape3 a img
+{
+   position: relative;
+   left: 0;
+}
+#wb_Shape3 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape3 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape3 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape3 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape3
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape4
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#wb_Shape4 a img
+{
+   position: relative;
+   left: 0;
+}
+#wb_Shape4 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape4 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape4 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape4 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape4
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape5
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#wb_Shape5 a img
+{
+   position: relative;
+   left: 0;
+}
+#wb_Shape5 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape5 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape5 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape5 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape5
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape6
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#wb_Shape6 a img
+{
+   position: relative;
+   left: 0;
+}
+#wb_Shape6 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape6 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape6 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape6 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape6
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape7
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#wb_Shape7 a img
+{
+   position: relative;
+   left: 0;
+}
+#wb_Shape7 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape7 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape7 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape7 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape7
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape8
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#wb_Shape8 a img
+{
+   position: relative;
+   left: 0;
+}
+#wb_Shape8 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape8 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape8 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape8 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape8
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape9
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#wb_Shape9 a img
+{
+   position: relative;
+   left: 0;
+}
+#wb_Shape9 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape9 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape9 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape9 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape9
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_LayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+   border: 2px solid #000000;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid4
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1650px;
+}
+#LayoutGrid4 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   float: left;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid4 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid4 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid4 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid4:before,
+#LayoutGrid4:after,
+#LayoutGrid4 .row:before,
+#LayoutGrid4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid4:after,
+#LayoutGrid4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 1024px)
+{
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+   border: 2px solid #000000;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid5
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1650px;
+}
+#LayoutGrid5 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4
+{
+   float: left;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid5:before,
+#LayoutGrid5:after,
+#LayoutGrid5 .row:before,
+#LayoutGrid5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid5:after,
+#LayoutGrid5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 1024px)
+{
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1650px;
+}
+#LayoutGrid2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 66.66666667%;
+   text-align: center;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 768px)
+{
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#YouTube4
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube4
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#wb_Text1 
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   color: #FF0000;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 30.5px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid6
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid6
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1650px;
+}
+#LayoutGrid6 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
+{
+   float: left;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid6 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 66.66666667%;
+   text-align: center;
+}
+#LayoutGrid6:before,
+#LayoutGrid6:after,
+#LayoutGrid6 .row:before,
+#LayoutGrid6 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid6:after,
+#LayoutGrid6 .row:after
+{
+   clear: both;
+}
+@media (max-width: 768px)
+{
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#YouTube1
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube1
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#wb_Text2 
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2
+{
+   color: #FF0000;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 30.5px;
+}
+#wb_Text2 p, #wb_Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid7
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid7
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1650px;
+}
+#LayoutGrid7 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid7 > .row > .col-1, #LayoutGrid7 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid7 > .row > .col-1, #LayoutGrid7 > .row > .col-2
+{
+   float: left;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid7 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 66.66666667%;
+   text-align: center;
+}
+#LayoutGrid7:before,
+#LayoutGrid7:after,
+#LayoutGrid7 .row:before,
+#LayoutGrid7 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid7:after,
+#LayoutGrid7 .row:after
+{
+   clear: both;
+}
+@media (max-width: 768px)
+{
+#LayoutGrid7 > .row > .col-1, #LayoutGrid7 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#YouTube2
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube2
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#wb_Text3 
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3
+{
+   color: #000000;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 30.5px;
+}
+#wb_Text3 p, #wb_Text3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid8
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid8
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid8 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid8:before,
+#LayoutGrid8:after,
+#LayoutGrid8 .row:before,
+#LayoutGrid8 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid8:after,
+#LayoutGrid8 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid8 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text17
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+}
+#wb_Text17 div
+{
+   text-align: center;
+}
+#wb_LayoutGrid9
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid9
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid9 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid9:before,
+#LayoutGrid9:after,
+#LayoutGrid9 .row:before,
+#LayoutGrid9 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid9:after,
+#LayoutGrid9 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid9 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#wb_Shape1
+{
+   display: inline-block;
+   width: 324px;
+   height: 67px;
+   z-index: 6;
+   position: relative;
+}
+#wb_Shape2
+{
+   display: inline-block;
+   width: 324px;
+   height: 67px;
+   z-index: 7;
+   position: relative;
+}
+#wb_Shape3
+{
+   display: inline-block;
+   width: 326px;
+   height: 67px;
+   z-index: 8;
+   position: relative;
+}
+#wb_ResponsiveMenu1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 0;
+}
+#wb_Image2
+{
+   display: inline-block;
+   width: 101px;
+   height: 144px;
+   z-index: 2;
+}
+#wb_MARCADOR1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 67px;
+   height: 60px;
+   visibility: hidden;
+   z-index: 24;
+}
+#Shape1
+{
+   width: 324px;
+   height: 67px;
+}
+#Shape2
+{
+   width: 324px;
+   height: 67px;
+}
+#wb_Shape8
+{
+   display: inline-block;
+   width: 319px;
+   height: 67px;
+   z-index: 13;
+   position: relative;
+}
+#Shape3
+{
+   width: 326px;
+   height: 67px;
+}
+#capa1
+{
+   position: relative;
+   text-align: center;
+   width: 100%;
+   height: 362px;
+   float: left;
+   clear: left;
+   display: block;
+   z-index: 23;
+}
+#wb_Shape9
+{
+   display: inline-block;
+   width: 320px;
+   height: 67px;
+   z-index: 14;
+   position: relative;
+}
+#Shape4
+{
+   width: 327px;
+   height: 67px;
+}
+#wb_YouTube4
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 16;
+}
+#Shape5
+{
+   width: 325px;
+   height: 67px;
+}
+#Shape6
+{
+   width: 324px;
+   height: 67px;
+}
+#Shape7
+{
+   width: 322px;
+   height: 67px;
+}
+#wb_Shape4
+{
+   display: inline-block;
+   width: 327px;
+   height: 67px;
+   z-index: 9;
+   position: relative;
+}
+#MARCADOR1
+{
+   visibility: hidden;
+}
+#wb_Shape5
+{
+   display: inline-block;
+   width: 325px;
+   height: 67px;
+   z-index: 10;
+   position: relative;
+}
+#sticker_ADELANTE_
+{
+   position: relative;
+   text-align: center;
+   width: 100%;
+   height: 70px;
+   float: left;
+   clear: left;
+   display: block;
+   z-index: 1;
+}
+#Shape8
+{
+   width: 319px;
+   height: 67px;
+}
+#wb_Shape6
+{
+   display: inline-block;
+   width: 324px;
+   height: 67px;
+   z-index: 11;
+   position: relative;
+}
+#wb_YouTube1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 18;
+}
+#Shape9
+{
+   width: 320px;
+   height: 67px;
+}
+#wb_Shape7
+{
+   display: inline-block;
+   width: 322px;
+   height: 67px;
+   z-index: 12;
+   position: relative;
+}
+#wb_YouTube2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 20;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1649px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#capa1
+{
+   height: 336px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/COLEGIOANTONWALL.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#sticker_ADELANTE_
+{
+   height: 76px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: rgba(0,0,0,0.00);
+   background-image: none;
+   margin: 0;
+}
+#sticker_ADELANTE_
+{
+   left: 0%;
+   width: 100%;
+   margin: 0;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 38px;
+   height: 33px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #0000FF;
+   background: linear-gradient(to top, #0000FF 0%, #000000 100%);
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text10
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Image2
+{
+   width: 77px;
+   height: 109px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#Image2
+{
+   width: 77px;
+   height: 109px;
+}
+#wb_Text11
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text11
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 24px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Shape1
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape2
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape3
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape4
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape5
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape6
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape7
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape8
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape9
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutGrid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid4
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid4 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid4 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid4 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid6 > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid7
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid7
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid7
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid7 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid7 > .row > .col-1, #LayoutGrid7 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid7 > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid8
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid8
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid8
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid8 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid9
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid9
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid9
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid9 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#capa1
+{
+   height: 280px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/COLEGIOANTONWALL.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#sticker_ADELANTE_
+{
+   height: 57px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: rgba(0,0,0,0.00);
+   background-image: none;
+   margin: 0;
+}
+#sticker_ADELANTE_
+{
+   left: 0%;
+   width: 100%;
+   margin: 0;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 29px;
+   height: 25px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #0000FF;
+   background: linear-gradient(to top, #0000FF 0%, #000000 100%);
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text10
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Image2
+{
+   width: 76px;
+   height: 108px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#Image2
+{
+   width: 76px;
+   height: 108px;
+}
+#wb_Text11
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text11
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Shape1
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape2
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape3
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape4
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape5
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape6
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape7
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape8
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape9
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutGrid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid4
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid5 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid5 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid6 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid7
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid7
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid7
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid7 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid7 > .row > .col-1, #LayoutGrid7 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid7 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid8
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid8
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid8
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid8 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid9
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid9
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid9
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid9 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 411px) and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#capa1
+{
+   height: 351px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/COLEGIOANTONWALL.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#sticker_ADELANTE_
+{
+   height: 57px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: rgba(0,0,0,0.00);
+   background-image: none;
+   margin: 0;
+}
+#sticker_ADELANTE_
+{
+   left: 0%;
+   width: 100%;
+   margin: 0;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 29px;
+   height: 25px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #0000FF;
+   background: linear-gradient(to top, #0000FF 0%, #000000 100%);
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text10
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 37px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Image2
+{
+   width: 104px;
+   height: 148px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#Image2
+{
+   width: 104px;
+   height: 148px;
+}
+#wb_Text11
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text11
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Shape1
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape2
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape3
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape4
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape5
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape6
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape7
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape8
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape9
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutGrid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid4
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid4 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid4 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid4 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid6 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid7
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid7
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid7
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid7 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid7 > .row > .col-1, #LayoutGrid7 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid7 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid8
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid8
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid8
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid8 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid9
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid9
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid9
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid9 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (max-width: 410px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#capa1
+{
+   height: 206px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/COLEGIOANTONWALL.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#sticker_ADELANTE_
+{
+   height: 63px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: rgba(0,0,0,0.00);
+   background-image: none;
+   margin: 0;
+}
+#sticker_ADELANTE_
+{
+   left: 0%;
+   width: 100%;
+   margin: 0;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 12px;
+   height: 10px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #0000FF;
+   background: linear-gradient(to top, #0000FF 0%, #000000 100%);
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text10
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Image2
+{
+   width: 45px;
+   height: 64px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#Image2
+{
+   width: 45px;
+   height: 64px;
+}
+#wb_Text11
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text11
+{
+   font-family: Bangers;
+   font-weight: normal;
+   font-size: 24px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Shape1
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape2
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape3
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape4
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape5
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape6
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape7
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape8
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Shape9
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutGrid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid4
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background: radial-gradient(circle, #FFFFFF 0%, #AFEEEE 100%);
+}
+#wb_LayoutGrid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid5 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid5 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid6 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid7
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid7
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid7
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid7 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid7 > .row > .col-1, #LayoutGrid7 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid7 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_YouTube2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid8
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid8
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid8
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid8 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid9
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid9
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid9
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid9 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid9 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+}

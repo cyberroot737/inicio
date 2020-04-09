@@ -1,0 +1,5190 @@
+body
+{
+   background-color: #A9A9A9;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#capa1
+{
+   background-color: transparent;
+   background-image: url(images/EDUCA.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #000000;
+   opacity: 0.8;
+}
+#sticker_ADELANTE_
+{
+   background-color: #000000;
+   background-image: none;
+}
+#wb_ResponsiveMenu1
+{
+   background-color: rgba(0,0,0,1.00);
+   display: block;
+   font-family: Acme;
+   font-weight: normal;
+   text-align: center;
+   width: 100%;
+}
+#ResponsiveMenu1
+{
+   background-color: #000000;
+   display: inline-block;
+   height: 65px;
+}
+#wb_ResponsiveMenu1 ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#wb_ResponsiveMenu1 ul:after
+{
+   clear: both;
+   content: "";
+   display: block;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   background-color: #000000;
+   display: list-item;
+   float: left;
+   list-style: none;
+   z-index: 9999;
+}
+#wb_ResponsiveMenu1 ul li i
+{
+   font-size: 20px;
+   width: 20px;
+}
+#wb_ResponsiveMenu1 ul li a 
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   padding: 15px 30px 15px 30px;
+   text-align: center;
+   text-decoration: none;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: 35px;
+}
+.ResponsiveMenu1 a 
+{
+   display: block;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{ 
+   background-color: #FFA500;
+   color: #000000;
+}
+#wb_ResponsiveMenu1 ul ul
+{
+   display: none;
+   position: absolute;
+   top: 65px;
+}
+#wb_ResponsiveMenu1 ul li:hover > ul
+{
+   display: list-item;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   background-color: #000000;
+   color: #FFFFFF;
+   float: none;
+   position: relative;
+   width: 129px;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #FFA500;
+   color: #000000;
+}
+#wb_ResponsiveMenu1 ul ul li i 
+{
+   margin-right: 6px;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul li a 
+{
+   color: #FFFFFF;
+   padding-top: 15px;
+   padding-right: 20px;
+   padding-bottom: 15px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   left: 129px;
+   position: relative;
+   top: -65px;
+}
+#wb_ResponsiveMenu1 .arrow-down 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-top: 4px solid #FFFFFF;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-bottom: 0 dotted;
+}
+#wb_ResponsiveMenu1 .arrow-left 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 4px;
+   vertical-align: middle;
+   border-left: 4px solid #FFFFFF;
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+   border-right: 0 dotted;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down
+{ 
+   border-top-color: #000000;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{ 
+   border-left-color: #000000;
+}
+#wb_ResponsiveMenu1 .toggle,[id^=ResponsiveMenu1-submenu]
+{
+   display: none;
+}
+@media all and (max-width:768px) 
+{
+#wb_ResponsiveMenu1 
+{
+   margin: 0;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
+{
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+   padding: 15px 20px 15px 20px;
+}
+#wb_ResponsiveMenu1 .toggle + a
+{
+   display: none !important;
+}
+.ResponsiveMenu1 
+{
+   display: none;
+   z-index: 9999;
+}
+#ResponsiveMenu1 
+{
+   background-color: transparent;
+   display: none;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: auto;
+}
+#wb_ResponsiveMenu1 .toggle 
+{
+   display: block;
+   background-color: #000000;
+   color: #FFFFFF;
+   padding: 0px 20px 0px 20px;
+   line-height: 50px;
+   text-decoration: none;
+   border: none;
+   position: relative;
+}
+#wb_ResponsiveMenu1 .toggle:hover 
+{
+   background-color: #FFA500;
+   color: #000000;
+}
+[id^=ResponsiveMenu1-submenu]:checked + ul 
+{
+   display: block !important;
+}
+#ResponsiveMenu1-title
+{
+   height: 65px;
+   line-height: 65px !important;
+   text-align: center;
+}
+#wb_ResponsiveMenu1 ul li 
+{
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul ul .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   padding: 0 40px;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   background-color: #000000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #000000;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   padding: 15px 20px 15px 60px;
+}
+#wb_ResponsiveMenu1 ul li a 
+{
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li a br 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul li i 
+{
+   margin-right: 6px;
+}
+#wb_ResponsiveMenu1 ul ul 
+{
+   float: none;
+   position: static;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > ul,
+#wb_ResponsiveMenu1 ul li:hover > ul 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   position: static;
+}
+#ResponsiveMenu1-icon 
+{
+   display: block;
+   position: absolute;
+   left: 30px;
+   top: 20px;
+}
+#ResponsiveMenu1-icon span 
+{
+   display: block;
+   margin-top: 4px;
+   height: 2px;
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+   width: 24px;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #FFA500;
+   color: #000000;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{ 
+   border-top-color: #000000;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{ 
+   border-top-color: #000000;
+}
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1
+{
+   color: #FBD34B;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 96px;
+   line-height: 121px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_1-BIMESTRE
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#1-BIMESTRE
+{
+   box-sizing: border-box;
+   padding: 10px 15px 10px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#1-BIMESTRE > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   float: left;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#1-BIMESTRE:before,
+#1-BIMESTRE:after,
+#1-BIMESTRE .row:before,
+#1-BIMESTRE .row:after
+{
+   display: table;
+   content: " ";
+}
+#1-BIMESTRE:after,
+#1-BIMESTRE .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#1-BIMESTRE > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 10px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2
+{
+   color: #00BFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   line-height: 37px;
+}
+#wb_Text2 p, #wb_Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_1SEMANA1B
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#1SEMANA1B
+{
+   box-sizing: border-box;
+   padding: 10px 15px 10px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1280px;
+}
+#1SEMANA1B > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#1SEMANA1B > .row > .col-1
+{
+   float: left;
+}
+#1SEMANA1B > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#1SEMANA1B:before,
+#1SEMANA1B:after,
+#1SEMANA1B .row:before,
+#1SEMANA1B .row:after
+{
+   display: table;
+   content: " ";
+}
+#1SEMANA1B:after,
+#1SEMANA1B .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#1SEMANA1B > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text3 p, #wb_Text3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 5px solid #000000;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1280px;
+}
+#LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 66.66666667%;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9
+{
+   color: #000000;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20.5px;
+}
+#wb_Text9 p, #wb_Text9 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text6 
+{
+   background-color: #008B8B;
+   background-image: none;
+   border: 10px solid #008B8B;
+   border-radius: 10px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text6
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+}
+#wb_Text6 div
+{
+   text-align: center;
+}
+#wb_Text7 
+{
+   background-color: #FF0000;
+   background-image: none;
+   border: 10px solid #FF0000;
+   border-radius: 10px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text7
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+}
+#wb_Text7 div
+{
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid6
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid6 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid6:before,
+#LayoutGrid6:after,
+#LayoutGrid6 .row:before,
+#LayoutGrid6 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid6:after,
+#LayoutGrid6 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid6 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text17 div
+{
+   text-align: center;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8
+{
+   color: #000000;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text8 p, #wb_Text8 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Picture1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Picture1
+{
+   border: 5px groove #FF1493;
+   border-radius: 20px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_Text18 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text18
+{
+   color: #000000;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text18 p, #wb_Text18 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image3
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image3
+{
+   border: 5px solid #FF0000;
+   border-radius: 20px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_Image4
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image4
+{
+   border: 7px solid #00FF00;
+   border-radius: 20px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_Text19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text19
+{
+   color: #000000;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text19 p, #wb_Text19 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image6
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image6
+{
+   border: 10px solid rgba(169,169,169,0.00);
+   border-radius: 20px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_Image7
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image7
+{
+   border: 5px solid #1E90FF;
+   border-radius: 20px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 641px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_Text21 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text21
+{
+   color: #1E90FF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text21 p, #wb_Text21 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text22 
+{
+   background-color: #006400;
+   background-image: none;
+   border: 10px solid #006400;
+   border-radius: 20px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text22
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text22 p, #wb_Text22 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image8
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image8
+{
+   border: 0px solid #000000;
+   border-radius: 20px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 690px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 19px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 19px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 19px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line11
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 19px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line12
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 26px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text44 
+{
+   background-color: #FF1493;
+   background-image: none;
+   border: 10px solid #FF1493;
+   border-radius: 20px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text44
+{
+   color: #FFFFFF;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 21px;
+   line-height: 27px;
+}
+#wb_Text44 p, #wb_Text44 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image20
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image20
+{
+   border: 20px solid transparent;
+   border-radius: 20px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#Line13
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-style: solid;
+   border-bottom-width: 19px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text45 
+{
+   background-color: #FFD700;
+   background-image: none;
+   border: 10px solid transparent;
+   border-radius: 20px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text45
+{
+   color: #000000;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text45 p, #wb_Text45 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image21
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image21
+{
+   border: 10px solid transparent;
+   border-radius: 20px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_Text46 
+{
+   background-color: #006400;
+   background-image: none;
+   border: 10px solid #006400;
+   border-radius: 20px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text46
+{
+   color: #FFFF00;
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 25px;
+}
+#wb_Text46 p, #wb_Text46 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 10px solid transparent;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#Line11
+{
+   display: block;
+   width: 100%;
+   z-index: 19;
+}
+#Line12
+{
+   display: block;
+   width: 100%;
+   z-index: 11;
+}
+#wb_Image1
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 27;
+}
+#wb_Image21
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 24;
+}
+#Line13
+{
+   display: block;
+   width: 100%;
+   z-index: 22;
+}
+#wb_Image20
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 21;
+}
+#wb_ResponsiveMenu1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 2;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 952px;
+   top: 65px;
+   width: 315px;
+   height: 315px;
+   z-index: 0;
+}
+#wb_Image3
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 10;
+}
+#wb_Picture1
+{
+   display: block;
+   width: 100%;
+   height: auto;
+   z-index: 8;
+}
+#wb_MARCADOR1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 67px;
+   height: 60px;
+   visibility: hidden;
+   z-index: 34;
+}
+#wb_Image4
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 12;
+}
+#Line1
+{
+   display: block;
+   width: 100%;
+   z-index: 25;
+}
+#wb_Image6
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 29;
+}
+#capa1_Container
+{
+   width: 1650px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#Line3
+{
+   display: block;
+   width: 100%;
+   z-index: 17;
+}
+#wb_Image7
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 14;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 387px;
+   top: 181px;
+   width: 613px;
+   height: 122px;
+   z-index: 1;
+}
+#capa1
+{
+   position: relative;
+   text-align: center;
+   width: 100%;
+   height: 410px;
+   float: left;
+   clear: left;
+   display: block;
+   z-index: 32;
+}
+#Line2
+{
+   display: block;
+   width: 100%;
+   z-index: 5;
+}
+#wb_Image8
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 18;
+}
+#MARCADOR1
+{
+   visibility: hidden;
+}
+#sticker_ADELANTE_
+{
+   position: fixed;
+   text-align: center;
+   left: auto;
+   right: 0px;
+   top: 0px;
+   width: 100%;
+   height: 65px;
+   z-index: 33;
+}
+@media only screen and (min-width: 1280px) and (max-width: 1649px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 398px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/EDUCA.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 1280px;
+}
+#sticker_ADELANTE_
+{
+   height: 61px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 51px;
+   height: 46px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   left: 470px;
+   top: 162px;
+   width: 652px;
+   height: 108px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 85px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Image2
+{
+   left: 253px;
+   top: 93px;
+   width: 217px;
+   height: 217px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 37px;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text9
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 22px;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #008B8B;
+   background-image: none;
+   border-radius: 10px;
+}
+#wb_Text6
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF0000;
+   background-image: none;
+}
+#wb_Text7
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text8
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Picture1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text18
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text18
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text19
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text19
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image7
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text21
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text21
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text22
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text22
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image8
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 10px;
+}
+#Line2
+{
+   width: 100%;
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 10px;
+}
+#Line3
+{
+   width: 100%;
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 10px;
+}
+#Line11
+{
+   width: 100%;
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line11
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 10px;
+}
+#Line12
+{
+   width: 100%;
+   height: 17px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line12
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 17px;
+}
+#wb_Text44
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF1493;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text44
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image20
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line13
+{
+   width: 100%;
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line13
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 10px;
+}
+#wb_Text45
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFD700;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text45
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image21
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text46
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_Image1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 333px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/EDUCA.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 1024px;
+}
+#sticker_ADELANTE_
+{
+   height: 59px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 40px;
+   height: 36px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   left: 340px;
+   top: 153px;
+   width: 540px;
+   height: 108px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 85px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 108px;
+}
+#wb_Image2
+{
+   left: 156px;
+   top: 103px;
+   width: 173px;
+   height: 173px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 37px;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text9
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #008B8B;
+   background-image: none;
+   border-radius: 10px;
+}
+#wb_Text6
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF0000;
+   background-image: none;
+}
+#wb_Text7
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text8
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Picture1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text18
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text18
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text19
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text19
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image7
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text21
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text21
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text22
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text22
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image8
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#Line2
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#Line3
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#Line11
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line11
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#Line12
+{
+   width: 100%;
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line12
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 14px;
+}
+#wb_Text44
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF1493;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text44
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image20
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line13
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line13
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#wb_Text45
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFD700;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text45
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image21
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text46
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_Image1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 980px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 320px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/EDUCA.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 980px;
+}
+#sticker_ADELANTE_
+{
+   height: 59px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 38px;
+   height: 34px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   left: 363px;
+   top: 137px;
+   width: 467px;
+   height: 94px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 75px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 94px;
+}
+#wb_Image2
+{
+   left: 173px;
+   top: 89px;
+   width: 165px;
+   height: 165px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 37px;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text9
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #008B8B;
+   background-image: none;
+   border-radius: 10px;
+}
+#wb_Text6
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF0000;
+   background-image: none;
+}
+#wb_Text7
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text8
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Picture1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text18
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text18
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text19
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text19
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image7
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text21
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text21
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text22
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text22
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image8
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#Line2
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#Line3
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#Line11
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line11
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#Line12
+{
+   width: 100%;
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line12
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 14px;
+}
+#wb_Text44
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF1493;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text44
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image20
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line13
+{
+   width: 100%;
+   height: 8px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line13
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 8px;
+}
+#wb_Text45
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFD700;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text45
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image21
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text46
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_Image1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 979px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 295px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/EDUCA.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 800px;
+}
+#sticker_ADELANTE_
+{
+   height: 60px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 31px;
+   height: 27px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   left: 292px;
+   top: 121px;
+   width: 405px;
+   height: 81px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 64px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 81px;
+}
+#wb_Image2
+{
+   left: 137px;
+   top: 86px;
+   width: 135px;
+   height: 135px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 37px;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text9
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #008B8B;
+   background-image: none;
+   border-radius: 10px;
+}
+#wb_Text6
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF0000;
+   background-image: none;
+}
+#wb_Text7
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text8
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Picture1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text18
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text18
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text19
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text19
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image7
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text21
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text21
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text22
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text22
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image8
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#Line2
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#Line3
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#Line11
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line11
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#Line12
+{
+   width: 100%;
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line12
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 12px;
+}
+#wb_Text44
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF1493;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text44
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image20
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line13
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line13
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#wb_Text45
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFD700;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text45
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image21
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text46
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_Image1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 313px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/EDUCA.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 768px;
+}
+#sticker_ADELANTE_
+{
+   height: 57px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 29px;
+   height: 25px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   left: 248px;
+   top: 134px;
+   width: 403px;
+   height: 81px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 64px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 81px;
+}
+#wb_Image2
+{
+   left: 89px;
+   top: 100px;
+   width: 129px;
+   height: 129px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 37px;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text9
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #008B8B;
+   background-image: none;
+   border-radius: 10px;
+}
+#wb_Text6
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF0000;
+   background-image: none;
+}
+#wb_Text7
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text8
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Picture1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text18
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text18
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text19
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text19
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 25px;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image7
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text21
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text21
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text22
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text22
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image8
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#Line2
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#Line3
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#Line11
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line11
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#Line12
+{
+   width: 100%;
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line12
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 12px;
+}
+#wb_Text44
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF1493;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text44
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image20
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line13
+{
+   width: 100%;
+   height: 7px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line13
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 7px;
+}
+#wb_Text45
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFD700;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text45
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image21
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text46
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_Image1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #A9A9A9;
+   background-image: none;
+}
+#capa1
+{
+   height: 281px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/EDUCA.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   margin: 0;
+}
+#capa1
+{
+   width: 100%;
+   margin: 0;
+}
+#capa1_Container
+{
+   width: 320px;
+}
+#sticker_ADELANTE_
+{
+   height: 63px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#sticker_ADELANTE_
+{
+   width: 100%;
+}
+#wb_MARCADOR1
+{
+   left: 0px;
+   top: 0px;
+   width: 12px;
+   height: 10px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   left: 24px;
+   top: 188px;
+   width: 272px;
+   height: 53px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 43px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   line-height: 54px;
+}
+#wb_Image2
+{
+   left: 112px;
+   top: 79px;
+   width: 97px;
+   height: 97px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_1-BIMESTRE
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1-BIMESTRE
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1-BIMESTRE
+{
+   padding: 10px 15px 10px 15px;
+}
+#1-BIMESTRE .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1-BIMESTRE > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 29px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 37px;
+}
+#wb_1SEMANA1B
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_1SEMANA1B
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#1SEMANA1B
+{
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#1SEMANA1B > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text9
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   background-color: #008B8B;
+   background-image: none;
+   border-radius: 10px;
+}
+#wb_Text6
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF0000;
+   background-image: none;
+}
+#wb_Text7
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 27px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text8
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Picture1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text18
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text18
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Image3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text19
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text19
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Image6
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image7
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text21
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text21
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text22
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text22
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image8
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   width: 100%;
+   height: 3px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 3px;
+}
+#Line2
+{
+   width: 100%;
+   height: 3px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 3px;
+}
+#Line3
+{
+   width: 100%;
+   height: 3px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 3px;
+}
+#Line11
+{
+   width: 100%;
+   height: 3px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line11
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 3px;
+}
+#Line12
+{
+   width: 100%;
+   height: 5px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line12
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 5px;
+}
+#wb_Text44
+{
+   visibility: visible;
+   display: block;
+   background-color: #FF1493;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text44
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image20
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Line13
+{
+   width: 100%;
+   height: 3px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line13
+{
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-bottom-width: 3px;
+}
+#wb_Text45
+{
+   visibility: visible;
+   display: block;
+   background-color: #FFD700;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text45
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image21
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text46
+{
+   visibility: visible;
+   display: block;
+   background-color: #006400;
+   background-image: none;
+   border-radius: 20px;
+}
+#wb_Text46
+{
+   font-family: Acme;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 25px;
+}
+#wb_Image1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+}
