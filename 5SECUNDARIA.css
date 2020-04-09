@@ -894,8 +894,8 @@ body
    color: #FFFFFF;
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 27px;
-   line-height: 29px;
+   font-size: 24px;
+   line-height: 27px;
 }
 #wb_Text8 p, #wb_Text8 ul
 {
@@ -1050,16 +1050,16 @@ body
 #wb_Shape1
 {
    display: inline-block;
-   width: 233px;
-   height: 45px;
+   width: 216px;
+   height: 36px;
    z-index: 9;
    position: relative;
 }
 #wb_Shape2
 {
    display: inline-block;
-   width: 216px;
-   height: 42px;
+   width: 202px;
+   height: 34px;
    z-index: 15;
    position: relative;
 }
@@ -1109,8 +1109,8 @@ body
 }
 #Shape1
 {
-   width: 233px;
-   height: 45px;
+   width: 216px;
+   height: 36px;
 }
 #wb_Image6
 {
@@ -1121,8 +1121,8 @@ body
 }
 #Shape2
 {
-   width: 216px;
-   height: 42px;
+   width: 202px;
+   height: 34px;
 }
 #capa1_Container
 {

@@ -7958,4 +7958,87 @@ body
    text-align: center;
    line-height: 5px;
 }
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000000;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text14
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text14
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 8px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_FontAwesomeIcon1
+{
+   width: 14px;
+   height: 9px;
+   visibility: visible;
+   display: inline-block;
+   color: #FF4500;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#FontAwesomeIcon1
+{
+   width: 14px;
+   height: 9px;
+}
+#FontAwesomeIcon1 i
+{
+   line-height: 9px;
+   font-size: 9px;
+   width: 6px;
+}
 }

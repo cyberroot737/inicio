@@ -94,24 +94,10 @@ body
 }
 #capa5
 {
-   background-color: transparent;
-   background-image: url(images/MACHUPICCHU.jpg);
-   background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
-   background-size: cover;
-   margin: 0;
-}
-#capa5-overlay
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
    background-color: #000000;
-   opacity: 0.76;
+   background-image: none;
+   border: 10px solid transparent;
+   margin: 0;
 }
 #sticker_ADELANTE_
 {
@@ -495,10 +481,10 @@ body
 #wb_Text3
 {
    color: #FFFFFF;
-   font-family: Bangers;
+   font-family: Acme;
    font-weight: normal;
-   font-size: 43px;
-   line-height: 74px;
+   font-size: 32px;
+   line-height: 40.5px;
 }
 #wb_Text3 p, #wb_Text3 ul
 {
@@ -643,9 +629,8 @@ body
 {
    background-color: #FFFFFF;
    background-image: none;
-   border: 5px solid #000000;
-   border-radius: 10px;
-   box-shadow: 0px 3px 9px rgba(0,0,0,0.70) inset;
+   border: 2px solid transparent;
+   box-shadow: 0px 3px 0px rgba(0,0,0,0.00);
    -webkit-animation: scale-in-vertical-center 1000ms linear 0ms 1 normal both;
    -moz-animation: scale-in-vertical-center 1000ms linear 0ms 1 normal both;
    animation: scale-in-vertical-center 1000ms linear 0ms 1 normal both;
@@ -704,8 +689,8 @@ body
    color: #000000;
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 53px;
-   line-height: 61px;
+   font-size: 43px;
+   line-height: 48.5px;
 }
 #wb_Text6 p, #wb_Text6 ul
 {
@@ -834,8 +819,8 @@ body
    color: #FFFFFF;
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 27px;
-   line-height: 29px;
+   font-size: 21px;
+   line-height: 24.5px;
 }
 #wb_Text9 p, #wb_Text9 ul
 {
@@ -934,8 +919,8 @@ body
 #wb_FontAwesomeIcon1
 {
    position: absolute;
-   left: 804px;
-   top: 217px;
+   left: 810px;
+   top: 161px;
    width: 30px;
    height: 29px;
    text-align: center;
@@ -945,7 +930,7 @@ body
 {
    position: absolute;
    left: 1413px;
-   top: 117px;
+   top: 30px;
    width: 100px;
    height: 100px;
    z-index: 34;
@@ -989,8 +974,8 @@ body
 #wb_Image2
 {
    position: absolute;
-   left: 92px;
-   top: 370px;
+   left: 108px;
+   top: 361px;
    width: 364px;
    height: 345px;
    z-index: 10;
@@ -1010,7 +995,7 @@ body
    position: relative;
    text-align: center;
    width: 100%;
-   height: 1001px;
+   height: 981px;
    float: left;
    clear: left;
    display: block;
@@ -1023,13 +1008,13 @@ body
    top: 531px;
    width: 895px;
    height: 429px;
-   z-index: 20;
+   z-index: 21;
 }
 #wb_Image3
 {
    position: absolute;
-   left: 1215px;
-   top: 400px;
+   left: 1261px;
+   top: 386px;
    width: 298px;
    height: 294px;
    z-index: 12;
@@ -1037,10 +1022,10 @@ body
 #wb_Text6
 {
    position: absolute;
-   left: 161px;
-   top: 158px;
+   left: 153px;
+   top: 219px;
    width: 644px;
-   height: 236px;
+   height: 189px;
    text-align: center;
    z-index: 22;
 }
@@ -1055,8 +1040,8 @@ body
 #wb_Image4
 {
    position: absolute;
-   left: 260px;
-   top: 792px;
+   left: 261px;
+   top: 801px;
    width: 162px;
    height: 116px;
    z-index: 3;
@@ -1078,8 +1063,8 @@ body
 #wb_Image5
 {
    position: absolute;
-   left: 1249px;
-   top: 797px;
+   left: 1213px;
+   top: 788px;
    width: 186px;
    height: 124px;
    z-index: 4;
@@ -1089,7 +1074,7 @@ body
    position: relative;
    text-align: center;
    width: 100%;
-   height: 306px;
+   height: 224px;
    float: left;
    clear: left;
    display: block;
@@ -1202,10 +1187,10 @@ body
 #wb_Text3
 {
    position: absolute;
-   left: 424px;
-   top: 419px;
-   width: 791px;
-   height: 296px;
+   left: 423px;
+   top: 452px;
+   width: 804px;
+   height: 162px;
    text-align: center;
    z-index: 6;
 }
@@ -1245,7 +1230,7 @@ body
 }
 #capa5_Container
 {
-   width: 1650px;
+   width: 1610px;
    position: relative;
    margin-left: auto;
    margin-right: auto;
@@ -1255,29 +1240,29 @@ body
 {
    position: absolute;
    left: 472px;
-   top: 90px;
+   top: 42px;
    width: 695px;
    height: 100px;
    text-align: center;
    z-index: 32;
 }
-#wb_Image16
-{
-   position: absolute;
-   left: 925px;
-   top: 283px;
-   width: 505px;
-   height: 389px;
-   z-index: 26;
-}
 #wb_Text9
 {
    position: absolute;
-   left: 92px;
-   top: 260px;
-   width: 723px;
-   height: 435px;
+   left: 201px;
+   top: 302px;
+   width: 623px;
+   height: 354px;
    text-align: center;
+   z-index: 26;
+}
+#wb_Image16
+{
+   position: absolute;
+   left: 915px;
+   top: 273px;
+   width: 505px;
+   height: 389px;
    z-index: 25;
 }
 #capa4_Container
@@ -1291,11 +1276,11 @@ body
 #wb_Image15
 {
    position: absolute;
-   left: 1131px;
-   top: 650px;
+   left: 1121px;
+   top: 651px;
    width: 238px;
    height: 252px;
-   z-index: 21;
+   z-index: 20;
 }
 #wb_Image13
 {
@@ -1336,10 +1321,10 @@ body
 #wb_Image11
 {
    position: absolute;
-   left: 1013px;
+   left: 1007px;
    top: 788px;
    width: 187px;
-   height: 182px;
+   height: 124px;
    z-index: 13;
 }
 @media only screen and (min-width: 1280px) and (max-width: 1649px)
@@ -1470,13 +1455,8 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/MACHUPICCHU.jpg);
-   background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
-   background-size: cover;
+   background-color: #000000;
+   background-image: none;
    margin: 0;
 }
 #capa5
@@ -1486,7 +1466,7 @@ body
 }
 #capa5_Container
 {
-   width: 1280px;
+   width: 1260px;
 }
 #sticker_ADELANTE_
 {
@@ -1698,9 +1678,9 @@ body
 #wb_Text4
 {
    left: 199px;
-   top: 57px;
+   top: 62px;
    width: 883px;
-   height: 126px;
+   height: 106px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -1710,18 +1690,17 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 37px;
+   font-size: 32px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 42px;
 }
 #wb_Text5
 {
-   left: 213px;
+   left: 247px;
    top: 386px;
    width: 895px;
-   height: 429px;
+   height: 377px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -1731,18 +1710,17 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 35px;
+   font-size: 29px;
    margin: 0;
    padding: 0;
    text-align: left;
-   line-height: 39px;
 }
 #Layer1
 {
    left: 247px;
    top: 183px;
-   width: 777px;
-   height: 169px;
+   width: 787px;
+   height: 179px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -1752,12 +1730,12 @@ body
    text-decoration: none;
    background-color: #FFFFFF;
    background-image: none;
-   border-radius: 10px;
+   box-shadow: 0px 3px 0px rgba(0,0,0,0.70);
 }
 #wb_Image10
 {
-   left: 17px;
-   top: 19px;
+   left: 20px;
+   top: 22px;
    width: 200px;
    height: 136px;
    visibility: visible;
@@ -1767,8 +1745,8 @@ body
 }
 #wb_Image12
 {
-   left: 217px;
-   top: 12px;
+   left: 220px;
+   top: 15px;
    width: 191px;
    height: 144px;
    visibility: visible;
@@ -1778,8 +1756,8 @@ body
 }
 #wb_Image13
 {
-   left: 428px;
-   top: 20px;
+   left: 431px;
+   top: 23px;
    width: 209px;
    height: 128px;
    visibility: visible;
@@ -1789,8 +1767,8 @@ body
 }
 #wb_Image14
 {
-   left: 654px;
-   top: 42px;
+   left: 657px;
+   top: 45px;
    width: 114px;
    height: 79px;
    visibility: visible;
@@ -1803,7 +1781,7 @@ body
    left: 118px;
    top: 129px;
    width: 644px;
-   height: 192px;
+   height: 124px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -1813,16 +1791,15 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 43px;
+   font-size: 37px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 48px;
 }
 #wb_Text7
 {
    left: 178px;
-   top: 345px;
+   top: 310px;
    width: 524px;
    height: 132px;
    visibility: visible;
@@ -1850,8 +1827,8 @@ body
 }
 #wb_Image15
 {
-   left: 990px;
-   top: 505px;
+   left: 913px;
+   top: 508px;
    width: 148px;
    height: 157px;
    visibility: visible;
@@ -1861,7 +1838,7 @@ body
 }
 #about
 {
-   height: 307px;
+   height: 177px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -1884,9 +1861,9 @@ body
 #wb_Text8
 {
    left: 484px;
-   top: 84px;
+   top: 36px;
    width: 332px;
-   height: 138px;
+   height: 77px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -1896,17 +1873,17 @@ body
 {
    font-family: "Trebuchet MS";
    font-weight: normal;
-   font-size: 19px;
+   font-size: 13px;
    margin: 0;
    padding: 0;
    text-align: center;
 }
 #wb_Text9
 {
-   left: 73px;
-   top: 172px;
-   width: 689px;
-   height: 435px;
+   left: 136px;
+   top: 188px;
+   width: 557px;
+   height: 402px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -1916,16 +1893,15 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 27px;
+   font-size: 21px;
    margin: 0;
    padding: 0;
-   text-align: center;
-   line-height: 30px;
+   text-align: justify;
 }
 #wb_Image16
 {
-   left: 816px;
-   top: 226px;
+   left: 759px;
+   top: 212px;
    width: 391px;
    height: 301px;
    visibility: visible;
@@ -1936,7 +1912,7 @@ body
 #wb_FontAwesomeIcon1
 {
    left: 639px;
-   top: 237px;
+   top: 131px;
    width: 23px;
    height: 22px;
    visibility: visible;
@@ -1986,8 +1962,8 @@ body
 }
 #Html1
 {
-   left: 1021px;
-   top: 115px;
+   left: 1061px;
+   top: 36px;
    width: 77px;
    height: 77px;
    visibility: visible;
@@ -2120,13 +2096,8 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/MACHUPICCHU.jpg);
-   background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
-   background-size: cover;
+   background-color: #000000;
+   background-image: none;
    margin: 0;
 }
 #capa5
@@ -2136,7 +2107,7 @@ body
 }
 #capa5_Container
 {
-   width: 1024px;
+   width: 1004px;
 }
 #sticker_ADELANTE_
 {
@@ -2348,9 +2319,9 @@ body
 #wb_Text4
 {
    left: 159px;
-   top: 57px;
+   top: 28px;
    width: 706px;
-   height: 99px;
+   height: 132px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -2371,7 +2342,7 @@ body
    left: 170px;
    top: 317px;
    width: 716px;
-   height: 319px;
+   height: 290px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -2391,8 +2362,8 @@ body
 {
    left: 197px;
    top: 147px;
-   width: 619px;
-   height: 133px;
+   width: 629px;
+   height: 143px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -2402,12 +2373,11 @@ body
    text-decoration: none;
    background-color: #FFFFFF;
    background-image: none;
-   border-radius: 10px;
 }
 #wb_Image10
 {
-   left: 13px;
-   top: 14px;
+   left: 16px;
+   top: 17px;
    width: 160px;
    height: 108px;
    visibility: visible;
@@ -2417,8 +2387,8 @@ body
 }
 #wb_Image12
 {
-   left: 173px;
-   top: 8px;
+   left: 176px;
+   top: 11px;
    width: 152px;
    height: 115px;
    visibility: visible;
@@ -2428,8 +2398,8 @@ body
 }
 #wb_Image13
 {
-   left: 342px;
-   top: 15px;
+   left: 345px;
+   top: 18px;
    width: 167px;
    height: 102px;
    visibility: visible;
@@ -2439,8 +2409,8 @@ body
 }
 #wb_Image14
 {
-   left: 522px;
-   top: 32px;
+   left: 525px;
+   top: 35px;
    width: 91px;
    height: 63px;
    visibility: visible;
@@ -2451,9 +2421,9 @@ body
 #wb_Text6
 {
    left: 136px;
-   top: 158px;
-   width: 752px;
-   height: 126px;
+   top: 136px;
+   width: 575px;
+   height: 106px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -2463,11 +2433,10 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 37px;
+   font-size: 32px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 42px;
 }
 #wb_Text7
 {
@@ -2511,7 +2480,7 @@ body
 }
 #about
 {
-   height: 253px;
+   height: 186px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -2534,9 +2503,9 @@ body
 #wb_Text8
 {
    left: 379px;
-   top: 44px;
+   top: 28px;
    width: 265px;
-   height: 132px;
+   height: 93px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -2546,17 +2515,17 @@ body
 {
    font-family: "Trebuchet MS";
    font-weight: normal;
-   font-size: 16px;
+   font-size: 13px;
    margin: 0;
    padding: 0;
    text-align: center;
 }
 #wb_Text9
 {
-   left: 58px;
-   top: 139px;
-   width: 551px;
-   height: 345px;
+   left: 60px;
+   top: 129px;
+   width: 554px;
+   height: 391px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -2569,13 +2538,13 @@ body
    font-size: 21px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: justify;
    line-height: 24px;
 }
 #wb_Image16
 {
-   left: 652px;
-   top: 182px;
+   left: 642px;
+   top: 172px;
    width: 312px;
    height: 240px;
    visibility: visible;
@@ -2585,8 +2554,8 @@ body
 }
 #wb_FontAwesomeIcon1
 {
-   left: 484px;
-   top: 191px;
+   left: 485px;
+   top: 132px;
    width: 54px;
    height: 38px;
    visibility: visible;
@@ -2636,8 +2605,8 @@ body
 }
 #Html1
 {
-   left: 778px;
-   top: 96px;
+   left: 770px;
+   top: 41px;
    width: 61px;
    height: 61px;
    visibility: visible;
@@ -2709,7 +2678,7 @@ body
 }
 #capa3
 {
-   height: 593px;
+   height: 856px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -2770,13 +2739,8 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/MACHUPICCHU.jpg);
-   background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
-   background-size: cover;
+   background-color: #000000;
+   background-image: none;
    margin: 0;
 }
 #capa5
@@ -2786,7 +2750,7 @@ body
 }
 #capa5_Container
 {
-   width: 980px;
+   width: 960px;
 }
 #sticker_ADELANTE_
 {
@@ -2997,10 +2961,10 @@ body
 }
 #wb_Text4
 {
-   left: 172px;
-   top: 24px;
-   width: 637px;
-   height: 144px;
+   left: 151px;
+   top: 54px;
+   width: 675px;
+   height: 87px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -3010,18 +2974,18 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 32px;
+   font-size: 27px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 36px;
+   line-height: 30px;
 }
 #wb_Text5
 {
    left: 162px;
    top: 301px;
    width: 685px;
-   height: 348px;
+   height: 261px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -3041,8 +3005,8 @@ body
 {
    left: 188px;
    top: 141px;
-   width: 591px;
-   height: 126px;
+   width: 601px;
+   height: 136px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -3052,12 +3016,11 @@ body
    text-decoration: none;
    background-color: #FFFFFF;
    background-image: none;
-   border-radius: 10px;
 }
 #wb_Image10
 {
-   left: 12px;
-   top: 13px;
+   left: 15px;
+   top: 16px;
    width: 153px;
    height: 103px;
    visibility: visible;
@@ -3067,8 +3030,8 @@ body
 }
 #wb_Image12
 {
-   left: 165px;
-   top: 7px;
+   left: 168px;
+   top: 10px;
    width: 145px;
    height: 110px;
    visibility: visible;
@@ -3078,8 +3041,8 @@ body
 }
 #wb_Image13
 {
-   left: 327px;
-   top: 14px;
+   left: 330px;
+   top: 17px;
    width: 159px;
    height: 97px;
    visibility: visible;
@@ -3089,8 +3052,8 @@ body
 }
 #wb_Image14
 {
-   left: 499px;
-   top: 30px;
+   left: 502px;
+   top: 33px;
    width: 87px;
    height: 60px;
    visibility: visible;
@@ -3100,10 +3063,10 @@ body
 }
 #wb_Text6
 {
-   left: 121px;
-   top: 118px;
-   width: 719px;
-   height: 126px;
+   left: 99px;
+   top: 116px;
+   width: 593px;
+   height: 115px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -3113,11 +3076,10 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 37px;
+   font-size: 35px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 42px;
 }
 #wb_Text7
 {
@@ -3150,8 +3112,8 @@ body
 }
 #wb_Image15
 {
-   left: 762px;
-   top: 374px;
+   left: 419px;
+   top: 596px;
    width: 138px;
    height: 147px;
    visibility: visible;
@@ -3161,7 +3123,7 @@ body
 }
 #about
 {
-   height: 274px;
+   height: 208px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -3183,10 +3145,10 @@ body
 }
 #wb_Text8
 {
-   left: 373px;
-   top: 53px;
+   left: 364px;
+   top: 31px;
    width: 253px;
-   height: 132px;
+   height: 102px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -3196,17 +3158,17 @@ body
 {
    font-family: "Trebuchet MS";
    font-weight: normal;
-   font-size: 16px;
+   font-size: 15px;
    margin: 0;
    padding: 0;
    text-align: center;
 }
 #wb_Text9
 {
-   left: 40px;
-   top: 124px;
-   width: 557px;
-   height: 345px;
+   left: 31px;
+   top: 105px;
+   width: 556px;
+   height: 391px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -3219,13 +3181,13 @@ body
    font-size: 21px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: justify;
    line-height: 24px;
 }
 #wb_Image16
 {
-   left: 623px;
-   top: 162px;
+   left: 613px;
+   top: 152px;
    width: 298px;
    height: 229px;
    visibility: visible;
@@ -3235,8 +3197,8 @@ body
 }
 #wb_FontAwesomeIcon1
 {
-   left: 474px;
-   top: 200px;
+   left: 465px;
+   top: 156px;
    width: 51px;
    height: 36px;
    visibility: visible;
@@ -3286,8 +3248,8 @@ body
 }
 #Html1
 {
-   left: 740px;
-   top: 105px;
+   left: 743px;
+   top: 49px;
    width: 58px;
    height: 58px;
    visibility: visible;
@@ -3359,7 +3321,7 @@ body
 }
 #capa3
 {
-   height: 700px;
+   height: 822px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -3420,13 +3382,8 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/MACHUPICCHU.jpg);
-   background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
-   background-size: cover;
+   background-color: #000000;
+   background-image: none;
    margin: 0;
 }
 #capa5
@@ -3436,7 +3393,7 @@ body
 }
 #capa5_Container
 {
-   width: 800px;
+   width: 780px;
 }
 #sticker_ADELANTE_
 {
@@ -3647,10 +3604,10 @@ body
 }
 #wb_Text4
 {
-   left: 124px;
-   top: 44px;
-   width: 520px;
-   height: 116px;
+   left: 114px;
+   top: 60px;
+   width: 540px;
+   height: 71px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -3660,18 +3617,17 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 27px;
+   font-size: 21px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 30px;
 }
 #wb_Text5
 {
-   left: 105px;
-   top: 334px;
+   left: 107px;
+   top: 324px;
    width: 559px;
-   height: 429px;
+   height: 255px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -3681,18 +3637,17 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 29px;
+   font-size: 24px;
    margin: 0;
    padding: 0;
    text-align: left;
-   line-height: 33px;
 }
 #Layer1
 {
    left: 64px;
    top: 142px;
-   width: 631px;
-   height: 139px;
+   width: 641px;
+   height: 149px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -3702,12 +3657,11 @@ body
    text-decoration: none;
    background-color: #FFFFFF;
    background-image: none;
-   border-radius: 10px;
 }
 #wb_Image10
 {
-   left: 18px;
-   top: 30px;
+   left: 21px;
+   top: 33px;
    width: 132px;
    height: 93px;
    visibility: visible;
@@ -3717,8 +3671,8 @@ body
 }
 #wb_Image12
 {
-   left: 161px;
-   top: 22px;
+   left: 164px;
+   top: 25px;
    width: 134px;
    height: 101px;
    visibility: visible;
@@ -3728,8 +3682,8 @@ body
 }
 #wb_Image13
 {
-   left: 334px;
-   top: 25px;
+   left: 337px;
+   top: 28px;
    width: 168px;
    height: 95px;
    visibility: visible;
@@ -3739,8 +3693,8 @@ body
 }
 #wb_Image14
 {
-   left: 536px;
-   top: 45px;
+   left: 539px;
+   top: 48px;
    width: 80px;
    height: 55px;
    visibility: visible;
@@ -3750,10 +3704,10 @@ body
 }
 #wb_Text6
 {
-   left: 114px;
-   top: 122px;
+   left: 64px;
+   top: 196px;
    width: 586px;
-   height: 168px;
+   height: 97px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -3763,16 +3717,15 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 37px;
+   font-size: 29px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 42px;
 }
 #wb_Text7
 {
-   left: 114px;
-   top: 372px;
+   left: 116px;
+   top: 357px;
    width: 326px;
    height: 115px;
    visibility: visible;
@@ -3800,8 +3753,8 @@ body
 }
 #wb_Image15
 {
-   left: 625px;
-   top: 480px;
+   left: 332px;
+   top: 616px;
    width: 134px;
    height: 138px;
    visibility: visible;
@@ -3811,7 +3764,7 @@ body
 }
 #about
 {
-   height: 287px;
+   height: 172px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -3833,10 +3786,10 @@ body
 }
 #wb_Text8
 {
-   left: 308px;
-   top: 89px;
+   left: 296px;
+   top: 23px;
    width: 206px;
-   height: 108px;
+   height: 84px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -3846,17 +3799,17 @@ body
 {
    font-family: "Trebuchet MS";
    font-weight: normal;
-   font-size: 15px;
+   font-size: 12px;
    margin: 0;
    padding: 0;
    text-align: center;
 }
 #wb_Text9
 {
-   left: 88px;
-   top: 370px;
-   width: 592px;
-   height: 322px;
+   left: 47px;
+   top: 338px;
+   width: 687px;
+   height: 269px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -3866,16 +3819,15 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 21px;
+   font-size: 19px;
    margin: 0;
    padding: 0;
-   text-align: center;
-   line-height: 24px;
+   text-align: justify;
 }
 #wb_Image16
 {
-   left: 229px;
-   top: 81px;
+   left: 219px;
+   top: 71px;
    width: 311px;
    height: 240px;
    visibility: visible;
@@ -3885,8 +3837,8 @@ body
 }
 #wb_FontAwesomeIcon1
 {
-   left: 391px;
-   top: 218px;
+   left: 379px;
+   top: 120px;
    width: 41px;
    height: 29px;
    visibility: visible;
@@ -3936,8 +3888,8 @@ body
 }
 #Html1
 {
-   left: 608px;
-   top: 121px;
+   left: 596px;
+   top: 45px;
    width: 47px;
    height: 47px;
    visibility: visible;
@@ -4070,13 +4022,8 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/MACHUPICCHU.jpg);
-   background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
-   background-size: cover;
+   background-color: #000000;
+   background-image: none;
    margin: 0;
 }
 #capa5
@@ -4086,7 +4033,7 @@ body
 }
 #capa5_Container
 {
-   width: 768px;
+   width: 748px;
 }
 #sticker_ADELANTE_
 {
@@ -4297,10 +4244,10 @@ body
 }
 #wb_Text4
 {
-   left: 58px;
-   top: 228px;
-   width: 636px;
-   height: 156px;
+   left: 49px;
+   top: 273px;
+   width: 675px;
+   height: 89px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -4310,18 +4257,17 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 35px;
+   font-size: 27px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 39px;
 }
 #wb_Text5
 {
-   left: 100px;
-   top: 584px;
+   left: 108px;
+   top: 555px;
    width: 536px;
-   height: 468px;
+   height: 335px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -4331,18 +4277,17 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 32px;
+   font-size: 24px;
    margin: 0;
    padding: 0;
    text-align: left;
-   line-height: 36px;
 }
 #Layer1
 {
    left: 61px;
    top: 372px;
-   width: 605px;
-   height: 133px;
+   width: 615px;
+   height: 143px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -4352,12 +4297,11 @@ body
    text-decoration: none;
    background-color: #FFFFFF;
    background-image: none;
-   border-radius: 10px;
 }
 #wb_Image10
 {
-   left: 17px;
-   top: 28px;
+   left: 20px;
+   top: 31px;
    width: 126px;
    height: 89px;
    visibility: visible;
@@ -4367,8 +4311,8 @@ body
 }
 #wb_Image12
 {
-   left: 154px;
-   top: 21px;
+   left: 157px;
+   top: 24px;
    width: 128px;
    height: 96px;
    visibility: visible;
@@ -4378,8 +4322,8 @@ body
 }
 #wb_Image13
 {
-   left: 320px;
-   top: 24px;
+   left: 323px;
+   top: 27px;
    width: 161px;
    height: 91px;
    visibility: visible;
@@ -4389,8 +4333,8 @@ body
 }
 #wb_Image14
 {
-   left: 514px;
-   top: 43px;
+   left: 517px;
+   top: 46px;
    width: 76px;
    height: 52px;
    visibility: visible;
@@ -4401,9 +4345,9 @@ body
 #wb_Text6
 {
    left: 95px;
-   top: 227px;
+   top: 245px;
    width: 562px;
-   height: 108px;
+   height: 106px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -4417,7 +4361,6 @@ body
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 36px;
 }
 #wb_Text7
 {
@@ -4442,8 +4385,8 @@ body
 }
 #wb_Shape1
 {
-   left: 281px;
-   top: 654px;
+   left: 271px;
+   top: 640px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -4451,7 +4394,7 @@ body
 #wb_Image15
 {
    left: 290px;
-   top: 931px;
+   top: 928px;
    width: 188px;
    height: 200px;
    visibility: visible;
@@ -4461,7 +4404,7 @@ body
 }
 #about
 {
-   height: 271px;
+   height: 191px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -4483,10 +4426,10 @@ body
 }
 #wb_Text8
 {
-   left: 288px;
-   top: 43px;
+   left: 286px;
+   top: 35px;
    width: 197px;
-   height: 154px;
+   height: 84px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -4496,17 +4439,17 @@ body
 {
    font-family: "Trebuchet MS";
    font-weight: normal;
-   font-size: 16px;
+   font-size: 12px;
    margin: 0;
    padding: 0;
    text-align: center;
 }
 #wb_Text9
 {
-   left: 92px;
-   top: 485px;
-   width: 568px;
-   height: 580px;
+   left: 98px;
+   top: 476px;
+   width: 552px;
+   height: 391px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -4516,16 +4459,16 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 27px;
+   font-size: 21px;
    margin: 0;
    padding: 0;
-   text-align: center;
-   line-height: 30px;
+   text-align: justify;
+   line-height: 24px;
 }
 #wb_Image16
 {
-   left: 227px;
-   top: 199px;
+   left: 217px;
+   top: 204px;
    width: 298px;
    height: 230px;
    visibility: visible;
@@ -4535,8 +4478,8 @@ body
 }
 #wb_FontAwesomeIcon1
 {
-   left: 353px;
-   top: 210px;
+   left: 355px;
+   top: 136px;
    width: 62px;
    height: 36px;
    visibility: visible;
@@ -4586,8 +4529,8 @@ body
 }
 #Html1
 {
-   left: 591px;
-   top: 106px;
+   left: 579px;
+   top: 56px;
    width: 45px;
    height: 45px;
    visibility: visible;
@@ -4659,7 +4602,7 @@ body
 }
 #capa3
 {
-   height: 600px;
+   height: 663px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -4713,7 +4656,7 @@ body
 }
 #capa5
 {
-   height: 601px;
+   height: 662px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -4721,13 +4664,9 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/MACHUPICCHU.jpg);
-   background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
-   background-size: cover;
+   background-color: #000000;
+   background-image: none;
+   border: 10px solid transparent;
    margin: 0;
 }
 #capa5
@@ -4737,7 +4676,7 @@ body
 }
 #capa5_Container
 {
-   width: 320px;
+   width: 300px;
 }
 #sticker_ADELANTE_
 {
@@ -4970,9 +4909,9 @@ body
 #wb_Text5
 {
    left: 53px;
-   top: 320px;
+   top: 325px;
    width: 223px;
-   height: 256px;
+   height: 208px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -4992,8 +4931,8 @@ body
 {
    left: 26px;
    top: 146px;
-   width: 247px;
-   height: 138px;
+   width: 257px;
+   height: 148px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -5003,12 +4942,11 @@ body
    text-decoration: none;
    background-color: #FFFFFF;
    background-image: none;
-   border-radius: 10px;
 }
 #wb_Image10
 {
-   left: 24px;
-   top: 15px;
+   left: 27px;
+   top: 18px;
    width: 83px;
    height: 59px;
    visibility: visible;
@@ -5018,8 +4956,8 @@ body
 }
 #wb_Image12
 {
-   left: 38px;
-   top: 74px;
+   left: 41px;
+   top: 77px;
    width: 75px;
    height: 60px;
    visibility: visible;
@@ -5029,8 +4967,8 @@ body
 }
 #wb_Image13
 {
-   left: 113px;
-   top: 10px;
+   left: 116px;
+   top: 13px;
    width: 119px;
    height: 69px;
    visibility: visible;
@@ -5040,8 +4978,8 @@ body
 }
 #wb_Image14
 {
-   left: 147px;
-   top: 74px;
+   left: 150px;
+   top: 77px;
    width: 75px;
    height: 51px;
    visibility: visible;
@@ -5051,10 +4989,10 @@ body
 }
 #wb_Text6
 {
-   left: 25px;
-   top: 118px;
+   left: 19px;
+   top: 109px;
    width: 270px;
-   height: 77px;
+   height: 53px;
    visibility: hidden;
    display: none;
    background-color: transparent;
@@ -5064,7 +5002,7 @@ body
 {
    font-family: "Times New Roman";
    font-weight: normal;
-   font-size: 17px;
+   font-size: 16px;
    margin: 0;
    padding: 0;
    text-align: center;
@@ -5101,7 +5039,7 @@ body
 #wb_Image15
 {
    left: 127px;
-   top: 516px;
+   top: 558px;
    width: 66px;
    height: 68px;
    visibility: visible;
@@ -5111,7 +5049,7 @@ body
 }
 #about
 {
-   height: 105px;
+   height: 110px;
    visibility: visible;
    display: inline;
    font-size: 8px;
@@ -5133,8 +5071,8 @@ body
 }
 #wb_Text8
 {
-   left: 81px;
-   top: 28px;
+   left: 77px;
+   top: 15px;
    width: 167px;
    height: 35px;
    visibility: visible;
@@ -5153,10 +5091,10 @@ body
 }
 #wb_Text9
 {
-   left: 23px;
-   top: 197px;
-   width: 278px;
-   height: 336px;
+   left: 14px;
+   top: 38px;
+   width: 276px;
+   height: 374px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -5169,17 +5107,16 @@ body
    font-size: 15px;
    margin: 0;
    padding: 0;
-   text-align: center;
-   line-height: 16px;
+   text-align: justify;
 }
 #wb_Image16
 {
-   left: 82px;
-   top: 52px;
+   left: 72px;
+   top: 352px;
    width: 165px;
    height: 127px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    margin: 0;
    padding: 0;
 }
