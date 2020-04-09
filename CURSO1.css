@@ -570,10 +570,10 @@ body
 #wb_Text15
 {
    color: #7CFC00;
-   font-family: "Almendra SC";
+   font-family: Acme;
    font-weight: normal;
    font-size: 27px;
-   line-height: 31px;
+   line-height: 33px;
 }
 #wb_Text15 p, #wb_Text15 ul
 {
@@ -1849,13 +1849,13 @@ body
 }
 #wb_Text15
 {
-   font-family: Arial;
+   font-family: Acme;
    font-weight: normal;
    font-size: 35px;
    margin: 0;
    padding: 0;
-   text-align: center;
-   line-height: 38px;
+   text-align: left;
+   line-height: 43px;
 }
 #wb_YouTube1
 {
@@ -2395,8 +2395,7 @@ body
    font-size: 32px;
    margin: 0;
    padding: 0;
-   text-align: center;
-   line-height: 40px;
+   text-align: left;
 }
 #wb_YouTube1
 {
@@ -2933,11 +2932,10 @@ body
 {
    font-family: Acme;
    font-weight: normal;
-   font-size: 43px;
+   font-size: 32px;
    margin: 0;
    padding: 0;
-   text-align: center;
-   line-height: 54px;
+   text-align: left;
 }
 #wb_YouTube1
 {
@@ -3474,10 +3472,10 @@ body
 {
    font-family: Acme;
    font-weight: normal;
-   font-size: 37px;
+   font-size: 29px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: left;
 }
 #wb_YouTube1
 {
@@ -4012,10 +4010,10 @@ body
 {
    font-family: Acme;
    font-weight: normal;
-   font-size: 53px;
+   font-size: 32px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: left;
 }
 #wb_YouTube1
 {
@@ -4256,7 +4254,7 @@ body
 {
    font-family: Arial;
    font-weight: normal;
-   font-size: 43px;
+   font-size: 37px;
    margin: 0;
    padding: 0;
    text-align: center;
@@ -4384,7 +4382,7 @@ body
    left: 0px;
    top: 96px;
    width: 320px;
-   height: 62px;
+   height: 93px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -4556,7 +4554,7 @@ body
    font-size: 20px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: justify;
 }
 #wb_YouTube1
 {
