@@ -6,191 +6,219 @@
 <meta name="generator" content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Almendra+SC" rel="stylesheet">
 <link href="PROYECTO_PRINCIPAL.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.parallax.min.js"></script>
-<script src="scrollspy.min.js"></script>
 <script src="jquery-ui.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("a[href*='#capa1']").click(function(event)
+<script src="wb.slideshow.min.js"></script>
+<script>   
+   $(document).ready(function()
    {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#capa1').offset().top }, 1500, 'linear');
+      $("a[href*='#capa1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#capa1').offset().top }, 1500, 'linear');
+      });
+      $('#capa1').parallax();
+      $("a[href*='#capa2']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#capa2').offset().top }, 1000, 'linear');
+      });
+      $("a[href*='#capa3']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#capa3').offset().top }, 1000, 'linear');
+      });
+      $("a[href*='#capa4']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#capa4').offset().top }, 1000, 'linear');
+      });
+      $("a[href*='#capa5']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#capa5').offset().top }, 1000, 'linear');
+      });
+      $("a[href*='#MARCADOR1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_MARCADOR1').offset().top }, 600, 'linear');
+      });
+      $("#wb_ResponsiveMenu1 ul li a").click(function(event)
+      {
+         $("#wb_ResponsiveMenu1 input").prop("checked", false);
+      });
+      $("a[href*='#about']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#about').offset().top-50 }, 600, 'easeInQuad');
+      });
+      $("#SlideShow1").slideshow(
+      {
+         interval: 3400,
+         type: 'sequence',
+         effect: 'fade',
+         direction: '',
+         pagination: false,
+         fullscreen: 4,
+         maxWidth: 1920,
+         effectlength: 1000
+      });
    });
-   $('#capa1').parallax();
-   $("a[href*='#capa2']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#capa2').offset().top }, 1000, 'linear');
-   });
-   $('#capa2').parallax();
-   $("a[href*='#capa3']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#capa3').offset().top }, 1000, 'linear');
-   });
-   $('#capa3').parallax();
-   $("a[href*='#capa4']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#capa4').offset().top }, 1000, 'linear');
-   });
-   $("a[href*='#capa5']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#capa5').offset().top }, 1000, 'linear');
-   });
-   $("a[href*='#MARCADOR1']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_MARCADOR1').offset().top }, 600, 'linear');
-   });
-   $("a[href*='#about']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#about').offset().top-50 }, 600, 'easeInQuad');
-   });
-});
 </script>
 </head>
-<body data-spy="scroll">
-<div id="capa1">
-<div id="capa1-overlay"></div>
-<div id="capa1_Container">
-<div id="wb_Image1">
-<img src="images/logotipo2.png" id="Image1" alt=""></div>
-<div id="wb_Text2">
-<p style="color:#FFFFFF;"><span style="color:#FFFFFF;">"Si tú no trabajas por tus sueños, alguien te contratará para que trabajes por los suyos".</span></p>
-<p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Steve Jobs</span></p></div>
-<div id="wb_Text1">
-<p style="color:#FFFFFF;"><span style="color:#FFFFFF;">INFORMÁTICA PARA TODOS</span></p></div>
-</div>
-</div>
-<div id="capa2">
-<div id="capa2-overlay"></div>
-<div id="capa2_Container">
-<div id="wb_Image4">
-<img src="images/Nvidia-logo-32-1-.png" id="Image4" alt=""></div>
-<div id="wb_Image5">
-<img src="images/intel-logo-png-5.png" id="Image5" alt=""></div>
-<div id="wb_Image6">
-<img src="images/ATI_Radeon_Graphics_Logo.svg.png" id="Image6" alt=""></div>
-<div id="wb_Text3">
-<p style="color:#FFFFFF;"><span style="color:#FFFFFF;">REALIZAMOS ASESORÍA EN LA ADQUISICIÓN E INSTALACIÓN DE TU PRIMERA </span><span style="color:#FF0000;">PC</span><span style="color:#FFFFFF;">&nbsp;</span><span style="color:#87CEFA;">G</span><span style="color:#98FB98;">A</span><span style="color:#FF69B4;">M</span><span style="color:#FFFF00;">E</span><span style="color:#DDA0DD;">R</span><span style="color:#FFFFFF;"> PARA QUE PUEDAS DISFRUTAR DE MUCHOS TÍTULOS A NIVEL PROFESIONAL SIN TENER COMPLICACIONES DE HARDWARE</span></p></div>
-<div id="wb_Image9">
-<img src="images/47068-31b456e8231be4dc58bb1138efa7f66e.jpg" id="Image9" alt=""></div>
-<div id="wb_Image7">
-<img src="images/AMD_logo_logotype_emblem_black_background.png" id="Image7" alt=""></div>
-<div id="wb_Image8">
-<img src="images/Kingston_Technology_logo_black.png" id="Image8" alt=""></div>
-<div id="wb_Image2">
-<img src="images/AORUS_logo_silver1.png" id="Image2" alt=""></div>
-<div id="wb_Text10">
-<p style="color:#FF0000;"><span style="color:#FF0000;">ASESORÍA GAMING</span></p></div>
-<div id="wb_Image3">
-<img src="images/blk_400.png" id="Image3" alt=""></div>
-<div id="wb_Image11">
-<img src="images/rog-logo-png-1.png" id="Image11" alt=""></div>
-</div>
-</div>
-<div id="capa3">
-<div id="capa3-overlay"></div>
-<div id="capa3_Container">
-<div id="wb_Text4">
-<p style="color:#FFFFFF;"><span style="font-weight:bold;color:#FFFFFF;">BRINDAMOS SOPORTE INFORMÁTICO DEDICADO A EMPRESAS Y PERSONAS NATURALES</span></p>
-<p>&nbsp;</p></div>
-<section id="Layer1">
-<div id="wb_Image12">
-<img src="images/redes-1024x768.jpg" id="Image12" alt=""></div>
-<div id="wb_Image14">
-<img src="images/wifi.jpg" id="Image14" alt=""></div>
-<div id="wb_Image10">
-<img src="images/linux.jpg" id="Image10" alt=""></div>
-<div id="wb_Image13">
-<img src="images/Windows-Logo.png" id="Image13" alt=""></div>
-</section>
-<div id="wb_Image15">
-<img src="images/sistema-png-4.png" id="Image15" alt=""></div>
-<div id="wb_Text5">
-<p style="color:#87CEFA;"><span style="color:#87CEFA;">ASESORÍA INFORMÁTICA</span></p>
-<ul style="color:#FFFFFF;list-style-type:disc;">
-<li style="margin:0 0 0 53.33px;"><p style="color:#87CEFA;"><span style="color:#FFFFFF;">Aprende de nuestra experiencia a partir de nuestros clientes</span>
-</li>
-</ul>
-<p style="color:#87CEFA;"><span style="color:#87CEFA;">SEGURIDAD INFORMÁTICA</span></p>
-<ul style="color:#FFFFFF;list-style-type:disc;">
-<li style="margin:0 0 0 53.33px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Auditoría de redes inalámbricas</span>
-</li>
-</ul>
-<p style="color:#87CEFA;"><span style="color:#87CEFA;">SOPORTE TÉCNICO A EQUIPOS DE CÓMPUTO</span></p>
-<p style="color:#87CEFA;"><span style="color:#87CEFA;">REDES CORPORATIVAS Y LOCALES</span></p>
-<ul style="color:#FFFFFF;list-style-type:disc;">
-<li style="margin:0 0 0 53.33px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Sistemas confiables</span>
-</li>
-</ul>
-<p>&nbsp;</p></div>
-</div>
-</div>
-<div id="capa4">
-<div id="capa4-overlay"></div>
-<div id="capa4_Container">
-<div id="wb_Text6">
-<p style="color:#000000;"><span style="color:#000000;">"La educación es el arma más poderosa que puedes usar para cambiar el mundo".</span></p>
-<p style="color:#000000;"><span style="color:#000000;">Nelson Mandela</span></p></div>
-<div id="wb_Text7">
-<p style="color:#008000;"><span style="color:#008000;">Brindamos asesoría educativa en ciencias de la computación, creemos que la información no debe limitarse y debe ser de libre acceso a todas las personas del mundo.</span></p></div>
-<div id="wb_Shape1">
-<a href="./MENU.html" rel="nofollow"><img class="hover" src="images/img0002_hover.png" alt="" style="border-width:0;width:211px;height:72px;"><span class="default"><img src="images/img0002.png" id="Shape1" alt=""></span>
-<div id="Shape1_text"><span style="color:#008000;font-family:'Times New Roman';font-size:27px;"><strong>EXPLORAR</strong></span></div>
-</a></div>
-</div>
-</div>
-<div id="capa5">
-<div id="capa5-overlay"></div>
-<div id="capa5_Container">
-<div id="wb_Image16">
-<img src="images/EDUCACION2.png" id="Image16" alt=""></div>
-<div id="wb_Text9">
-<p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Somos un proyecto informático de soporte, asesoría y educación enfocado en el crecimiento de la sociedad a través de la difusión del conocimiento en nuestras áreas laborales, creemos que todos deben aprender y compartir información sin afectar a terceros.</span></p>
-<p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Comprendemos que una persona puede lograr sus objetivos si se los plantea y tiene una adecuada disposición mental.</span></p>
-<p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Aplicamos la neurociencia en la educación, porque sabemos que acorde a las etapas del desarrollo humano en relación a su contexto, cada uno tendrá una forma particular de aprender, permitiéndose así una educación cultural personalizada.</span></p>
-<p style="color:#FFFFFF;"><span style="color:#FFFFFF;">&nbsp;&nbsp;&nbsp; </span></p>
-<p>&nbsp;</p></div>
-</div>
-</div>
-<div id="sticker_ADELANTE_">
-<div id="wb_ResponsiveMenu1">
-<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menú principal<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
-<input type="checkbox" id="ResponsiveMenu1-submenu">
-<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
-<li><a role="menuitem" href="#capa1" rel="nofollow"><i class="fa fa-home fa-2x">&nbsp;</i><br>INICIO</a></li>
-<li><a role="menuitem" href="#capa2" rel="nofollow"><i class="fa fa-bullhorn fa-2x">&nbsp;</i><br>ASESOR&#205;A</a></li>
-<li><a role="menuitem" href="#capa3" rel="nofollow"><i class="fa fa-gears fa-2x">&nbsp;</i><br>SOPORTE</a></li>
-<li><a role="menuitem" href="#capa4" rel="nofollow"><i class="fa fa-book fa-2x">&nbsp;</i><br>EDUCACI&#211;N</a></li>
-<li><a role="menuitem" href="#capa5" rel="nofollow"><i class="fa fa-suitcase fa-2x">&nbsp;</i><br>ACERCA</a></li>
-</ul>
-
-</div>
-</div>
-<div id="wb_MARCADOR1">
-<a id="MARCADOR1">&nbsp;</a>
-</div>
-<div id="about">
-<div id="about_Container">
-<div id="wb_FontAwesomeIcon1">
-<a href="https://www.facebook.com/SmohobyXD" target="_blank"><div id="FontAwesomeIcon1"><i class="fa fa-facebook-square"></i></div></a></div>
-<div id="Html1">
-<div id="sfcuqu51ze6t19dec88e4djwb3neg1wure8"></div><script src="https://counter9.stat.ovh/private/counter.js?c=uqu51ze6t19dec88e4djwb3neg1wure8&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas wordpress"><img src="https://counter9.stat.ovh/private/contadorvisitasgratis.php?c=uqu51ze6t19dec88e4djwb3neg1wure8" border="0" title="contador de visitas wordpress" alt="contador de visitas wordpress"></a></noscript></div>
-<div id="wb_Text8">
-<span style="color:#FFFFFF;"><strong>SOBRE EL EDITOR</strong><br><br>Aprender para enseñar<br>Sitio web creado y diseñado por Salomón [developer]<br></span><span style="color:#FFFF00;">cyberroot [v 1.3] 2020 </span></div>
-</div>
-</div>
+<body>
+   <div id="capa1" style="position:relative;text-align:center;width:100%;height:1003px;float:left;clear:left;display:block;z-index:27;">
+      <div id="capa1-overlay"></div>
+      <div id="capa1_Container" style="width:1650px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_Image1" style="position:absolute;left:481px;top:363px;width:688px;height:174px;z-index:0;">
+            <img src="images/logotipo2.png" id="Image1" alt=""></div>
+         <div id="wb_Text2" style="position:absolute;left:481px;top:537px;width:668px;height:82px;text-align:center;z-index:1;">
+            <p style="color:#D3D3D3;"><span style="color:#D3D3D3;">Si tú no trabajas por tus sueños, alguien te contratará para que trabajes por los suyos</span></p>
+            <p style="color:#D3D3D3;"><span style="color:#D3D3D3;">Steve Jobs.</span></p></div>
+         <div id="wb_Text1" style="position:absolute;left:481px;top:300px;width:668px;height:36px;text-align:center;z-index:2;">
+            <p style="color:#D3D3D3;"><span style="color:#D3D3D3;">#Teamsketch Informático</span></p></div>
+      </div>
+   </div>
+   <div id="capa2" style="position:relative;text-align:center;width:100%;height:997px;float:left;clear:left;display:block;z-index:28;">
+      <div id="capa2-overlay"></div>
+      <div id="wb_Text10">
+         <p style="font-weight:bold;color:#C00000;"><span style="color:#C00000;">ASESORÍA GAMING</span></p>
+      </div>
+      <ul id="SlideShow1" style="z-index:4;">
+         <li><img class="image" src="images/1.jpg" alt="" title=""></li>
+         <li><img class="image" src="images/2.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/3.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/4.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/5.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/6.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/7.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/9.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/10.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/11.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/12.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/13.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/14.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/15.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/16.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/17.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/18.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/19.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/20.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/21.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/22.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/23.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/24.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/25.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/26.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/27.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/28.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/29.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/31.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/32.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/33.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/34.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/35.jpg" style="display:none;" alt="" title=""></li>
+         <li><img class="image" src="images/36.jpg" style="display:none;" alt="" title=""></li>
+      </ul>
+      <div id="wb_Text3">
+         <p style="font-weight:bold;color:#C00000;"><span style="color:#C00000;">PREPARAMOS TU PC GAMER CON TECNOLOGÍA DE PUNTA</span></p>
+      </div>
+   </div>
+   <div id="capa3" style="position:relative;text-align:center;width:100%;height:1001px;float:left;clear:left;display:block;z-index:29;">
+      <div id="capa3-overlay"></div>
+      <div id="capa3_Container" style="width:1650px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_Text4" style="position:absolute;left:478px;top:137px;width:674px;height:44px;text-align:center;z-index:10;">
+            <p style="color:#D3D3D3;"><span style="font-weight:bold;color:#D3D3D3;">SOPORTE INFORMÁTICO PERSONALIZADO</span></p></div>
+         <section id="Layer1" style="position:absolute;text-align:left;left:318px;top:236px;width:1005px;height:221px;z-index:11;">
+            <div id="wb_Image12" style="position:absolute;left:292px;top:16px;width:247px;height:186px;z-index:6;">
+               <img src="images/redes-1024x768.jpg" id="Image12" alt=""></div>
+            <div id="wb_Image14" style="position:absolute;left:844px;top:56px;width:147px;height:103px;z-index:7;">
+               <img src="images/wifi.jpg" id="Image14" alt=""></div>
+            <div id="wb_Image10" style="position:absolute;left:23px;top:26px;width:258px;height:176px;z-index:8;">
+               <img src="images/linux.jpg" id="Image10" alt=""></div>
+            <div id="wb_Image13" style="position:absolute;left:553px;top:27px;width:270px;height:166px;z-index:9;">
+               <img src="images/Windows-Logo.png" id="Image13" alt=""></div>
+         </section>
+         <div id="wb_Image15" style="position:absolute;left:1094px;top:596px;width:177px;height:186px;z-index:12;">
+            <img src="images/sistema%2dpng%2d4.png" id="Image15" alt=""></div>
+         <div id="wb_Text5" style="position:absolute;left:312px;top:480px;width:895px;height:204px;z-index:13;">
+            <p style="color:#87CEFA;"><span style="color:#87CEFA;">ASESORÍA INFORMÁTICA</span></p>
+            <ul style="color:#FFFFFF;list-style-type:disc;">
+               <li style="margin:0 0 0 53.33px;"><p style="color:#87CEFA;"><span style="color:#D3D3D3;">Aprende de nuestra experiencia a partir de nuestros clientes</span>
+               </li>
+            </ul>
+            <p style="color:#87CEFA;"><span style="color:#87CEFA;">SEGURIDAD INFORMÁTICA</span></p>
+            <ul style="color:#FFFFFF;list-style-type:disc;">
+               <li style="margin:0 0 0 53.33px;"><p style="color:#FFFFFF;"><span style="color:#D3D3D3;">Auditoría de redes inalámbricas</span>
+               </li>
+            </ul>
+            <p style="color:#87CEFA;"><span style="color:#87CEFA;">SOPORTE TÉCNICO A EQUIPOS DE CÓMPUTO</span></p>
+            <p style="color:#87CEFA;"><span style="color:#87CEFA;">REDES CORPORATIVAS Y LOCALES</span></p>
+            <ul style="color:#000000;list-style-type:disc;">
+               <li style="margin:0 0 0 53.33px;"><p style="color:#FFFFFF;"><span style="color:#D3D3D3;">Sistemas confiables</span>
+               </li>
+               <li style="margin:0 0 0 53.33px;"><p style="color:#000000;">&nbsp;
+               </li>
+            </ul></div>
+      </div>
+   </div>
+   <div id="capa4" style="position:relative;text-align:center;width:100%;height:1000px;float:left;clear:left;display:block;z-index:30;">
+      <div id="capa4-overlay"></div>
+      <div id="capa4_Container" style="width:1650px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_Text6" style="position:absolute;left:21px;top:206px;width:674px;height:131px;text-align:center;z-index:14;">
+            <p style="color:#D3D3D3;"><span style="color:#D3D3D3;">La educación es el arma más poderosa que puedes usar para cambiar el mundo</span></p>
+            <p style="color:#D3D3D3;"><span style="color:#D3D3D3;">Nelson Mandela.</span></p></div>
+         <div id="wb_Shape1" style="position:absolute;left:253px;top:545px;width:169px;height:60px;z-index:15;">
+            <a href="./MENU.html" rel="nofollow"><div id="Shape1"><div id="Shape1_text"><span style="color:#D3D3D3;font-family:'Open Sans';font-size:27px;"><strong>EXPLORAR</strong></span></div></div></a></div>
+         <div id="wb_Text7" style="position:absolute;left:106px;top:354px;width:504px;height:132px;text-align:center;z-index:16;">
+            <p style="color:#FFFF00;"><span style="color:#FFFF00;">Brindamos asesoría educativa en ciencias de la computación, creemos que la información no debe limitarse y debe ser de libre acceso a todas las personas del mundo.</span></p></div>
+      </div>
+   </div>
+   <div id="capa5" style="position:relative;text-align:center;width:100%;height:981px;float:left;clear:left;display:block;z-index:31;">
+      <div id="capa5-overlay"></div>
+      <div id="capa5_Container" style="width:1650px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_Image16" style="position:absolute;left:901px;top:271px;width:316px;height:316px;z-index:17;">
+            <img src="images/pc.png" id="Image16" alt=""></div>
+         <div id="wb_Text9" style="position:absolute;left:310px;top:301px;width:543px;height:260px;text-align:center;z-index:18;">
+            <p style="color:#D3D3D3;"><span style="color:#D3D3D3;">Somos un equipo informático de soporte, asesoría y educación enfocado en los objetivos de nuestros clientes.</span></p>
+            <p style="color:#D3D3D3;"><span style="color:#D3D3D3;">Creemos que todos deben aprender y compartir información sin afectar a terceros.</span></p>
+            <p style="color:#D3D3D3;"><span style="color:#D3D3D3;">Comprendemos que una persona puede lograr sus objetivos si se los plantea y tiene una adecuada disposición mental.</span></p>
+            <p style="color:#D3D3D3;"><span style="color:#D3D3D3;">Aplicamos la neurociencia en la educación, porque sabemos que&nbsp; de acuerdo a las diferentes etapas del desarrollo humano, cada persona tendrá una forma particular de aprender, permitiéndose así una educación cultural personalizada</span></p>
+            <p>&nbsp;</p></div>
+      </div>
+   </div>
+   <div id="wb_MARCADOR1" style="position:absolute;left:0px;top:0px;width:67px;height:60px;visibility:hidden;z-index:32;">
+      <a id="MARCADOR1" style="visibility:hidden;">&nbsp;</a>
+   </div>
+   <div id="about" style="position:relative;text-align:center;width:100%;height:165px;float:left;clear:left;display:block;z-index:33;">
+      <div id="about_Container" style="width:1650px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_FontAwesomeIcon1" style="position:absolute;left:810px;top:114px;width:30px;height:29px;text-align:center;z-index:23;">
+            <a href="https://www.facebook.com/SmohobyXD" target="_blank"><div id="FontAwesomeIcon1"><i class="fa fa-facebook-square"></i></div></a></div>
+         <div id="Html1" style="position:absolute;left:1397px;top:47px;width:127px;height:70px;z-index:24">
+            <div id="sfcuqu51ze6t19dec88e4djwb3neg1wure8"></div><script src="https://counter9.stat.ovh/private/counter.js?c=uqu51ze6t19dec88e4djwb3neg1wure8&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas wordpress"><img src="https://counter9.stat.ovh/private/contadorvisitasgratis.php?c=uqu51ze6t19dec88e4djwb3neg1wure8" border="0" title="contador de visitas wordpress" alt="contador de visitas wordpress"></a></noscript></div>
+         <div id="wb_Text8" style="position:absolute;left:472px;top:20px;width:695px;height:72px;text-align:center;z-index:25;">
+            <span style="color:#D3D3D3;"><strong>SOBRE EL EDITOR</strong><br>Aprender para enseñar<br>Sitio web creado y diseñado por Salomón [developer]<br></span><span style="color:#FFFF00;">cyberroot [v 1.3.5] 2020 </span></div>
+      </div>
+   </div>
+   <div id="sticker_ADELANTE_" style="position:fixed;text-align:center;left:0px;top:0px;width:100%;height:58px;z-index:34;">
+      <div id="wb_ResponsiveMenu1" style="display:inline-block;width:100%;z-index:26;">
+         <label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menú principal<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+         <input type="checkbox" id="ResponsiveMenu1-submenu">
+         <ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+            <li><a role="menuitem" href="#capa1" rel="nofollow">INICIO</a></li>
+            <li><a role="menuitem" href="#capa2" rel="nofollow">ASESOR&#205;A</a></li>
+            <li><a role="menuitem" href="#capa3" rel="nofollow">SOPORTE</a></li>
+            <li><a role="menuitem" href="#capa4" rel="nofollow">EDUCACI&#211;N</a></li>
+            <li><a role="menuitem" href="#capa5" rel="nofollow">ACERCA</a></li>
+         </ul>
+      </div>
+   </div>
 </body>
 </html>

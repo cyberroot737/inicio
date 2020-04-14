@@ -6,187 +6,183 @@
 <meta name="generator" content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Almendra+SC" rel="stylesheet">
 <link href="PROYECTO_PRINCIPAL.css" rel="stylesheet">
 <link href="3SECUNDARIA.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="wb.parallax.min.js"></script>
 <script src="scrollspy.min.js"></script>
 <script src="https://www.youtube.com/iframe_api"></script>
-<script>
-var playerYouTube1;
-function onYouTubeIframeAPIReady() {
-   playerYouTube1 = new YT.Player('YouTube1', {
-      events: {
-      }
-   });
-}
+<script>   
+   var playerYouTube1;
+   function onYouTubeIframeAPIReady() {
+      playerYouTube1 = new YT.Player('YouTube1', {
+         events: {
+         }
+      });
+   }
 </script>
-<script>
-$(document).ready(function()
-{
-   $("a[href*='#portada']").click(function(event)
+<script>   
+   $(document).ready(function()
    {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#portada').offset().top }, 300, 'linear');
+      $("a[href*='#portada']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#portada').offset().top }, 300, 'linear');
+      });
+      $("a[href*='#MARCADOR1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_MARCADOR1').offset().top }, 600, 'linear');
+      });
    });
-   $('#portada').parallax();
-   $("a[href*='#MARCADOR1']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_MARCADOR1').offset().top }, 600, 'linear');
-   });
-});
 </script>
 </head>
 <body data-spy="scroll">
-<div id="portada">
-<div id="portada-overlay"></div>
-<div id="portada_Container">
-<div id="wb_Image2">
-<img src="images/adventure-time-png-5.png" id="Image2" alt=""></div>
-<div id="wb_Text1">
-<p style="color:#9FE280;"><span style="color:#9FE280;">3ro De Secundaria</span></p></div>
-</div>
-</div>
-<div id="sticker_ADELANTE_">
-<div id="wb_ResponsiveMenu1">
-<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menú principal<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
-<input type="checkbox" id="ResponsiveMenu1-submenu">
-<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
-<li><a role="menuitem" href="./index.html" rel="nofollow"><i class="fa fa-home fa-2x">&nbsp;</i><br>INICIO</a></li>
-<li><a role="menuitem" href="./MENU.html" rel="nofollow"><i class="fa fa-graduation-cap fa-2x">&nbsp;</i><br>MEN&#218;</a></li>
-</ul>
-
-</div>
-</div>
-<div id="wb_MARCADOR1">
-<a id="MARCADOR1">&nbsp;</a>
-</div>
-<div id="wb_1-BIMESTRE">
-<div id="1-BIMESTRE">
-<div class="row">
-<div class="col-1">
-<div id="wb_Text2">
-<p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFD700;"><span style="font-family:Acme;font-size:29px;line-height:37.5px;color:#FFD700;">ÁREA DE TRABAJO DEL </span><span style="font-family:Acme;font-size:29px;line-height:37.5px;color:#00FFFF;">PRIMER BIMESTRE</span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="wb_1SEMANA1B">
-<div id="1SEMANA1B">
-<div class="row">
-<div class="col-1">
-<div id="wb_Text3">
-<p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFFFFF;"><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFFFF;">PRÁCTICA VIRTUAL</span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="wb_LayoutGrid1">
-<div id="LayoutGrid1">
-<div class="row">
-<div class="col-1">
-<hr id="Line2">
-<div id="wb_Text6">
-<span style="color:#FFFFFF;font-family:Acme;font-size:27px;"><strong>RECURSOS</strong></span>
-</div>
-<hr id="Line9">
-<div id="wb_Text15">
-<p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Microsoft Access desde cero, útil para entender las bases de datos en 3ro de secundaria.</span></p>
-<p style="color:#00BFFF;"><span style="color:#00BFFF;">Introducción</span></p>
-<p>&nbsp;</p>
-</div>
-<div id="wb_YouTube1">
-<iframe id="YouTube1" src="https://www.youtube.com/embed/NP1t28vvVjw?rel=0&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
-
-</div>
-<hr id="Line3">
-<div id="wb_Shape1">
-<a href="./CURSO1.html"><img class="hover" src="images/img0011_hover.png" alt="" style="border-width:0;width:358px;height:36px;"><span class="default"><img src="images/img0011.png" id="Shape1" alt=""></span></a>
-</div>
-</div>
-<div class="col-2">
-<hr id="Line1">
-<div id="wb_Text7">
-<span style="color:#FFFFFF;font-family:Acme;font-size:27px;"><strong>ACTIVIDADES</strong></span>
-</div>
-<div id="wb_Image3">
-<img src="images/ASTRONAUTA SIN FONDO.png" id="Image3" alt="">
-</div>
-<hr id="Line10">
-<div id="wb_Text4">
-<p style="color:#FFFF00;"><span style="text-decoration:underline;font-weight:bold;color:#FFFF00;">RECORDATORIO PARA EL ESTUDIANTE</span></p>
-<p>&nbsp;</p>
-<p style="color:#FFFF00;"><span style="text-decoration:underline;font-weight:bold;color:#FFFF00;">TAREAS ANTERIOMENTE DEJADAS:</span></p>
-<ul style="color:#FFFFFF;list-style-type:upper-roman;">
-<li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;"> Información estructurada, páginas ( 3-10).</span>
-</li>
-<li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Formulario de entrada de datos, páginas ( 11-16).</span>
-</li>
-<li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Consultas, páginas ( 17-24).</span>
-</li>
-</ul>
-<p>&nbsp;</p>
-<p style="color:#FFFF00;"><span style="text-decoration:underline;font-weight:bold;color:#FFFF00;">ACTIVIDADES QUE SE REVISARÁN</span></p>
-<ul style="color:#FFFFFF;list-style-type:decimal;">
-<li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Páginas (9-10).</span>
-</li>
-<li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Páginas (22-24) </span><span style="color:#FF0000;">[en revisión]</span>
-</li>
-<li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Páginas (29-30).</span>
-</li>
-</ul>
-<p>&nbsp;</p>
-<p style="color:#7FFFD4;"><span style="text-decoration:underline;font-weight:bold;color:#7FFFD4;">NUEVA TEORÍA A REVISAR</span></p>
-<ul style="color:#FFFFFF;list-style-type:upper-roman;">
-<li style="margin:0 0 0 34.67px;"><p style="color:#FFFF00;"><span style="color:#FFFFFF;">Importar y exportar datos, páginas ( 31-34).</span>
-</li>
-</ul>
-<p>&nbsp;</p>
-<p style="color:#7FFFD4;"><span style="text-decoration:underline;font-weight:bold;color:#7FFFD4;">NUEVAS ACTIVIDADES</span></p>
-<ul style="color:#FFFFFF;list-style-type:decimal;">
-<li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Página (34).</span>
-</li>
-</ul>
-<p>&nbsp;</p>
-<p style="color:#FF0000;"><span style="background-color:#FFFF00;color:#FF0000;">NOTAS: </span></p>
-<ul style="color:#FFFFFF;list-style-type:disc;">
-<li style="margin:0 0 0 24px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Estas actividades deben realizarse en el manual del estudiante.</span>
-</li>
-<li style="margin:0 0 0 24px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Estas actividades serán revisadas y corrregidas al retorno a clases.</span>
-</li>
-<li style="margin:0 0 0 24px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Más adelante se especificará el contenido visual de Access.</span>
-</li>
-</ul>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-</div>
-<div id="wb_Image6">
-<img src="images/partes mouse.png" id="Image6" alt="">
-</div>
-<div id="wb_Text46">
-<p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFFF00;"><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFF00;">NOTA: </span><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFFFF;">Todo el contenido del manual del estudiante será repasado y recuperado al retorno a clases.</span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="wb_LayoutGrid6">
-<div id="LayoutGrid6">
-<div class="row">
-<div class="col-1">
-<div id="wb_Text17">
-<span style="color:#00BFFF;font-family:Arial;font-size:19px;">Cyberroot Networks 2020<br></span>
-</div>
-</div>
-</div>
-</div>
-</div>
+   <div id="portada" style="position:relative;text-align:center;width:100%;height:410px;float:left;clear:left;display:block;z-index:20;">
+      <div id="portada-overlay"></div>
+      <div id="portada_Container" style="width:1650px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_Image2" style="position:absolute;left:855px;top:101px;width:442px;height:281px;z-index:0;">
+            <img src="images/adventure%2dtime%2dpng%2d5.png" id="Image2" alt=""></div>
+         <div id="wb_Text1" style="position:absolute;left:186px;top:180px;width:725px;height:121px;z-index:1;">
+            <p style="color:#9FE280;"><span style="color:#9FE280;">3ro De Secundaria</span></p></div>
+      </div>
+   </div>
+   <div id="sticker_ADELANTE_" style="position:fixed;text-align:center;left:auto;right:0px;top:0px;width:100%;height:65px;z-index:21;">
+      <div id="wb_ResponsiveMenu1" style="display:inline-block;width:100%;z-index:2;">
+         <label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menú principal<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+         <input type="checkbox" id="ResponsiveMenu1-submenu">
+         <ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+            <li><a role="menuitem" href="./index.html" rel="nofollow"><i class="fa fa-home fa-2x">&nbsp;</i><br>INICIO</a></li>
+            <li><a role="menuitem" href="./MENU.html" rel="nofollow"><i class="fa fa-graduation-cap fa-2x">&nbsp;</i><br>MEN&#218;</a></li>
+         </ul>
+      </div>
+   </div>
+   <div id="wb_MARCADOR1" style="position:absolute;left:0px;top:0px;width:67px;height:60px;visibility:hidden;z-index:22;">
+      <a id="MARCADOR1" style="visibility:hidden;">&nbsp;</a>
+   </div>
+   <div id="wb_1-BIMESTRE">
+      <div id="1-BIMESTRE">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text2">
+                  <p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFD700;"><span style="font-family:Acme;font-size:29px;line-height:37.5px;color:#FFD700;">ÁREA DE TRABAJO DEL </span><span style="font-family:Acme;font-size:29px;line-height:37.5px;color:#00FFFF;">PRIMER BIMESTRE</span></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_1SEMANA1B">
+      <div id="1SEMANA1B">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text3">
+                  <p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFFFFF;"><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFFFF;">PRÁCTICA VIRTUAL</span></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid1">
+      <div id="LayoutGrid1">
+         <div class="row">
+            <div class="col-1">
+               <hr id="Line2" style="display:block;width:100%;z-index:5;">
+               <div id="wb_Text6">
+                  <span style="color:#FFFFFF;font-family:Acme;font-size:27px;"><strong>RECURSOS</strong></span>
+               </div>
+               <hr id="Line9" style="display:block;width:100%;z-index:7;">
+               <div id="wb_Text15">
+                  <p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Microsoft Access desde cero, útil para entender las bases de datos en 3ro de secundaria.</span></p>
+                  <p style="color:#00BFFF;"><span style="color:#00BFFF;">Introducción</span></p>
+                  <p>&nbsp;</p>
+               </div>
+               <div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:9;">
+                  <iframe id="YouTube1" src="https://www.youtube.com/embed/NP1t28vvVjw?rel=0&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen=""></iframe>
+               </div>
+               <hr id="Line3" style="display:block;width:100%;z-index:10;">
+               <div id="wb_Shape1" style="display:inline-block;width:358px;height:36px;z-index:11;position:relative;">
+                  <a href="./CURSO1.html"><div id="Shape1"><div id="Shape1_text"><span style="color:#7CFC00;font-family:Acme;font-size:19px;">ACCEDER A ZONA VIRTUAL ACCESSESS</span></div></div></a>
+               </div>
+            </div>
+            <div class="col-2">
+               <hr id="Line1" style="display:block;width:100%;z-index:12;">
+               <div id="wb_Text7">
+                  <span style="color:#FFFFFF;font-family:Acme;font-size:27px;"><strong>ACTIVIDADES</strong></span>
+               </div>
+               <div id="wb_Image3" style="display:inline-block;width:100%;height:auto;z-index:14;">
+                  <img src="images/ASTRONAUTA%20SIN%20FONDO.png" id="Image3" alt="">
+               </div>
+               <hr id="Line10" style="display:block;width:100%;z-index:15;">
+               <div id="wb_Text4">
+                  <p style="color:#FFFF00;"><span style="text-decoration:underline;font-weight:bold;color:#FFFF00;">RECORDATORIO PARA EL ESTUDIANTE</span></p>
+                  <p>&nbsp;</p>
+                  <p style="color:#FFFF00;"><span style="text-decoration:underline;font-weight:bold;color:#FFFF00;">TAREAS ANTERIOMENTE DEJADAS:</span></p>
+                  <ul style="color:#FFFFFF;list-style-type:upper-roman;">
+                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;"> Información estructurada, páginas ( 3-10).</span>
+                     </li>
+                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Formulario de entrada de datos, páginas ( 11-16).</span>
+                     </li>
+                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Consultas, páginas ( 17-24).</span>
+                     </li>
+                  </ul>
+                  <p>&nbsp;</p>
+                  <p style="color:#FFFF00;"><span style="text-decoration:underline;font-weight:bold;color:#FFFF00;">ACTIVIDADES QUE SE REVISARÁN</span></p>
+                  <ul style="color:#FFFFFF;list-style-type:decimal;">
+                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Páginas (9-10).</span>
+                     </li>
+                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Páginas (22-24) </span><span style="color:#FF0000;">[en revisión]</span>
+                     </li>
+                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Páginas (29-30).</span>
+                     </li>
+                  </ul>
+                  <p>&nbsp;</p>
+                  <p style="color:#7FFFD4;"><span style="text-decoration:underline;font-weight:bold;color:#7FFFD4;">NUEVA TEORÍA A REVISAR</span></p>
+                  <ul style="color:#FFFFFF;list-style-type:upper-roman;">
+                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFF00;"><span style="color:#FFFFFF;">Importar y exportar datos, páginas ( 31-34).</span>
+                     </li>
+                  </ul>
+                  <p>&nbsp;</p>
+                  <p style="color:#7FFFD4;"><span style="text-decoration:underline;font-weight:bold;color:#7FFFD4;">NUEVAS ACTIVIDADES</span></p>
+                  <ul style="color:#FFFFFF;list-style-type:decimal;">
+                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Página (34).</span>
+                     </li>
+                  </ul>
+                  <p>&nbsp;</p>
+                  <p style="color:#FF0000;"><span style="background-color:#FFFF00;color:#FF0000;">NOTAS: </span></p>
+                  <ul style="color:#FFFFFF;list-style-type:disc;">
+                     <li style="margin:0 0 0 24px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Estas actividades deben realizarse en el manual del estudiante.</span>
+                     </li>
+                     <li style="margin:0 0 0 24px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Estas actividades serán revisadas y corrregidas al retorno a clases.</span>
+                     </li>
+                     <li style="margin:0 0 0 24px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Más adelante se especificará el contenido visual de Access.</span>
+                     </li>
+                  </ul>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+               </div>
+               <div id="wb_Image6" style="display:inline-block;width:100%;height:auto;z-index:17;">
+                  <img src="images/partes%20mouse.png" id="Image6" alt="">
+               </div>
+               <div id="wb_Text46">
+                  <p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFFF00;"><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFF00;">NOTA: </span><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFFFF;">Todo el contenido del manual del estudiante será repasado y recuperado al retorno a clases.</span></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid6">
+      <div id="LayoutGrid6">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text17">
+                  <span style="color:#00BFFF;font-family:Arial;font-size:19px;">Cyberroot Networks 2020<br></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 </body>
 </html>

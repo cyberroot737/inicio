@@ -1,66 +1,57 @@
-body
-{
+body {
    background-color: #A9A9A9;
    color: #000000;
    font-family: Arial;
-   font-weight: normal;
    font-size: 13px;
+   font-weight: normal;
    line-height: 1.1875;
    margin: 0;
    padding: 0;
 }
-#capa1
-{
-   background-color: transparent;
-   background-image: url(images/grand-theft-auto-v-gta-5-wallpaper-hd-2880x1800-194993.jpg);
-   background-repeat: repeat;
-   background-position: left top;
+#capa1 {
    background-attachment: fixed;
+   background-color: transparent;
+   background-image: url(images/grand%2dtheft%2dauto%2dv%2dgta%2d5%2dwallpaper%2dhd%2d2880x1800%2d194993.jpg);
    background-position: 50% 0;
+   background-position: left top;
+   background-repeat: repeat;
    background-size: cover;
    margin: 0;
 }
-#capa1-overlay
-{
-   position: absolute;
-   top: 0;
-   right: 0;
+#capa1-overlay {
+   background-color: #000000;
    bottom: 0;
    left: 0;
-   background-color: #000000;
    opacity: 0.8;
+   position: absolute;
+   right: 0;
+   top: 0;
 }
-#capa2
-{
+#capa2 {
    background-color: #20B2AA;
    background-image: none;
    margin: 0;
 }
-#capa3
-{
+#capa3 {
    background-color: #6A5ACD;
    background-image: none;
    margin: 0;
 }
-#capa4
-{
+#capa4 {
    background-color: #F0E68C;
    background-image: none;
    margin: 0;
 }
-#capa5
-{
+#capa5 {
    background-color: #90EE90;
    background-image: none;
    margin: 0;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    background-color: rgba(0,0,0,0.42);
    background-image: none;
 }
-#wb_ResponsiveMenu1
-{
+#wb_ResponsiveMenu1 {
    background-color: rgba(0,0,0,0.85);
    display: block;
    font-family: Acme;
@@ -68,28 +59,24 @@ body
    text-align: center;
    width: 100%;
 }
-#ResponsiveMenu1
-{
+#ResponsiveMenu1 {
    background-color: #000000;
    background-color: rgba(0,0,0,0.85);
    display: inline-block;
    height: 65px;
 }
-#wb_ResponsiveMenu1 ul
-{
+#wb_ResponsiveMenu1 ul {
    list-style: none;
    margin: 0;
    padding: 0;
    position: relative;
 }
-#wb_ResponsiveMenu1 ul:after
-{
+#wb_ResponsiveMenu1 ul:after {
    clear: both;
    content: "";
    display: block;
 }
-#wb_ResponsiveMenu1 ul li
-{
+#wb_ResponsiveMenu1 ul li {
    background-color: #000000;
    background-color: rgba(0,0,0,0.85);
    display: list-item;
@@ -97,47 +84,40 @@ body
    list-style: none;
    z-index: 9999;
 }
-#wb_ResponsiveMenu1 ul li i
-{
+#wb_ResponsiveMenu1 ul li i {
    font-size: 20px;
    width: 20px;
 }
-#wb_ResponsiveMenu1 ul li a 
-{
+#wb_ResponsiveMenu1 ul li a {
    color: #FFFFFF;
    font-family: Acme;
-   font-weight: normal;
    font-size: 13px;
    font-style: normal;
+   font-weight: normal;
    padding: 15px 30px 15px 30px;
    text-align: center;
    text-decoration: none;
 }
-#wb_ResponsiveMenu1 > ul > li > a 
-{
+#wb_ResponsiveMenu1 > ul > li > a {
    height: 35px;
 }
-.ResponsiveMenu1 a 
-{
+.ResponsiveMenu1 a {
    display: block;
 }
-#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
-{ 
+#wb_ResponsiveMenu1 li a:hover,
+#wb_ResponsiveMenu1 li .active {
    background-color: #FFA500;
    color: #000000;
 }
-#wb_ResponsiveMenu1 ul ul
-{
+#wb_ResponsiveMenu1 ul ul {
    display: none;
    position: absolute;
    top: 65px;
 }
-#wb_ResponsiveMenu1 ul li:hover > ul
-{
+#wb_ResponsiveMenu1 ul li:hover > ul {
    display: list-item;
 }
-#wb_ResponsiveMenu1 ul ul li 
-{
+#wb_ResponsiveMenu1 ul ul li {
    background-color: #000000;
    background-color: rgba(0,0,0,0.41);
    color: #FFFFFF;
@@ -145,1437 +125,1128 @@ body
    position: relative;
    width: 129px;
 }
-#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
-{
+#wb_ResponsiveMenu1 ul ul li a:hover,
+#wb_ResponsiveMenu1 ul ul li .active {
    background-color: #FFA500;
    color: #000000;
 }
-#wb_ResponsiveMenu1 ul ul li i 
-{
+#wb_ResponsiveMenu1 ul ul li i {
    margin-right: 6px;
    vertical-align: middle;
 }
-#wb_ResponsiveMenu1 ul ul li a 
-{
+#wb_ResponsiveMenu1 ul ul li a {
    color: #FFFFFF;
-   padding-top: 15px;
-   padding-right: 20px;
    padding-bottom: 15px;
+   padding-right: 20px;
+   padding-top: 15px;
    text-align: left;
    vertical-align: middle;
 }
-#wb_ResponsiveMenu1 ul ul ul li 
-{
+#wb_ResponsiveMenu1 ul ul ul li {
    left: 129px;
    position: relative;
    top: -65px;
 }
-#wb_ResponsiveMenu1 .arrow-down 
-{
+#wb_ResponsiveMenu1 .arrow-down {
+   border-bottom: 0 dotted;
+   border-left: 4px solid transparent;
+   border-right: 4px solid transparent;
+   border-top: 4px solid #FFFFFF;
    display: inline-block;
-   width: 0;
    height: 0;
    margin-left: 2px;
    vertical-align: middle;
-   border-top: 4px solid #FFFFFF;
-   border-right: 4px solid transparent;
-   border-left: 4px solid transparent;
-   border-bottom: 0 dotted;
-}
-#wb_ResponsiveMenu1 .arrow-left 
-{
-   display: inline-block;
    width: 0;
+}
+#wb_ResponsiveMenu1 .arrow-left {
+   border-bottom: 4px solid transparent;
+   border-left: 4px solid #FFFFFF;
+   border-right: 0 dotted;
+   border-top: 4px solid transparent;
+   display: inline-block;
    height: 0;
    margin-left: 4px;
    vertical-align: middle;
-   border-left: 4px solid #FFFFFF;
-   border-top: 4px solid transparent;
-   border-bottom: 4px solid transparent;
-   border-right: 0 dotted;
+   width: 0;
 }
-#wb_ResponsiveMenu1 li a:hover .arrow-down
-{ 
+#wb_ResponsiveMenu1 li a:hover .arrow-down {
    border-top-color: #000000;
 }
-#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
-{ 
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left,
+#wb_ResponsiveMenu1 ul ul li .active .arrow-left {
    border-left-color: #000000;
 }
-#wb_ResponsiveMenu1 .toggle,[id^=ResponsiveMenu1-submenu]
-{
+#wb_ResponsiveMenu1 .toggle,
+[id^=ResponsiveMenu1-submenu] {
    display: none;
 }
-@media all and (max-width:768px) 
-{
-#wb_ResponsiveMenu1 
-{
+@media all and (max-width:768px) {
+#wb_ResponsiveMenu1 {
    margin: 0;
    text-align: left;
 }
-#wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
-{
+#wb_ResponsiveMenu1 ul li a,
+#wb_ResponsiveMenu1 .toggle {
    font-size: 13px;
-   font-weight: normal;
    font-style: normal;
+   font-weight: normal;
    padding: 15px 20px 15px 20px;
 }
-#wb_ResponsiveMenu1 .toggle + a
-{
-   display: none !important;
+#wb_ResponsiveMenu1 .toggle + a {
+   display: none  !important;
 }
-.ResponsiveMenu1 
-{
+.ResponsiveMenu1 {
    display: none;
    z-index: 9999;
 }
-#ResponsiveMenu1 
-{
+#ResponsiveMenu1 {
    background-color: transparent;
    display: none;
 }
-#wb_ResponsiveMenu1 > ul > li > a 
-{
+#wb_ResponsiveMenu1 > ul > li > a {
    height: auto;
 }
-#wb_ResponsiveMenu1 .toggle 
-{
-   display: block;
+#wb_ResponsiveMenu1 .toggle {
    background-color: #000000;
    background-color: rgba(0,0,0,0.85);
-   color: #FFFFFF;
-   padding: 0px 20px 0px 20px;
-   line-height: 50px;
-   text-decoration: none;
    border: none;
+   color: #FFFFFF;
+   display: block;
+   line-height: 50px;
+   padding: 0px 20px 0px 20px;
    position: relative;
+   text-decoration: none;
 }
-#wb_ResponsiveMenu1 .toggle:hover 
-{
+#wb_ResponsiveMenu1 .toggle:hover {
    background-color: #FFA500;
    color: #000000;
 }
-[id^=ResponsiveMenu1-submenu]:checked + ul 
-{
-   display: block !important;
+[id^=ResponsiveMenu1-submenu]:checked + ul {
+   display: block  !important;
 }
-#ResponsiveMenu1-title
-{
+#ResponsiveMenu1-title {
    height: 65px;
-   line-height: 65px !important;
+   line-height: 65px  !important;
    text-align: center;
 }
-#wb_ResponsiveMenu1 ul li 
-{
+#wb_ResponsiveMenu1 ul li {
    display: block;
-   width: 100%;
    text-align: left;
+   width: 100%;
 }
 #wb_ResponsiveMenu1 ul ul .toggle,
-#wb_ResponsiveMenu1 ul ul a 
-{
+#wb_ResponsiveMenu1 ul ul a {
    padding: 0 40px;
 }
 #wb_ResponsiveMenu1 a:hover,
-#wb_ResponsiveMenu1 ul ul ul a 
-{
+#wb_ResponsiveMenu1 ul ul ul a {
    background-color: #000000;
    color: #FFFFFF;
 }
 #wb_ResponsiveMenu1 ul li ul li .toggle,
-#wb_ResponsiveMenu1 ul ul a 
-{
+#wb_ResponsiveMenu1 ul ul a {
    background-color: #000000;
    color: #FFFFFF;
 }
-#wb_ResponsiveMenu1 ul ul ul a 
-{
+#wb_ResponsiveMenu1 ul ul ul a {
    padding: 15px 20px 15px 60px;
 }
-#wb_ResponsiveMenu1 ul li a 
-{
+#wb_ResponsiveMenu1 ul li a {
    text-align: left;
 }
-#wb_ResponsiveMenu1 ul li a br 
-{
+#wb_ResponsiveMenu1 ul li a br {
    display: none;
 }
-#wb_ResponsiveMenu1 ul li i 
-{
+#wb_ResponsiveMenu1 ul li i {
    margin-right: 6px;
 }
-#wb_ResponsiveMenu1 ul ul 
-{
+#wb_ResponsiveMenu1 ul ul {
    float: none;
    position: static;
 }
 #wb_ResponsiveMenu1 ul ul li:hover > ul,
-#wb_ResponsiveMenu1 ul li:hover > ul 
-{
+#wb_ResponsiveMenu1 ul li:hover > ul {
    display: none;
 }
-#wb_ResponsiveMenu1 ul ul li 
-{
+#wb_ResponsiveMenu1 ul ul li {
    display: block;
    width: 100%;
 }
-#wb_ResponsiveMenu1 ul ul ul li 
-{
+#wb_ResponsiveMenu1 ul ul ul li {
    position: static;
 }
-#ResponsiveMenu1-icon 
-{
+#ResponsiveMenu1-icon {
    display: block;
-   position: absolute;
    left: 30px;
+   position: absolute;
    top: 20px;
 }
-#ResponsiveMenu1-icon span 
-{
-   display: block;
-   margin-top: 4px;
-   height: 2px;
+#ResponsiveMenu1-icon span {
    background-color: #FFFFFF;
    color: #FFFFFF;
+   display: block;
+   height: 2px;
+   margin-top: 4px;
    width: 24px;
 }
-#wb_ResponsiveMenu1 ul li ul li .toggle:hover
-{
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover {
    background-color: #FFA500;
    color: #000000;
 }
-#wb_ResponsiveMenu1 .toggle .arrow-down 
-{
+#wb_ResponsiveMenu1 .toggle .arrow-down {
    border-top-color: #FFFFFF;
 }
-#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
-{ 
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down,
+#wb_ResponsiveMenu1 li .active .arrow-down {
    border-top-color: #000000;
 }
-#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
-{
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down {
    border-top-color: #FFFFFF;
 }
-#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
-{ 
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down,
+#wb_ResponsiveMenu1 ul li ul li .active .arrow-down {
    border-top-color: #000000;
 }
 }
-#PageFooter1
-{
+#PageFooter1 {
    background-color: #4F4F4F;
    background-image: none;
    box-sizing: border-box;
 }
-#capa2_Container
-{
-   width: 1650px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#wb_ResponsiveMenu1
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 0;
-}
-#capa4
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 1000px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 4;
-}
-#wb_MARCADOR1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 67px;
-   height: 60px;
-   visibility: hidden;
-   z-index: 7;
-}
-#capa5
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 1000px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 5;
-}
-#capa3_Container
-{
-   width: 1650px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#capa1_Container
-{
-   width: 1650px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#PageFooter1
-{
-   position: absolute;
-   overflow: hidden;
-   text-align: left;
-   left: 0px;
-   top: 5001px;
-   width: 100%;
-   height: 170px;
-   z-index: 8;
-}
-#capa1
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 1003px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 1;
-}
-#capa2
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 997px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 2;
-}
-#capa3
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 1001px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 3;
-}
-#MARCADOR1
-{
-   visibility: hidden;
-}
-#sticker_ADELANTE_
-{
-   position: fixed;
-   text-align: center;
-   left: auto;
-   right: 0px;
-   top: 0px;
-   width: 100%;
-   height: 65px;
-   z-index: 6;
-}
-#capa5_Container
-{
-   width: 1650px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#capa4_Container
-{
-   width: 1650px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-@media only screen and (min-width: 1280px) and (max-width: 1649px)
-{
-body
-{
+@media only screen and (min-width: 1280px) and (max-width: 1649px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 778px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/grand-theft-auto-v-gta-5-wallpaper-hd-2880x1800-194993.jpg);
-   background-repeat: repeat;
-   background-position: left top;
+#capa1 {
    background-attachment: fixed;
+   background-color: transparent;
+   background-image: url(images/grand%2dtheft%2dauto%2dv%2dgta%2d5%2dwallpaper%2dhd%2d2880x1800%2d194993.jpg);
    background-position: 50% 0;
+   background-position: left top;
+   background-repeat: repeat;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 1280px;
-}
-#capa2
-{
-   height: 773px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 778px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 1280px  !important;
+}
+#capa2 {
    background-color: #20B2AA;
    background-image: none;
-   margin: 0;
-}
-#capa2
-{
-   width: 100%;
-   margin: 0;
-}
-#capa2_Container
-{
-   width: 1280px;
-}
-#capa3
-{
-   height: 776px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 773px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa2 {
+   margin: 0;
+   width: 100%;
+}
+#capa2_Container {
+   width: 1280px  !important;
+}
+#capa3 {
    background-color: #6A5ACD;
    background-image: none;
-   margin: 0;
-}
-#capa3
-{
-   width: 100%;
-   margin: 0;
-}
-#capa3_Container
-{
-   width: 1280px;
-}
-#capa4
-{
-   height: 775px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 776px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa3 {
+   margin: 0;
+   width: 100%;
+}
+#capa3_Container {
+   width: 1280px  !important;
+}
+#capa4 {
    background-color: #F0E68C;
    background-image: none;
-   margin: 0;
-}
-#capa4
-{
-   width: 100%;
-   margin: 0;
-}
-#capa4_Container
-{
-   width: 1280px;
-}
-#capa5
-{
-   height: 775px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 775px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa4 {
+   margin: 0;
+   width: 100%;
+}
+#capa4_Container {
+   width: 1280px  !important;
+}
+#capa5 {
    background-color: #90EE90;
    background-image: none;
-   margin: 0;
-}
-#capa5
-{
-   width: 100%;
-   margin: 0;
-}
-#capa5_Container
-{
-   width: 1280px;
-}
-#sticker_ADELANTE_
-{
-   height: 61px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 775px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa5 {
+   margin: 0;
+   width: 100%;
+}
+#capa5_Container {
+   width: 1280px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: rgba(0,0,0,0.42);
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 61px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 51px;
-   height: 46px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 46px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 51px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#PageFooter1
-{
-   top: 5040px;
-   height: 131px;
-   visibility: visible;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#PageFooter1 {
    background-color: #4F4F4F;
    background-image: none;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   height: 131px  !important;
+   text-decoration: none;
+   top: 5040px  !important;
+   visibility: visible  !important;
 }
-#PageFooter1
-{
+#PageFooter1 {
    width: 100%;
 }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1279px)
-{
-body
-{
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 622px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/grand-theft-auto-v-gta-5-wallpaper-hd-2880x1800-194993.jpg);
-   background-repeat: repeat;
-   background-position: left top;
+#capa1 {
    background-attachment: fixed;
+   background-color: transparent;
+   background-image: url(images/grand%2dtheft%2dauto%2dv%2dgta%2d5%2dwallpaper%2dhd%2d2880x1800%2d194993.jpg);
    background-position: 50% 0;
+   background-position: left top;
+   background-repeat: repeat;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 1024px;
-}
-#capa2
-{
-   height: 618px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 622px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 1024px  !important;
+}
+#capa2 {
    background-color: #20B2AA;
    background-image: none;
-   margin: 0;
-}
-#capa2
-{
-   width: 100%;
-   margin: 0;
-}
-#capa2_Container
-{
-   width: 1024px;
-}
-#capa3
-{
-   height: 620px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 618px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa2 {
+   margin: 0;
+   width: 100%;
+}
+#capa2_Container {
+   width: 1024px  !important;
+}
+#capa3 {
    background-color: #6A5ACD;
    background-image: none;
-   margin: 0;
-}
-#capa3
-{
-   width: 100%;
-   margin: 0;
-}
-#capa3_Container
-{
-   width: 1024px;
-}
-#capa4
-{
-   height: 620px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 620px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa3 {
+   margin: 0;
+   width: 100%;
+}
+#capa3_Container {
+   width: 1024px  !important;
+}
+#capa4 {
    background-color: #F0E68C;
    background-image: none;
-   margin: 0;
-}
-#capa4
-{
-   width: 100%;
-   margin: 0;
-}
-#capa4_Container
-{
-   width: 1024px;
-}
-#capa5
-{
-   height: 620px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 620px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa4 {
+   margin: 0;
+   width: 100%;
+}
+#capa4_Container {
+   width: 1024px  !important;
+}
+#capa5 {
    background-color: #90EE90;
    background-image: none;
-   margin: 0;
-}
-#capa5
-{
-   width: 100%;
-   margin: 0;
-}
-#capa5_Container
-{
-   width: 1024px;
-}
-#sticker_ADELANTE_
-{
-   height: 59px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 620px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa5 {
+   margin: 0;
+   width: 100%;
+}
+#capa5_Container {
+   width: 1024px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: rgba(0,0,0,0.42);
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 59px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 40px;
-   height: 36px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 36px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 40px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#PageFooter1
-{
-   top: 5067px;
-   height: 104px;
-   visibility: visible;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#PageFooter1 {
    background-color: #4F4F4F;
    background-image: none;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   height: 104px  !important;
+   text-decoration: none;
+   top: 5067px  !important;
+   visibility: visible  !important;
 }
-#PageFooter1
-{
+#PageFooter1 {
    width: 100%;
 }
 }
-@media only screen and (min-width: 980px) and (max-width: 1023px)
-{
-body
-{
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 595px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/grand-theft-auto-v-gta-5-wallpaper-hd-2880x1800-194993.jpg);
-   background-repeat: repeat;
-   background-position: left top;
+#capa1 {
    background-attachment: fixed;
+   background-color: transparent;
+   background-image: url(images/grand%2dtheft%2dauto%2dv%2dgta%2d5%2dwallpaper%2dhd%2d2880x1800%2d194993.jpg);
    background-position: 50% 0;
+   background-position: left top;
+   background-repeat: repeat;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 980px;
-}
-#capa2
-{
-   height: 591px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 595px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 980px  !important;
+}
+#capa2 {
    background-color: #20B2AA;
    background-image: none;
-   margin: 0;
-}
-#capa2
-{
-   width: 100%;
-   margin: 0;
-}
-#capa2_Container
-{
-   width: 980px;
-}
-#capa3
-{
-   height: 593px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 591px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa2 {
+   margin: 0;
+   width: 100%;
+}
+#capa2_Container {
+   width: 980px  !important;
+}
+#capa3 {
    background-color: #6A5ACD;
    background-image: none;
-   margin: 0;
-}
-#capa3
-{
-   width: 100%;
-   margin: 0;
-}
-#capa3_Container
-{
-   width: 980px;
-}
-#capa4
-{
-   height: 593px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 593px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa3 {
+   margin: 0;
+   width: 100%;
+}
+#capa3_Container {
+   width: 980px  !important;
+}
+#capa4 {
    background-color: #F0E68C;
    background-image: none;
-   margin: 0;
-}
-#capa4
-{
-   width: 100%;
-   margin: 0;
-}
-#capa4_Container
-{
-   width: 980px;
-}
-#capa5
-{
-   height: 593px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 593px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa4 {
+   margin: 0;
+   width: 100%;
+}
+#capa4_Container {
+   width: 980px  !important;
+}
+#capa5 {
    background-color: #90EE90;
    background-image: none;
-   margin: 0;
-}
-#capa5
-{
-   width: 100%;
-   margin: 0;
-}
-#capa5_Container
-{
-   width: 980px;
-}
-#sticker_ADELANTE_
-{
-   height: 59px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 593px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa5 {
+   margin: 0;
+   width: 100%;
+}
+#capa5_Container {
+   width: 980px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: rgba(0,0,0,0.42);
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 59px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 38px;
-   height: 34px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 34px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 38px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#PageFooter1
-{
-   top: 5072px;
-   height: 99px;
-   visibility: visible;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#PageFooter1 {
    background-color: #4F4F4F;
    background-image: none;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   height: 99px  !important;
+   text-decoration: none;
+   top: 5072px  !important;
+   visibility: visible  !important;
 }
-#PageFooter1
-{
+#PageFooter1 {
    width: 100%;
 }
 }
-@media only screen and (min-width: 800px) and (max-width: 979px)
-{
-body
-{
+@media only screen and (min-width: 800px) and (max-width: 979px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 701px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/grand-theft-auto-v-gta-5-wallpaper-hd-2880x1800-194993.jpg);
-   background-repeat: repeat;
-   background-position: left top;
+#capa1 {
    background-attachment: fixed;
+   background-color: transparent;
+   background-image: url(images/grand%2dtheft%2dauto%2dv%2dgta%2d5%2dwallpaper%2dhd%2d2880x1800%2d194993.jpg);
    background-position: 50% 0;
+   background-position: left top;
+   background-repeat: repeat;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 800px;
-}
-#capa2
-{
-   height: 699px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 701px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 800px  !important;
+}
+#capa2 {
    background-color: #20B2AA;
    background-image: none;
-   margin: 0;
-}
-#capa2
-{
-   width: 100%;
-   margin: 0;
-}
-#capa2_Container
-{
-   width: 800px;
-}
-#capa3
-{
-   height: 700px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 699px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa2 {
+   margin: 0;
+   width: 100%;
+}
+#capa2_Container {
+   width: 800px  !important;
+}
+#capa3 {
    background-color: #6A5ACD;
    background-image: none;
-   margin: 0;
-}
-#capa3
-{
-   width: 100%;
-   margin: 0;
-}
-#capa3_Container
-{
-   width: 800px;
-}
-#capa4
-{
-   height: 700px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 700px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa3 {
+   margin: 0;
+   width: 100%;
+}
+#capa3_Container {
+   width: 800px  !important;
+}
+#capa4 {
    background-color: #F0E68C;
    background-image: none;
-   margin: 0;
-}
-#capa4
-{
-   width: 100%;
-   margin: 0;
-}
-#capa4_Container
-{
-   width: 800px;
-}
-#capa5
-{
-   height: 801px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 700px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa4 {
+   margin: 0;
+   width: 100%;
+}
+#capa4_Container {
+   width: 800px  !important;
+}
+#capa5 {
    background-color: #90EE90;
    background-image: none;
-   margin: 0;
-}
-#capa5
-{
-   width: 100%;
-   margin: 0;
-}
-#capa5_Container
-{
-   width: 800px;
-}
-#sticker_ADELANTE_
-{
-   height: 60px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 801px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa5 {
+   margin: 0;
+   width: 100%;
+}
+#capa5_Container {
+   width: 800px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: rgba(0,0,0,0.42);
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 60px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 31px;
-   height: 27px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 27px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 31px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#PageFooter1
-{
-   top: 3601px;
-   height: 159px;
-   visibility: visible;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#PageFooter1 {
    background-color: #4F4F4F;
    background-image: none;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   height: 159px  !important;
+   text-decoration: none;
+   top: 3601px  !important;
+   visibility: visible  !important;
 }
-#PageFooter1
-{
+#PageFooter1 {
    width: 100%;
 }
 }
-@media only screen and (min-width: 768px) and (max-width: 799px)
-{
-body
-{
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 1200px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/grand-theft-auto-v-gta-5-wallpaper-hd-2880x1800-194993.jpg);
-   background-repeat: repeat;
-   background-position: left top;
+#capa1 {
    background-attachment: fixed;
+   background-color: transparent;
+   background-image: url(images/grand%2dtheft%2dauto%2dv%2dgta%2d5%2dwallpaper%2dhd%2d2880x1800%2d194993.jpg);
    background-position: 50% 0;
+   background-position: left top;
+   background-repeat: repeat;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 768px;
-}
-#capa2
-{
-   height: 1201px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 1200px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 768px  !important;
+}
+#capa2 {
    background-color: #20B2AA;
    background-image: none;
-   margin: 0;
-}
-#capa2
-{
-   width: 100%;
-   margin: 0;
-}
-#capa2_Container
-{
-   width: 768px;
-}
-#capa3
-{
-   height: 1198px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 1201px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa2 {
+   margin: 0;
+   width: 100%;
+}
+#capa2_Container {
+   width: 768px  !important;
+}
+#capa3 {
    background-color: #6A5ACD;
    background-image: none;
-   margin: 0;
-}
-#capa3
-{
-   width: 100%;
-   margin: 0;
-}
-#capa3_Container
-{
-   width: 768px;
-}
-#capa4
-{
-   height: 1200px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 1198px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa3 {
+   margin: 0;
+   width: 100%;
+}
+#capa3_Container {
+   width: 768px  !important;
+}
+#capa4 {
    background-color: #F0E68C;
    background-image: none;
-   margin: 0;
-}
-#capa4
-{
-   width: 100%;
-   margin: 0;
-}
-#capa4_Container
-{
-   width: 768px;
-}
-#capa5
-{
-   height: 1202px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 1200px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa4 {
+   margin: 0;
+   width: 100%;
+}
+#capa4_Container {
+   width: 768px  !important;
+}
+#capa5 {
    background-color: #90EE90;
    background-image: none;
-   margin: 0;
-}
-#capa5
-{
-   width: 100%;
-   margin: 0;
-}
-#capa5_Container
-{
-   width: 768px;
-}
-#sticker_ADELANTE_
-{
-   height: 57px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 1202px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa5 {
+   margin: 0;
+   width: 100%;
+}
+#capa5_Container {
+   width: 768px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: rgba(0,0,0,0.42);
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 57px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 29px;
-   height: 25px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 25px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 29px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#PageFooter1
-{
-   top: 6001px;
-   height: 149px;
-   visibility: visible;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#PageFooter1 {
    background-color: #4F4F4F;
    background-image: none;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   height: 149px  !important;
+   text-decoration: none;
+   top: 6001px  !important;
+   visibility: visible  !important;
 }
-#PageFooter1
-{
+#PageFooter1 {
    width: 100%;
 }
 }
-@media only screen and (max-width: 767px)
-{
-body
-{
+@media only screen and (max-width: 767px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 500px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/grand-theft-auto-v-gta-5-wallpaper-hd-2880x1800-194993.jpg);
-   background-repeat: repeat;
-   background-position: left top;
+#capa1 {
    background-attachment: fixed;
+   background-color: transparent;
+   background-image: url(images/grand%2dtheft%2dauto%2dv%2dgta%2d5%2dwallpaper%2dhd%2d2880x1800%2d194993.jpg);
    background-position: 50% 0;
+   background-position: left top;
+   background-repeat: repeat;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 320px;
-}
-#capa2
-{
-   height: 601px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 500px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 320px  !important;
+}
+#capa2 {
    background-color: #20B2AA;
    background-image: none;
-   margin: 0;
-}
-#capa2
-{
-   width: 100%;
-   margin: 0;
-}
-#capa2_Container
-{
-   width: 320px;
-}
-#capa3
-{
-   height: 600px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 601px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa2 {
+   margin: 0;
+   width: 100%;
+}
+#capa2_Container {
+   width: 320px  !important;
+}
+#capa3 {
    background-color: #6A5ACD;
    background-image: none;
-   margin: 0;
-}
-#capa3
-{
-   width: 100%;
-   margin: 0;
-}
-#capa3_Container
-{
-   width: 320px;
-}
-#capa4
-{
-   height: 600px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 600px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa3 {
+   margin: 0;
+   width: 100%;
+}
+#capa3_Container {
+   width: 320px  !important;
+}
+#capa4 {
    background-color: #F0E68C;
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 600px  !important;
+   margin: 0;
    opacity: 3.00;
-   margin: 0;
-}
-#capa4
-{
-   width: 100%;
-   margin: 0;
-}
-#capa4_Container
-{
-   width: 320px;
-}
-#capa5
-{
-   height: 601px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa4 {
+   margin: 0;
+   width: 100%;
+}
+#capa4_Container {
+   width: 320px  !important;
+}
+#capa5 {
    background-color: #90EE90;
    background-image: none;
-   margin: 0;
-}
-#capa5
-{
-   width: 100%;
-   margin: 0;
-}
-#capa5_Container
-{
-   width: 320px;
-}
-#sticker_ADELANTE_
-{
-   height: 63px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 601px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa5 {
+   margin: 0;
+   width: 100%;
+}
+#capa5_Container {
+   width: 320px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: rgba(0,0,0,0.42);
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 63px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 12px;
-   height: 10px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 10px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 12px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#PageFooter1
-{
-   top: 2902px;
-   height: 104px;
-   visibility: visible;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#PageFooter1 {
    background-color: #4F4F4F;
    background-image: none;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   height: 104px  !important;
+   text-decoration: none;
+   top: 2902px  !important;
+   visibility: visible  !important;
 }
-#PageFooter1
-{
+#PageFooter1 {
    width: 100%;
 }
 }

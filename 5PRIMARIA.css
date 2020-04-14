@@ -1,42 +1,36 @@
-body
-{
+body {
    background-color: #A9A9A9;
    color: #000000;
    font-family: Arial;
-   font-weight: normal;
    font-size: 13px;
+   font-weight: normal;
    line-height: 1.1875;
    margin: 0;
    padding: 0;
 }
-#capa1
-{
+#capa1 {
+   background-attachment: scroll;
    background-color: transparent;
    background-image: url(images/EDUCA.jpg);
-   background-repeat: repeat;
    background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
+   background-repeat: repeat;
    background-size: cover;
    margin: 0;
 }
-#capa1-overlay
-{
-   position: absolute;
-   top: 0;
-   right: 0;
+#capa1-overlay {
+   background-color: #000000;
    bottom: 0;
    left: 0;
-   background-color: #000000;
    opacity: 0.8;
+   position: absolute;
+   right: 0;
+   top: 0;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    background-color: #000000;
    background-image: none;
 }
-#wb_ResponsiveMenu1
-{
+#wb_ResponsiveMenu1 {
    background-color: rgba(0,0,0,1.00);
    display: block;
    font-family: Acme;
@@ -44,5774 +38,4818 @@ body
    text-align: center;
    width: 100%;
 }
-#ResponsiveMenu1
-{
+#ResponsiveMenu1 {
    background-color: #000000;
    display: inline-block;
    height: 65px;
 }
-#wb_ResponsiveMenu1 ul
-{
+#wb_ResponsiveMenu1 ul {
    list-style: none;
    margin: 0;
    padding: 0;
    position: relative;
 }
-#wb_ResponsiveMenu1 ul:after
-{
+#wb_ResponsiveMenu1 ul:after {
    clear: both;
    content: "";
    display: block;
 }
-#wb_ResponsiveMenu1 ul li
-{
+#wb_ResponsiveMenu1 ul li {
    background-color: #000000;
    display: list-item;
    float: left;
    list-style: none;
    z-index: 9999;
 }
-#wb_ResponsiveMenu1 ul li i
-{
+#wb_ResponsiveMenu1 ul li i {
    font-size: 20px;
    width: 20px;
 }
-#wb_ResponsiveMenu1 ul li a 
-{
+#wb_ResponsiveMenu1 ul li a {
    color: #FFFFFF;
    font-family: Acme;
-   font-weight: normal;
    font-size: 13px;
    font-style: normal;
+   font-weight: normal;
    padding: 15px 30px 15px 30px;
    text-align: center;
    text-decoration: none;
 }
-#wb_ResponsiveMenu1 > ul > li > a 
-{
+#wb_ResponsiveMenu1 > ul > li > a {
    height: 35px;
 }
-.ResponsiveMenu1 a 
-{
+.ResponsiveMenu1 a {
    display: block;
 }
-#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
-{ 
+#wb_ResponsiveMenu1 li a:hover,
+#wb_ResponsiveMenu1 li .active {
    background-color: #FFA500;
    color: #000000;
 }
-#wb_ResponsiveMenu1 ul ul
-{
+#wb_ResponsiveMenu1 ul ul {
    display: none;
    position: absolute;
    top: 65px;
 }
-#wb_ResponsiveMenu1 ul li:hover > ul
-{
+#wb_ResponsiveMenu1 ul li:hover > ul {
    display: list-item;
 }
-#wb_ResponsiveMenu1 ul ul li 
-{
+#wb_ResponsiveMenu1 ul ul li {
    background-color: #000000;
    color: #FFFFFF;
    float: none;
    position: relative;
    width: 129px;
 }
-#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
-{
+#wb_ResponsiveMenu1 ul ul li a:hover,
+#wb_ResponsiveMenu1 ul ul li .active {
    background-color: #FFA500;
    color: #000000;
 }
-#wb_ResponsiveMenu1 ul ul li i 
-{
+#wb_ResponsiveMenu1 ul ul li i {
    margin-right: 6px;
    vertical-align: middle;
 }
-#wb_ResponsiveMenu1 ul ul li a 
-{
+#wb_ResponsiveMenu1 ul ul li a {
    color: #FFFFFF;
-   padding-top: 15px;
-   padding-right: 20px;
    padding-bottom: 15px;
+   padding-right: 20px;
+   padding-top: 15px;
    text-align: left;
    vertical-align: middle;
 }
-#wb_ResponsiveMenu1 ul ul ul li 
-{
+#wb_ResponsiveMenu1 ul ul ul li {
    left: 129px;
    position: relative;
    top: -65px;
 }
-#wb_ResponsiveMenu1 .arrow-down 
-{
+#wb_ResponsiveMenu1 .arrow-down {
+   border-bottom: 0 dotted;
+   border-left: 4px solid transparent;
+   border-right: 4px solid transparent;
+   border-top: 4px solid #FFFFFF;
    display: inline-block;
-   width: 0;
    height: 0;
    margin-left: 2px;
    vertical-align: middle;
-   border-top: 4px solid #FFFFFF;
-   border-right: 4px solid transparent;
-   border-left: 4px solid transparent;
-   border-bottom: 0 dotted;
-}
-#wb_ResponsiveMenu1 .arrow-left 
-{
-   display: inline-block;
    width: 0;
+}
+#wb_ResponsiveMenu1 .arrow-left {
+   border-bottom: 4px solid transparent;
+   border-left: 4px solid #FFFFFF;
+   border-right: 0 dotted;
+   border-top: 4px solid transparent;
+   display: inline-block;
    height: 0;
    margin-left: 4px;
    vertical-align: middle;
-   border-left: 4px solid #FFFFFF;
-   border-top: 4px solid transparent;
-   border-bottom: 4px solid transparent;
-   border-right: 0 dotted;
+   width: 0;
 }
-#wb_ResponsiveMenu1 li a:hover .arrow-down
-{ 
+#wb_ResponsiveMenu1 li a:hover .arrow-down {
    border-top-color: #000000;
 }
-#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
-{ 
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left,
+#wb_ResponsiveMenu1 ul ul li .active .arrow-left {
    border-left-color: #000000;
 }
-#wb_ResponsiveMenu1 .toggle,[id^=ResponsiveMenu1-submenu]
-{
+#wb_ResponsiveMenu1 .toggle,
+[id^=ResponsiveMenu1-submenu] {
    display: none;
 }
-@media all and (max-width:768px) 
-{
-#wb_ResponsiveMenu1 
-{
+@media all and (max-width:768px) {
+#wb_ResponsiveMenu1 {
    margin: 0;
    text-align: left;
 }
-#wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
-{
+#wb_ResponsiveMenu1 ul li a,
+#wb_ResponsiveMenu1 .toggle {
    font-size: 13px;
-   font-weight: normal;
    font-style: normal;
+   font-weight: normal;
    padding: 15px 20px 15px 20px;
 }
-#wb_ResponsiveMenu1 .toggle + a
-{
-   display: none !important;
+#wb_ResponsiveMenu1 .toggle + a {
+   display: none  !important;
 }
-.ResponsiveMenu1 
-{
+.ResponsiveMenu1 {
    display: none;
    z-index: 9999;
 }
-#ResponsiveMenu1 
-{
+#ResponsiveMenu1 {
    background-color: transparent;
    display: none;
 }
-#wb_ResponsiveMenu1 > ul > li > a 
-{
+#wb_ResponsiveMenu1 > ul > li > a {
    height: auto;
 }
-#wb_ResponsiveMenu1 .toggle 
-{
-   display: block;
+#wb_ResponsiveMenu1 .toggle {
    background-color: #000000;
-   color: #FFFFFF;
-   padding: 0px 20px 0px 20px;
-   line-height: 50px;
-   text-decoration: none;
    border: none;
+   color: #FFFFFF;
+   display: block;
+   line-height: 50px;
+   padding: 0px 20px 0px 20px;
    position: relative;
+   text-decoration: none;
 }
-#wb_ResponsiveMenu1 .toggle:hover 
-{
+#wb_ResponsiveMenu1 .toggle:hover {
    background-color: #FFA500;
    color: #000000;
 }
-[id^=ResponsiveMenu1-submenu]:checked + ul 
-{
-   display: block !important;
+[id^=ResponsiveMenu1-submenu]:checked + ul {
+   display: block  !important;
 }
-#ResponsiveMenu1-title
-{
+#ResponsiveMenu1-title {
    height: 65px;
-   line-height: 65px !important;
+   line-height: 65px  !important;
    text-align: center;
 }
-#wb_ResponsiveMenu1 ul li 
-{
+#wb_ResponsiveMenu1 ul li {
    display: block;
-   width: 100%;
    text-align: left;
+   width: 100%;
 }
 #wb_ResponsiveMenu1 ul ul .toggle,
-#wb_ResponsiveMenu1 ul ul a 
-{
+#wb_ResponsiveMenu1 ul ul a {
    padding: 0 40px;
 }
 #wb_ResponsiveMenu1 a:hover,
-#wb_ResponsiveMenu1 ul ul ul a 
-{
+#wb_ResponsiveMenu1 ul ul ul a {
    background-color: #000000;
    color: #FFFFFF;
 }
 #wb_ResponsiveMenu1 ul li ul li .toggle,
-#wb_ResponsiveMenu1 ul ul a 
-{
+#wb_ResponsiveMenu1 ul ul a {
    background-color: #000000;
    color: #FFFFFF;
 }
-#wb_ResponsiveMenu1 ul ul ul a 
-{
+#wb_ResponsiveMenu1 ul ul ul a {
    padding: 15px 20px 15px 60px;
 }
-#wb_ResponsiveMenu1 ul li a 
-{
+#wb_ResponsiveMenu1 ul li a {
    text-align: left;
 }
-#wb_ResponsiveMenu1 ul li a br 
-{
+#wb_ResponsiveMenu1 ul li a br {
    display: none;
 }
-#wb_ResponsiveMenu1 ul li i 
-{
+#wb_ResponsiveMenu1 ul li i {
    margin-right: 6px;
 }
-#wb_ResponsiveMenu1 ul ul 
-{
+#wb_ResponsiveMenu1 ul ul {
    float: none;
    position: static;
 }
 #wb_ResponsiveMenu1 ul ul li:hover > ul,
-#wb_ResponsiveMenu1 ul li:hover > ul 
-{
+#wb_ResponsiveMenu1 ul li:hover > ul {
    display: none;
 }
-#wb_ResponsiveMenu1 ul ul li 
-{
+#wb_ResponsiveMenu1 ul ul li {
    display: block;
    width: 100%;
 }
-#wb_ResponsiveMenu1 ul ul ul li 
-{
+#wb_ResponsiveMenu1 ul ul ul li {
    position: static;
 }
-#ResponsiveMenu1-icon 
-{
+#ResponsiveMenu1-icon {
    display: block;
-   position: absolute;
    left: 30px;
+   position: absolute;
    top: 20px;
 }
-#ResponsiveMenu1-icon span 
-{
-   display: block;
-   margin-top: 4px;
-   height: 2px;
+#ResponsiveMenu1-icon span {
    background-color: #FFFFFF;
    color: #FFFFFF;
+   display: block;
+   height: 2px;
+   margin-top: 4px;
    width: 24px;
 }
-#wb_ResponsiveMenu1 ul li ul li .toggle:hover
-{
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover {
    background-color: #FFA500;
    color: #000000;
 }
-#wb_ResponsiveMenu1 .toggle .arrow-down 
-{
+#wb_ResponsiveMenu1 .toggle .arrow-down {
    border-top-color: #FFFFFF;
 }
-#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
-{ 
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down,
+#wb_ResponsiveMenu1 li .active .arrow-down {
    border-top-color: #000000;
 }
-#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
-{
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down {
    border-top-color: #FFFFFF;
 }
-#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
-{ 
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down,
+#wb_ResponsiveMenu1 ul li ul li .active .arrow-down {
    border-top-color: #000000;
 }
 }
-#wb_Text1 
-{
+#wb_Text1 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: left;
 }
-#wb_Text1
-{
+#wb_Text1 {
    color: #00DF00;
    font-family: Acme;
-   font-weight: normal;
    font-size: 96px;
+   font-weight: normal;
    line-height: 121px;
 }
-#wb_Text1 p, #wb_Text1 ul
-{
+#wb_Text1 p,
+#wb_Text1 ul {
    margin: 0;
    padding: 0;
 }
-#Image2
-{
+#Image2 {
    border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
+   height: 100%;
    left: 0;
+   margin: 0;
+   padding: 0;
    top: 0;
    width: 100%;
-   height: 100%;
 }
-#wb_1-BIMESTRE
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
+#wb_1-BIMESTRE {
    background-color: #000000;
    background-image: none;
    border: 0px solid transparent;
    box-sizing: border-box;
+   clear: both;
+   display: table;
    margin: 0;
+   position: relative;
+   table-layout: fixed;
+   text-align: center;
+   width: 100%;
 }
-#1-BIMESTRE
-{
+#1-BIMESTRE {
    box-sizing: border-box;
-   padding: 10px 15px 10px 15px;
-   margin-right: auto;
    margin-left: auto;
+   margin-right: auto;
+   padding: 10px 15px 10px 15px;
 }
-#1-BIMESTRE > .row
-{
-   margin-right: -15px;
+#1-BIMESTRE > .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1-BIMESTRE > .row > .col-1
-{
+#1-BIMESTRE > .row > .col-1 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 15px;
    padding-left: 15px;
+   padding-right: 15px;
    position: relative;
 }
-#1-BIMESTRE > .row > .col-1
-{
+#1-BIMESTRE > .row > .col-1 {
    float: left;
 }
-#1-BIMESTRE > .row > .col-1
-{
+#1-BIMESTRE > .row > .col-1 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 100%;
    text-align: center;
+   width: 100%;
 }
 #1-BIMESTRE:before,
 #1-BIMESTRE:after,
 #1-BIMESTRE .row:before,
-#1-BIMESTRE .row:after
-{
-   display: table;
+#1-BIMESTRE .row:after {
    content: " ";
+   display: table;
 }
 #1-BIMESTRE:after,
-#1-BIMESTRE .row:after
-{
+#1-BIMESTRE .row:after {
    clear: both;
 }
-@media (max-width: 480px)
-{
-#1-BIMESTRE > .row > .col-1
-{
+@media (max-width: 480px) {
+#1-BIMESTRE > .row > .col-1 {
    float: none;
-   width: 100% !important;
+   width: 100%  !important;
 }
 }
-#wb_Text2 
-{
+#wb_Text2 {
    background-color: transparent;
    background-image: none;
    border: 10px solid #000000;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text2
-{
+#wb_Text2 {
    color: #ADFF2F;
    font-family: Acme;
-   font-weight: normal;
    font-size: 29px;
+   font-weight: normal;
    line-height: 37.5px;
 }
-#wb_Text2 p, #wb_Text2 ul
-{
+#wb_Text2 p,
+#wb_Text2 ul {
    margin: 0;
    padding: 0;
 }
-#wb_1SEMANA1B
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
+#wb_1SEMANA1B {
    background-color: #000000;
    background-image: none;
    border: 0px solid transparent;
    box-sizing: border-box;
+   clear: both;
+   display: table;
    margin: 0;
+   position: relative;
+   table-layout: fixed;
+   text-align: center;
+   width: 100%;
 }
-#1SEMANA1B
-{
+#1SEMANA1B {
    box-sizing: border-box;
-   padding: 10px 15px 10px 15px;
-   margin-right: auto;
    margin-left: auto;
+   margin-right: auto;
    max-width: 1280px;
+   padding: 10px 15px 10px 15px;
 }
-#1SEMANA1B > .row
-{
-   margin-right: -15px;
+#1SEMANA1B > .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1SEMANA1B > .row > .col-1
-{
+#1SEMANA1B > .row > .col-1 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 15px;
    padding-left: 15px;
+   padding-right: 15px;
    position: relative;
 }
-#1SEMANA1B > .row > .col-1
-{
+#1SEMANA1B > .row > .col-1 {
    float: left;
 }
-#1SEMANA1B > .row > .col-1
-{
+#1SEMANA1B > .row > .col-1 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 100%;
    text-align: center;
+   width: 100%;
 }
 #1SEMANA1B:before,
 #1SEMANA1B:after,
 #1SEMANA1B .row:before,
-#1SEMANA1B .row:after
-{
-   display: table;
+#1SEMANA1B .row:after {
    content: " ";
+   display: table;
 }
 #1SEMANA1B:after,
-#1SEMANA1B .row:after
-{
+#1SEMANA1B .row:after {
    clear: both;
 }
-@media (max-width: 480px)
-{
-#1SEMANA1B > .row > .col-1
-{
+@media (max-width: 480px) {
+#1SEMANA1B > .row > .col-1 {
    float: none;
-   width: 100% !important;
+   width: 100%  !important;
 }
 }
-#wb_Text3 
-{
+#wb_Text3 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text3
-{
+#wb_Text3 {
    color: #FFFFFF;
    font-family: Acme;
-   font-weight: normal;
    font-size: 20px;
+   font-weight: normal;
    line-height: 25px;
 }
-#wb_Text3 p, #wb_Text3 ul
-{
+#wb_Text3 p,
+#wb_Text3 ul {
    margin: 0;
    padding: 0;
 }
-#wb_LayoutGrid1
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
+#wb_LayoutGrid1 {
    background-color: #FFFFFF;
    background-image: none;
    border: 5px solid #000000;
    box-sizing: border-box;
+   clear: both;
+   display: table;
    margin: 0;
-}
-#LayoutGrid1
-{
-   box-sizing: border-box;
+   position: relative;
+   table-layout: fixed;
+   text-align: center;
    width: 100%;
-   padding: 20px 15px 20px 15px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1280px;
 }
-#LayoutGrid1 > .row
-{
+#LayoutGrid1 {
+   box-sizing: border-box;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1280px;
+   padding: 20px 15px 20px 15px;
+   width: 100%;
+}
+#LayoutGrid1 > .row {
    display: grid;
    grid-template-columns: repeat(12, 8.333333%);
-   margin-right: -15px;
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
-{
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2 {
    box-sizing: border-box;
    font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
    grid-column: span 12;
+   min-height: 1px;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
-{
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2 {
 }
-#LayoutGrid1 > .row > .col-1
-{
+#LayoutGrid1 > .row > .col-1 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
    grid-column: span 8;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: center;
 }
-#LayoutGrid1 > .row > .col-2
-{
+#LayoutGrid1 > .row > .col-2 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
    grid-column: span 4;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: center;
 }
-@media (max-width: 480px)
-{
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
-{
-   width: 100%;
+@media (max-width: 480px) {
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2 {
    grid-column: span 12;
+   width: 100%;
 }
 }
-#wb_Text9 
-{
+#wb_Text9 {
    background-color: #F5F5F5;
    background-image: none;
    border: 10px solid #F5F5F5;
    border-radius: 15px;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: left;
 }
-#wb_Text9
-{
+#wb_Text9 {
    color: #000000;
    font-family: Acme;
-   font-weight: normal;
    font-size: 17px;
+   font-weight: normal;
    line-height: 22.5px;
 }
-#wb_Text9 p, #wb_Text9 ul
-{
+#wb_Text9 p,
+#wb_Text9 ul {
    margin: 0;
    padding: 0;
 }
-#wb_Text6 
-{
+#wb_Text6 {
    background-color: #008B8B;
    background-image: none;
    border: 10px solid #008B8B;
    border-radius: 10px;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text6 div
-{
+#wb_Text6 div {
    text-align: center;
 }
-#wb_Text7 
-{
+#wb_Text7 {
    background-color: #FF0000;
    background-image: none;
    border: 10px solid #FF0000;
    border-radius: 10px;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text7 div
-{
+#wb_Text7 div {
    text-align: center;
 }
-#wb_Text8 
-{
+#wb_Text8 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: left;
 }
-#wb_Text8
-{
+#wb_Text8 {
    color: #000000;
    font-family: Acme;
-   font-weight: normal;
    font-size: 20px;
+   font-weight: normal;
    line-height: 25px;
 }
-#wb_Text8 p, #wb_Text8 ul
-{
+#wb_Text8 p,
+#wb_Text8 ul {
    margin: 0;
    padding: 0;
 }
-#wb_Picture1
-{
+#wb_Picture1 {
    margin: 0;
    vertical-align: top;
 }
-#Picture1
-{
+#Picture1 {
    border: 5px groove rgba(0,0,0,0.60);
    border-radius: 15px;
    box-sizing: border-box;
-   padding: 0;
    display: block;
-   width: 100%;
    height: auto;
-   max-width: 800px;
    margin-left: auto;
    margin-right: auto;
+   max-width: 800px;
+   padding: 0;
    vertical-align: top;
+   width: 100%;
 }
-#wb_Image6
-{
+#wb_Image6 {
    margin: 0;
    vertical-align: top;
 }
-#Image6
-{
+#Image6 {
    border: 10px solid rgba(169,169,169,0.00);
    border-radius: 20px;
    box-sizing: border-box;
-   padding: 0;
    display: block;
-   width: 100%;
    height: auto;
-   max-width: 800px;
    margin-left: auto;
    margin-right: auto;
+   max-width: 800px;
+   padding: 0;
    vertical-align: top;
+   width: 100%;
 }
-#Line1
-{
+#Line1 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#Line2
-{
+#Line2 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#wb_Text46 
-{
+#wb_Text46 {
    background-color: #006400;
    background-image: none;
    border: 10px solid #006400;
    border-radius: 20px;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text46
-{
+#wb_Text46 {
    color: #FFFF00;
    font-family: Acme;
-   font-weight: normal;
    font-size: 20px;
+   font-weight: normal;
    line-height: 25px;
 }
-#wb_Text46 p, #wb_Text46 ul
-{
+#wb_Text46 p,
+#wb_Text46 ul {
    margin: 0;
    padding: 0;
 }
-#Line3
-{
+#Line3 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#wb_Image3
-{
+#wb_Image3 {
    margin: 0;
    vertical-align: top;
 }
-#Image3
-{
+#Image3 {
    border: 10px solid transparent;
    box-sizing: border-box;
-   padding: 0;
    display: block;
-   width: 100%;
    height: auto;
-   max-width: 400px;
    margin-left: auto;
    margin-right: auto;
+   max-width: 400px;
+   padding: 0;
    vertical-align: top;
+   width: 100%;
 }
-#Line4
-{
+#Line4 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#wb_LayoutGrid6
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
+#wb_LayoutGrid6 {
    background-color: #000000;
    background-image: none;
    border: 0px solid transparent;
    box-sizing: border-box;
+   clear: both;
+   display: table;
    margin: 0;
+   position: relative;
+   table-layout: fixed;
+   text-align: center;
+   width: 100%;
 }
-#LayoutGrid6
-{
+#LayoutGrid6 {
    box-sizing: border-box;
-   padding: 20px 15px 20px 15px;
-   margin-right: auto;
    margin-left: auto;
+   margin-right: auto;
+   padding: 20px 15px 20px 15px;
 }
-#LayoutGrid6 > .row
-{
-   margin-right: -15px;
+#LayoutGrid6 > .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
+#LayoutGrid6 > .row > .col-1 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 15px;
    padding-left: 15px;
+   padding-right: 15px;
    position: relative;
 }
-#LayoutGrid6 > .row > .col-1
-{
+#LayoutGrid6 > .row > .col-1 {
    float: left;
 }
-#LayoutGrid6 > .row > .col-1
-{
+#LayoutGrid6 > .row > .col-1 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 100%;
    text-align: center;
+   width: 100%;
 }
 #LayoutGrid6:before,
 #LayoutGrid6:after,
 #LayoutGrid6 .row:before,
-#LayoutGrid6 .row:after
-{
-   display: table;
+#LayoutGrid6 .row:after {
    content: " ";
+   display: table;
 }
 #LayoutGrid6:after,
-#LayoutGrid6 .row:after
-{
+#LayoutGrid6 .row:after {
    clear: both;
 }
-@media (max-width: 480px)
-{
-#LayoutGrid6 > .row > .col-1
-{
+@media (max-width: 480px) {
+#LayoutGrid6 > .row > .col-1 {
    float: none;
-   width: 100% !important;
+   width: 100%  !important;
 }
 }
-#wb_Text17 
-{
+#wb_Text17 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text17 div
-{
+#wb_Text17 div {
    text-align: center;
 }
-#wb_Text11 
-{
+#wb_Text11 {
    background-color: #006400;
    background-image: none;
    border: 10px solid #006400;
    border-radius: 20px;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text11
-{
+#wb_Text11 {
    color: #FFFFFF;
    font-family: Acme;
-   font-weight: normal;
    font-size: 20px;
+   font-weight: normal;
    line-height: 25px;
 }
-#wb_Text11 p, #wb_Text11 ul
-{
+#wb_Text11 p,
+#wb_Text11 ul {
    margin: 0;
    padding: 0;
 }
-#wb_Text12 
-{
+#wb_Text12 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: left;
 }
-#wb_Text12
-{
+#wb_Text12 {
    color: #000000;
    font-family: Arial;
-   font-weight: normal;
    font-size: 19px;
+   font-weight: normal;
    line-height: 21px;
 }
-#wb_Text12 p, #wb_Text12 ul
-{
+#wb_Text12 p,
+#wb_Text12 ul {
    margin: 0;
    padding: 0;
 }
-#wb_Picture2
-{
+#wb_Picture2 {
    margin: 0;
    vertical-align: top;
 }
-#Picture2
-{
+#Picture2 {
    border: 5px groove rgba(0,0,0,0.60);
    border-radius: 15px;
    box-sizing: border-box;
-   padding: 0;
    display: block;
-   width: 100%;
    height: auto;
-   max-width: 800px;
    margin-left: auto;
    margin-right: auto;
+   max-width: 800px;
+   padding: 0;
    vertical-align: top;
+   width: 100%;
 }
-#Line5
-{
+#Line5 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#wb_PANELC
-{
+#wb_PANELC {
    margin: 0;
    vertical-align: top;
 }
-#PANELC
-{
+#PANELC {
    border: 5px groove rgba(0,0,0,0.60);
    border-radius: 15px;
    box-sizing: border-box;
-   padding: 0;
    display: block;
-   width: 100%;
    height: auto;
-   max-width: 1000px;
    margin-left: auto;
    margin-right: auto;
+   max-width: 1000px;
+   padding: 0;
    vertical-align: top;
+   width: 100%;
 }
-#wb_Text13 
-{
+#wb_Text13 {
    background-color: #FF1493;
    background-image: none;
    border: 10px solid #FF1493;
    border-radius: 20px;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text13
-{
+#wb_Text13 {
    color: #FFFFFF;
    font-family: Acme;
-   font-weight: normal;
    font-size: 21px;
+   font-weight: normal;
    line-height: 26px;
 }
-#wb_Text13 p, #wb_Text13 ul
-{
+#wb_Text13 p,
+#wb_Text13 ul {
    margin: 0;
    padding: 0;
 }
-#Line6
-{
+#Line6 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#wb_Image4
-{
+#wb_Image4 {
    margin: 0;
    vertical-align: top;
 }
-#Image4
-{
+#Image4 {
    border: 0px solid #000000;
    border-radius: 20px;
    box-sizing: border-box;
-   padding: 0;
    display: block;
-   width: 100%;
    height: auto;
-   max-width: 444px;
    margin-left: auto;
    margin-right: auto;
+   max-width: 444px;
+   padding: 0;
    vertical-align: top;
+   width: 100%;
 }
-#Line7
-{
+#Line7 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#Line8
-{
+#Line8 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#wb_Text14 
-{
+#wb_Text14 {
    background-color: #004EC0;
    background-image: none;
    border: 10px solid #004EC0;
    border-radius: 20px;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text14
-{
+#wb_Text14 {
    color: #FFFFFF;
    font-family: Acme;
-   font-weight: normal;
    font-size: 20px;
+   font-weight: normal;
    line-height: 25px;
 }
-#wb_Text14 p, #wb_Text14 ul
-{
+#wb_Text14 p,
+#wb_Text14 ul {
    margin: 0;
    padding: 0;
 }
-#Line9
-{
+#Line9 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#wb_Picture3
-{
+#wb_Picture3 {
    margin: 0;
    vertical-align: top;
 }
-#Picture3
-{
+#Picture3 {
    border: 5px groove rgba(0,0,0,0.60);
    border-radius: 15px;
    box-sizing: border-box;
-   padding: 0;
    display: block;
-   width: 100%;
    height: auto;
-   max-width: 850px;
    margin-left: auto;
    margin-right: auto;
+   max-width: 850px;
+   padding: 0;
    vertical-align: top;
+   width: 100%;
 }
-#Line11
-{
+#Line11 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#wb_Text45 
-{
+#wb_Text45 {
    background-color: #FFD700;
    background-image: none;
    border: 10px solid transparent;
    border-radius: 20px;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text45
-{
+#wb_Text45 {
    color: #000000;
    font-family: Acme;
-   font-weight: normal;
    font-size: 20px;
+   font-weight: normal;
    line-height: 25px;
 }
-#wb_Text45 p, #wb_Text45 ul
-{
+#wb_Text45 p,
+#wb_Text45 ul {
    margin: 0;
    padding: 0;
 }
-#wb_Image21
-{
+#wb_Image21 {
    margin: 0;
    vertical-align: top;
 }
-#Image21
-{
+#Image21 {
    border: 10px solid transparent;
    border-radius: 20px;
    box-sizing: border-box;
-   padding: 0;
    display: block;
-   width: 100%;
    height: auto;
-   max-width: 900px;
    margin-left: auto;
    margin-right: auto;
+   max-width: 900px;
+   padding: 0;
    vertical-align: top;
+   width: 100%;
 }
-#Line12
-{
+#Line12 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#wb_Text15 
-{
+#wb_Text15 {
    background-color: #004EC0;
    background-image: none;
    border: 10px solid #004EC0;
    border-radius: 20px;
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
-#wb_Text15
-{
+#wb_Text15 {
    color: #FFFFFF;
    font-family: Acme;
-   font-weight: normal;
    font-size: 20px;
+   font-weight: normal;
    line-height: 25px;
 }
-#wb_Text15 p, #wb_Text15 ul
-{
+#wb_Text15 p,
+#wb_Text15 ul {
    margin: 0;
    padding: 0;
 }
-#Line13
-{
+#Line13 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#YouTube1
-{
-   position: absolute;
+#YouTube1 {
+   border-width: 0;
+   height: 100%;
    left: 0;
+   position: absolute;
    top: 0;
    width: 100%;
-   height: 100%;
-   border-width: 0;
 }
-#wb_YouTube1
-{
-   display: block;
-   position: relative;
-   margin: 0;
-   height: 0;
-   overflow: hidden;
+#wb_YouTube1 {
    box-sizing: border-box;
+   display: block;
+   height: 0;
+   margin: 0;
+   overflow: hidden;
    padding-bottom: 56.25%;
    padding-left: 0;
    padding-right: 0;
    padding-top: 0;
+   position: relative;
 }
-#Line14
-{
+#Line14 {
+   border-bottom-width: 19px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-style: solid;
-   border-bottom-width: 19px;
-   border-top: 0px;
    border-left: 0px;
    border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
    margin: 0;
    padding: 0;
 }
-#Line11
-{
-   display: block;
-   width: 100%;
-   z-index: 25;
-}
-#Line12
-{
-   display: block;
-   width: 100%;
-   z-index: 28;
-}
-#wb_Picture2
-{
-   display: block;
-   width: 100%;
-   height: auto;
-   z-index: 13;
-}
-#Line13
-{
-   display: block;
-   width: 100%;
-   z-index: 30;
-}
-#wb_Image21
-{
-   display: inline-block;
-   width: 100%;
-   height: auto;
-   z-index: 27;
-}
-#wb_Picture3
-{
-   display: block;
-   width: 100%;
-   height: auto;
-   z-index: 24;
-}
-#Line5
-{
-   display: block;
-   width: 100%;
-   z-index: 14;
-}
-#wb_ResponsiveMenu1
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 2;
-}
-#wb_PANELC
-{
-   display: block;
-   width: 100%;
-   height: auto;
-   z-index: 15;
-}
-#Line4
-{
-   display: block;
-   width: 100%;
-   z-index: 10;
-}
-#wb_Image2
-{
-   position: absolute;
-   left: 964px;
-   top: 84px;
-   width: 389px;
-   height: 281px;
-   z-index: 0;
-}
-#wb_Image3
-{
-   display: inline-block;
-   width: 100%;
-   height: auto;
-   z-index: 35;
-}
-#Line7
-{
-   display: block;
-   width: 100%;
-   z-index: 21;
-}
-#wb_Picture1
-{
-   display: block;
-   width: 100%;
-   height: auto;
-   z-index: 8;
-}
-#wb_MARCADOR1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 67px;
-   height: 60px;
-   visibility: hidden;
-   z-index: 42;
-}
-#wb_Image4
-{
-   display: inline-block;
-   width: 100%;
-   height: auto;
-   z-index: 20;
-}
-#Line6
-{
-   display: block;
-   width: 100%;
-   z-index: 19;
-}
-#Line1
-{
-   display: block;
-   width: 100%;
-   z-index: 33;
-}
-#wb_Image6
-{
-   display: inline-block;
-   width: 100%;
-   height: auto;
-   z-index: 37;
-}
-#capa1_Container
-{
-   width: 1650px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#Line3
-{
-   display: block;
-   width: 100%;
-   z-index: 9;
-}
-#wb_Text1
-{
-   position: absolute;
-   left: 369px;
-   top: 188px;
-   width: 652px;
-   height: 122px;
-   z-index: 1;
-}
-#capa1
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 410px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 40;
-}
-#Line2
-{
-   display: block;
-   width: 100%;
-   z-index: 5;
-}
-#Line14
-{
-   display: block;
-   width: 100%;
-   z-index: 32;
-}
-#MARCADOR1
-{
-   visibility: hidden;
-}
-#sticker_ADELANTE_
-{
-   position: fixed;
-   text-align: center;
-   left: auto;
-   right: 0px;
-   top: 0px;
-   width: 100%;
-   height: 65px;
-   z-index: 41;
-}
-#wb_YouTube1
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 31;
-}
-#Line9
-{
-   display: block;
-   width: 100%;
-   z-index: 23;
-}
-#Line8
-{
-   display: block;
-   width: 100%;
-   z-index: 17;
-}
-@media only screen and (min-width: 1280px) and (max-width: 1649px)
-{
-body
-{
+@media only screen and (min-width: 1280px) and (max-width: 1649px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 433px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#capa1 {
+   background-attachment: scroll;
    background-color: transparent;
    background-image: url(images/EDUCA.jpg);
+   background-position: center center  !important;
    background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 1280px;
-}
-#sticker_ADELANTE_
-{
-   height: 61px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 433px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 1280px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: #000000;
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 61px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 51px;
-   height: 46px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 46px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 51px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Text1
-{
-   left: 508px;
-   top: 184px;
-   width: 539px;
-   height: 108px;
-   visibility: visible;
-   display: inline;
+#wb_Text1 {
    background-color: transparent;
    background-image: none;
+   display: inline  !important;
+   height: 108px  !important;
+   left: 508px  !important;
+   top: 184px  !important;
+   visibility: visible  !important;
+   width: 539px  !important;
 }
-#wb_Text1
-{
+#wb_Text1 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 85px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Image2
-{
-   left: 182px;
-   top: 108px;
-   width: 316px;
-   height: 217px;
-   visibility: visible;
-   display: inline;
+#wb_Image2 {
+   display: inline  !important;
+   height: 217px  !important;
+   left: 182px  !important;
    margin: 0;
    padding: 0;
+   top: 108px  !important;
+   visibility: visible  !important;
+   width: 316px  !important;
 }
-#wb_1-BIMESTRE
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_1-BIMESTRE {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_1-BIMESTRE
-{
-   margin-top: 0px;
+#wb_1-BIMESTRE {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#1-BIMESTRE
-{
+#1-BIMESTRE {
    padding: 10px 15px 10px 15px;
 }
-#1-BIMESTRE .row
-{
-   margin-right: -15px;
+#1-BIMESTRE .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1-BIMESTRE > .row > .col-1
-{
-   padding-right: 15px;
+#1-BIMESTRE > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#1-BIMESTRE > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#1-BIMESTRE > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: center;
-}
-#wb_Text2
-{
-   visibility: visible;
    display: block;
+   text-align: center;
+   width: 100%;
+}
+#wb_Text2 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text2
-{
+#wb_Text2 {
    margin: 0;
    padding: 0;
 }
-#wb_1SEMANA1B
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_1SEMANA1B {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_1SEMANA1B
-{
-   margin-top: 0px;
+#wb_1SEMANA1B {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#1SEMANA1B
-{
+#1SEMANA1B {
    padding: 10px 15px 10px 15px;
 }
-#1SEMANA1B .row
-{
-   margin-right: -15px;
+#1SEMANA1B .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   padding-right: 15px;
+#1SEMANA1B > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#1SEMANA1B > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: center;
-}
-#wb_Text3
-{
-   visibility: visible;
    display: block;
+   text-align: center;
+   width: 100%;
+}
+#wb_Text3 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text3
-{
+#wb_Text3 {
    margin: 0;
    padding: 0;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_LayoutGrid1 {
    background-color: #FFFFFF;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
+#wb_LayoutGrid1 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid1
-{
+#LayoutGrid1 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
+#LayoutGrid1 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
-{
-   padding-right: 15px;
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid1 > .row > .col-1
-{
+#LayoutGrid1 > .row > .col-1 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
    grid-column: span 8;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: left;
 }
-#LayoutGrid1 > .row > .col-2
-{
+#LayoutGrid1 > .row > .col-2 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
    grid-column: span 4;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: left;
 }
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
+#wb_Text9 {
    background-color: #FFFFFF;
    background-image: none;
    border-radius: 15px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text9
-{
+#wb_Text9 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 16px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
+#wb_Text6 {
    background-color: #008B8B;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text6
-{
+#wb_Text6 {
    margin: 0;
    padding: 0;
 }
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
+#wb_Text7 {
    background-color: #FF0000;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text7
-{
+#wb_Text7 {
    margin: 0;
    padding: 0;
 }
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
+#wb_Text8 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text8
-{
+#wb_Text8 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 19px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Picture1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture1 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Image6
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image6 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#Line1 {
+   display: block  !important;
+   height: 10px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
+#Line1 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
-#Line2
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#Line2 {
+   display: block  !important;
+   height: 10px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line2
-{
+#Line2 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
-#wb_Text46
-{
-   visibility: visible;
-   display: block;
+#wb_Text46 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text46
-{
+#wb_Text46 {
    margin: 0;
    padding: 0;
 }
-#Line3
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#Line3 {
+   display: block  !important;
+   height: 10px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line3
-{
+#Line3 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
-#wb_Image3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#Line4 {
+   display: block  !important;
+   height: 10px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
+#Line4 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
-#wb_LayoutGrid6
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_LayoutGrid6 {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid6
-{
-   margin-top: 0px;
+#wb_LayoutGrid6 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid6
-{
+#LayoutGrid6 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid6 .row
-{
-   margin-right: -15px;
+#LayoutGrid6 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   padding-right: 15px;
+#LayoutGrid6 > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#LayoutGrid6 > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
-}
-#wb_Text17
-{
-   visibility: visible;
    display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text17 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text17
-{
+#wb_Text17 {
    margin: 0;
    padding: 0;
 }
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
+#wb_Text11 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text11
-{
+#wb_Text11 {
    margin: 0;
    padding: 0;
 }
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
+#wb_Text12 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text12
-{
+#wb_Text12 {
    margin: 0;
    padding: 0;
 }
-#wb_Picture2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture2 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#Line5 {
+   display: block  !important;
+   height: 10px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
+#Line5 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
-#wb_PANELC
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_PANELC {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Extension1
-{
-   width: 783px;
-   height: 196px;
-   visibility: visible;
-   display: inline-block;
+#Extension1 {
+   display: inline-block  !important;
+   height: 196px  !important;
+   visibility: visible  !important;
+   width: 783px  !important;
 }
-#wb_Text13
-{
-   visibility: visible;
-   display: block;
+#wb_Text13 {
    background-color: #FF1493;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text13
-{
+#wb_Text13 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 16px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
+   font-weight: normal;
    line-height: 20px;
-}
-#Line6
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line6
-{
-   border-color: #FF0000;
-   border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
-}
-#wb_Image4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
    margin: 0;
    padding: 0;
+   text-align: center;
 }
-#Line7
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#Line6 {
+   display: block  !important;
+   height: 10px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line7
-{
+#Line6 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
-#Line8
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#wb_Image4 {
+   display: block  !important;
    margin: 0;
+   padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line8
-{
+#Line7 {
+   display: block  !important;
+   height: 10px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line7 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
+#Line8 {
+   display: block  !important;
+   height: 10px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line8 {
+   border-bottom-width: 10px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
+#wb_Text14 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text14
-{
+#wb_Text14 {
    margin: 0;
    padding: 0;
 }
-#Line9
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#Line9 {
+   display: block  !important;
+   height: 10px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line9
-{
+#Line9 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
-#wb_Picture3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#Line11 {
+   display: block  !important;
+   height: 10px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
+#Line11 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
-#wb_Text45
-{
-   visibility: visible;
-   display: block;
+#wb_Text45 {
    background-color: #FFD700;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text45
-{
+#wb_Text45 {
    margin: 0;
    padding: 0;
 }
-#wb_Image21
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image21 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#Line12 {
+   display: block  !important;
+   height: 10px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
+#Line12 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
+#wb_Text15 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text15
-{
+#wb_Text15 {
    margin: 0;
    padding: 0;
 }
-#Line13
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
+#Line13 {
+   display: block  !important;
+   height: 10px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line13
-{
+#Line13 {
+   border-bottom-width: 10px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
+   display: block  !important;
+   height: 10px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
    border-bottom-width: 10px;
-}
-#wb_YouTube1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
-   width: 100%;
-   height: 10px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 10px;
 }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1279px)
-{
-body
-{
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 366px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#capa1 {
+   background-attachment: scroll;
    background-color: transparent;
    background-image: url(images/EDUCA.jpg);
+   background-position: center center  !important;
    background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 1024px;
-}
-#sticker_ADELANTE_
-{
-   height: 59px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 366px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 1024px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: #000000;
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 59px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 40px;
-   height: 36px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 36px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 40px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Text1
-{
-   left: 396px;
-   top: 129px;
-   width: 538px;
-   height: 108px;
-   visibility: visible;
-   display: inline;
+#wb_Text1 {
    background-color: transparent;
    background-image: none;
+   display: inline  !important;
+   height: 108px  !important;
+   left: 396px  !important;
+   top: 129px  !important;
+   visibility: visible  !important;
+   width: 538px  !important;
 }
-#wb_Text1
-{
+#wb_Text1 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 85px;
-   margin: 0;
-   padding: 0;
-   text-align: left;
+   font-weight: normal;
    line-height: 108px;
-}
-#wb_Image2
-{
-   left: 130px;
-   top: 107px;
-   width: 266px;
-   height: 173px;
-   visibility: visible;
-   display: inline;
    margin: 0;
    padding: 0;
-}
-#wb_1-BIMESTRE
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #000000;
-   background-image: none;
-}
-#wb_1-BIMESTRE
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#1-BIMESTRE
-{
-   padding: 10px 15px 10px 15px;
-}
-#1-BIMESTRE .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#1-BIMESTRE > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#1-BIMESTRE > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
    text-align: left;
 }
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text2
-{
+#wb_Image2 {
+   display: inline  !important;
+   height: 173px  !important;
+   left: 130px  !important;
    margin: 0;
    padding: 0;
+   top: 107px  !important;
+   visibility: visible  !important;
+   width: 266px  !important;
 }
-#wb_1SEMANA1B
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_1-BIMESTRE {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_1SEMANA1B
-{
-   margin-top: 0px;
+#wb_1-BIMESTRE {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#1SEMANA1B
-{
+#1-BIMESTRE {
    padding: 10px 15px 10px 15px;
 }
-#1SEMANA1B .row
-{
-   margin-right: -15px;
+#1-BIMESTRE .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   padding-right: 15px;
+#1-BIMESTRE > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#1-BIMESTRE > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
-}
-#wb_Text3
-{
-   visibility: visible;
    display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text2 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text3
-{
+#wb_Text2 {
    margin: 0;
    padding: 0;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
+#wb_1SEMANA1B {
+   background-color: #000000;
+   background-image: none;
+   display: table  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#wb_1SEMANA1B {
+   margin-bottom: 0px;
+   margin-top: 0px;
+}
+#1SEMANA1B {
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row {
+   margin-left: -15px;
+   margin-right: -15px;
+}
+#1SEMANA1B > .row > .col-1 {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+#1SEMANA1B > .row > .col-1 {
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text3 {
+   background-color: transparent;
+   background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
+}
+#wb_Text3 {
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1 {
    background-color: #FFFFFF;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
+#wb_LayoutGrid1 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid1
-{
+#LayoutGrid1 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
+#LayoutGrid1 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
-{
-   padding-right: 15px;
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid1 > .row > .col-1
-{
+#LayoutGrid1 > .row > .col-1 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
    grid-column: span 8;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: left;
 }
-#LayoutGrid1 > .row > .col-2
-{
+#LayoutGrid1 > .row > .col-2 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
    grid-column: span 4;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: left;
 }
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
+#wb_Text9 {
    background-color: #FFFFFF;
    background-image: none;
    border-radius: 15px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text9
-{
+#wb_Text9 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 16px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
+#wb_Text6 {
    background-color: #008B8B;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text6
-{
+#wb_Text6 {
    margin: 0;
    padding: 0;
 }
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
+#wb_Text7 {
    background-color: #FF0000;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text7
-{
+#wb_Text7 {
    margin: 0;
    padding: 0;
 }
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
+#wb_Text8 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text8
-{
+#wb_Text8 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 19px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Picture1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture1 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Image6
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image6 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line1 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
+#Line1 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#Line2
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line2 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line2
-{
+#Line2 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Text46
-{
-   visibility: visible;
-   display: block;
+#wb_Text46 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text46
-{
+#wb_Text46 {
    margin: 0;
    padding: 0;
 }
-#Line3
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line3 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line3
-{
+#Line3 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Image3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line4 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
+#Line4 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_LayoutGrid6
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_LayoutGrid6 {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid6
-{
-   margin-top: 0px;
+#wb_LayoutGrid6 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid6
-{
+#LayoutGrid6 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid6 .row
-{
-   margin-right: -15px;
+#LayoutGrid6 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   padding-right: 15px;
+#LayoutGrid6 > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#LayoutGrid6 > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
-}
-#wb_Text17
-{
-   visibility: visible;
    display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text17 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text17
-{
+#wb_Text17 {
    margin: 0;
    padding: 0;
 }
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
+#wb_Text11 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text11
-{
+#wb_Text11 {
    margin: 0;
    padding: 0;
 }
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
+#wb_Text12 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text12
-{
+#wb_Text12 {
    margin: 0;
    padding: 0;
 }
-#wb_Picture2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture2 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line5 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
+#Line5 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_PANELC
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_PANELC {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Extension1
-{
-   width: 627px;
-   height: 157px;
-   visibility: visible;
-   display: inline-block;
+#Extension1 {
+   display: inline-block  !important;
+   height: 157px  !important;
+   visibility: visible  !important;
+   width: 627px  !important;
 }
-#wb_Text13
-{
-   visibility: visible;
-   display: block;
+#wb_Text13 {
    background-color: #FF1493;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text13
-{
+#wb_Text13 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 17px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
+   font-weight: normal;
    line-height: 22px;
-}
-#Line6
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line6
-{
-   border-color: #FF0000;
-   border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
-}
-#wb_Image4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
    margin: 0;
    padding: 0;
+   text-align: center;
 }
-#Line7
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line6 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line7
-{
+#Line6 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#Line8
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#wb_Image4 {
+   display: block  !important;
    margin: 0;
+   padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line8
-{
+#Line7 {
+   display: block  !important;
+   height: 8px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line7 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
+#Line8 {
+   display: block  !important;
+   height: 8px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line8 {
+   border-bottom-width: 8px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
+#wb_Text14 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text14
-{
+#wb_Text14 {
    margin: 0;
    padding: 0;
 }
-#Line9
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line9 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line9
-{
+#Line9 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Picture3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line11 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
+#Line11 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Text45
-{
-   visibility: visible;
-   display: block;
+#wb_Text45 {
    background-color: #FFD700;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text45
-{
+#wb_Text45 {
    margin: 0;
    padding: 0;
 }
-#wb_Image21
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image21 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line12 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
+#Line12 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
+#wb_Text15 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text15
-{
+#wb_Text15 {
    margin: 0;
    padding: 0;
 }
-#Line13
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line13 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line13
-{
+#Line13 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
+   display: block  !important;
+   height: 8px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
    border-bottom-width: 8px;
-}
-#wb_YouTube1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
 }
-@media only screen and (min-width: 980px) and (max-width: 1023px)
-{
-body
-{
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 337px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#capa1 {
+   background-attachment: scroll;
    background-color: transparent;
    background-image: url(images/EDUCA.jpg);
+   background-position: center center  !important;
    background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 980px;
-}
-#sticker_ADELANTE_
-{
-   height: 59px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 337px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 980px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: #000000;
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 59px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 38px;
-   height: 34px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 34px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 38px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Text1
-{
-   left: 343px;
-   top: 130px;
-   width: 541px;
-   height: 108px;
-   visibility: visible;
-   display: inline;
+#wb_Text1 {
    background-color: transparent;
    background-image: none;
+   display: inline  !important;
+   height: 108px  !important;
+   left: 343px  !important;
+   top: 130px  !important;
+   visibility: visible  !important;
+   width: 541px  !important;
 }
-#wb_Text1
-{
+#wb_Text1 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 85px;
-   margin: 0;
-   padding: 0;
-   text-align: left;
+   font-weight: normal;
    line-height: 108px;
-}
-#wb_Image2
-{
-   left: 144px;
-   top: 130px;
-   width: 187px;
-   height: 134px;
-   visibility: visible;
-   display: inline;
    margin: 0;
    padding: 0;
+   text-align: left;
 }
-#wb_1-BIMESTRE
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_Image2 {
+   display: inline  !important;
+   height: 134px  !important;
+   left: 144px  !important;
+   margin: 0;
+   padding: 0;
+   top: 130px  !important;
+   visibility: visible  !important;
+   width: 187px  !important;
+}
+#wb_1-BIMESTRE {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_1-BIMESTRE
-{
-   margin-top: 0px;
+#wb_1-BIMESTRE {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#1-BIMESTRE
-{
+#1-BIMESTRE {
    padding: 10px 15px 10px 15px;
 }
-#1-BIMESTRE .row
-{
-   margin-right: -15px;
+#1-BIMESTRE .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1-BIMESTRE > .row > .col-1
-{
-   padding-right: 15px;
+#1-BIMESTRE > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#1-BIMESTRE > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#1-BIMESTRE > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: center;
-}
-#wb_Text2
-{
-   visibility: visible;
    display: block;
+   text-align: center;
+   width: 100%;
+}
+#wb_Text2 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text2
-{
+#wb_Text2 {
    margin: 0;
    padding: 0;
 }
-#wb_1SEMANA1B
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_1SEMANA1B {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_1SEMANA1B
-{
-   margin-top: 0px;
+#wb_1SEMANA1B {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#1SEMANA1B
-{
+#1SEMANA1B {
    padding: 10px 15px 10px 15px;
 }
-#1SEMANA1B .row
-{
-   margin-right: -15px;
+#1SEMANA1B .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   padding-right: 15px;
+#1SEMANA1B > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#1SEMANA1B > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: center;
-}
-#wb_Text3
-{
-   visibility: visible;
    display: block;
+   text-align: center;
+   width: 100%;
+}
+#wb_Text3 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text3
-{
+#wb_Text3 {
    margin: 0;
    padding: 0;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_LayoutGrid1 {
    background-color: #FFFFFF;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
+#wb_LayoutGrid1 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid1
-{
+#LayoutGrid1 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
+#LayoutGrid1 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
-{
-   padding-right: 15px;
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid1 > .row > .col-1
-{
+#LayoutGrid1 > .row > .col-1 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
    grid-column: span 8;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: left;
 }
-#LayoutGrid1 > .row > .col-2
-{
+#LayoutGrid1 > .row > .col-2 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
    grid-column: span 4;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: left;
 }
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
+#wb_Text9 {
    background-color: #FFFFFF;
    background-image: none;
    border-radius: 15px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text9
-{
+#wb_Text9 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 16px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
+#wb_Text6 {
    background-color: #008B8B;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text6
-{
+#wb_Text6 {
    margin: 0;
    padding: 0;
 }
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
+#wb_Text7 {
    background-color: #FF0000;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text7
-{
+#wb_Text7 {
    margin: 0;
    padding: 0;
 }
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
+#wb_Text8 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text8
-{
+#wb_Text8 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 17px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Picture1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture1 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Image6
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image6 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line1 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
+#Line1 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#Line2
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line2 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line2
-{
+#Line2 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Text46
-{
-   visibility: visible;
-   display: block;
+#wb_Text46 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text46
-{
+#wb_Text46 {
    margin: 0;
    padding: 0;
 }
-#Line3
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line3 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line3
-{
+#Line3 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Image3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line4 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
+#Line4 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_LayoutGrid6
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_LayoutGrid6 {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid6
-{
-   margin-top: 0px;
+#wb_LayoutGrid6 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid6
-{
+#LayoutGrid6 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid6 .row
-{
-   margin-right: -15px;
+#LayoutGrid6 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   padding-right: 15px;
+#LayoutGrid6 > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#LayoutGrid6 > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
-}
-#wb_Text17
-{
-   visibility: visible;
    display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text17 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text17
-{
+#wb_Text17 {
    margin: 0;
    padding: 0;
 }
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
+#wb_Text11 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text11
-{
+#wb_Text11 {
    margin: 0;
    padding: 0;
 }
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
+#wb_Text12 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text12
-{
+#wb_Text12 {
    margin: 0;
    padding: 0;
 }
-#wb_Picture2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture2 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line5 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
+#Line5 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_PANELC
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_PANELC {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Extension1
-{
-   width: 601px;
-   height: 151px;
-   visibility: visible;
-   display: inline-block;
+#Extension1 {
+   display: inline-block  !important;
+   height: 151px  !important;
+   visibility: visible  !important;
+   width: 601px  !important;
 }
-#wb_Text13
-{
-   visibility: visible;
-   display: block;
+#wb_Text13 {
    background-color: #FF1493;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text13
-{
+#wb_Text13 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 20px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
+   font-weight: normal;
    line-height: 25px;
-}
-#Line6
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line6
-{
-   border-color: #FF0000;
-   border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
-}
-#wb_Image4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
    margin: 0;
    padding: 0;
+   text-align: center;
 }
-#Line7
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line6 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line7
-{
+#Line6 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#Line8
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#wb_Image4 {
+   display: block  !important;
    margin: 0;
+   padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line8
-{
+#Line7 {
+   display: block  !important;
+   height: 8px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line7 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
+#Line8 {
+   display: block  !important;
+   height: 8px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line8 {
+   border-bottom-width: 8px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
+#wb_Text14 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text14
-{
+#wb_Text14 {
    margin: 0;
    padding: 0;
 }
-#Line9
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line9 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line9
-{
+#Line9 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Picture3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line11 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
+#Line11 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Text45
-{
-   visibility: visible;
-   display: block;
+#wb_Text45 {
    background-color: #FFD700;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text45
-{
+#wb_Text45 {
    margin: 0;
    padding: 0;
 }
-#wb_Image21
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image21 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line12 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
+#Line12 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
+#wb_Text15 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text15
-{
+#wb_Text15 {
    margin: 0;
    padding: 0;
 }
-#Line13
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
+#Line13 {
+   display: block  !important;
+   height: 8px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line13
-{
+#Line13 {
+   border-bottom-width: 8px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
+   display: block  !important;
+   height: 8px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
    border-bottom-width: 8px;
-}
-#wb_YouTube1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
-   width: 100%;
-   height: 8px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 8px;
 }
 }
-@media only screen and (min-width: 800px) and (max-width: 979px)
-{
-body
-{
+@media only screen and (min-width: 800px) and (max-width: 979px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 326px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#capa1 {
+   background-attachment: scroll;
    background-color: transparent;
    background-image: url(images/EDUCA.jpg);
+   background-position: center center  !important;
    background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 800px;
-}
-#sticker_ADELANTE_
-{
-   height: 60px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 326px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 800px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: #000000;
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 60px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 31px;
-   height: 27px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 27px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 31px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Text1
-{
-   left: 239px;
-   top: 134px;
-   width: 476px;
-   height: 94px;
-   visibility: visible;
-   display: inline;
+#wb_Text1 {
    background-color: transparent;
    background-image: none;
+   display: inline  !important;
+   height: 94px  !important;
+   left: 239px  !important;
+   top: 134px  !important;
+   visibility: visible  !important;
+   width: 476px  !important;
 }
-#wb_Text1
-{
+#wb_Text1 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 75px;
+   font-weight: normal;
+   line-height: 94px;
    margin: 0;
    padding: 0;
    text-align: left;
-   line-height: 94px;
 }
-#wb_Image2
-{
-   left: 80px;
-   top: 134px;
-   width: 147px;
-   height: 106px;
-   visibility: visible;
-   display: inline;
+#wb_Image2 {
+   display: inline  !important;
+   height: 106px  !important;
+   left: 80px  !important;
    margin: 0;
    padding: 0;
+   top: 134px  !important;
+   visibility: visible  !important;
+   width: 147px  !important;
 }
-#wb_1-BIMESTRE
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_1-BIMESTRE {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_1-BIMESTRE
-{
-   margin-top: 0px;
+#wb_1-BIMESTRE {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#1-BIMESTRE
-{
+#1-BIMESTRE {
    padding: 10px 15px 10px 15px;
 }
-#1-BIMESTRE .row
-{
-   margin-right: -15px;
+#1-BIMESTRE .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1-BIMESTRE > .row > .col-1
-{
-   padding-right: 15px;
+#1-BIMESTRE > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#1-BIMESTRE > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#1-BIMESTRE > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: center;
-}
-#wb_Text2
-{
-   visibility: visible;
    display: block;
+   text-align: center;
+   width: 100%;
+}
+#wb_Text2 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text2
-{
+#wb_Text2 {
    margin: 0;
    padding: 0;
 }
-#wb_1SEMANA1B
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_1SEMANA1B {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_1SEMANA1B
-{
-   margin-top: 0px;
+#wb_1SEMANA1B {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#1SEMANA1B
-{
+#1SEMANA1B {
    padding: 10px 15px 10px 15px;
 }
-#1SEMANA1B .row
-{
-   margin-right: -15px;
+#1SEMANA1B .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   padding-right: 15px;
+#1SEMANA1B > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#1SEMANA1B > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: center;
-}
-#wb_Text3
-{
-   visibility: visible;
    display: block;
+   text-align: center;
+   width: 100%;
+}
+#wb_Text3 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text3
-{
+#wb_Text3 {
    margin: 0;
    padding: 0;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_LayoutGrid1 {
    background-color: #FFFFFF;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
+#wb_LayoutGrid1 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid1
-{
+#LayoutGrid1 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
+#LayoutGrid1 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
-{
-   padding-right: 15px;
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid1 > .row > .col-1
-{
+#LayoutGrid1 > .row > .col-1 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
    grid-column: span 8;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: left;
 }
-#LayoutGrid1 > .row > .col-2
-{
+#LayoutGrid1 > .row > .col-2 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
    grid-column: span 4;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: left;
 }
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
+#wb_Text9 {
    background-color: #FFFFFF;
    background-image: none;
    border-radius: 15px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text9
-{
+#wb_Text9 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 15px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
+#wb_Text6 {
    background-color: #008B8B;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text6
-{
+#wb_Text6 {
    margin: 0;
    padding: 0;
 }
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
+#wb_Text7 {
    background-color: #FF0000;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text7
-{
+#wb_Text7 {
    margin: 0;
    padding: 0;
 }
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
+#wb_Text8 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text8
-{
+#wb_Text8 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 17px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Picture1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture1 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Image6
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image6 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line1 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
+#Line1 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#Line2
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line2 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line2
-{
+#Line2 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Text46
-{
-   visibility: visible;
-   display: block;
+#wb_Text46 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text46
-{
+#wb_Text46 {
    margin: 0;
    padding: 0;
 }
-#Line3
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line3 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line3
-{
+#Line3 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Image3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line4 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
+#Line4 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_LayoutGrid6
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_LayoutGrid6 {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid6
-{
-   margin-top: 0px;
+#wb_LayoutGrid6 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid6
-{
+#LayoutGrid6 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid6 .row
-{
-   margin-right: -15px;
+#LayoutGrid6 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   padding-right: 15px;
+#LayoutGrid6 > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#LayoutGrid6 > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
-}
-#wb_Text17
-{
-   visibility: visible;
    display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text17 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text17
-{
+#wb_Text17 {
    margin: 0;
    padding: 0;
 }
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
+#wb_Text11 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text11
-{
+#wb_Text11 {
    margin: 0;
    padding: 0;
 }
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
+#wb_Text12 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text12
-{
+#wb_Text12 {
    margin: 0;
    padding: 0;
 }
-#wb_Picture2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture2 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line5 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
+#Line5 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_PANELC
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_PANELC {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Extension1
-{
-   width: 491px;
-   height: 124px;
-   visibility: visible;
-   display: inline-block;
+#Extension1 {
+   display: inline-block  !important;
+   height: 124px  !important;
+   visibility: visible  !important;
+   width: 491px  !important;
 }
-#wb_Text13
-{
-   visibility: visible;
-   display: block;
+#wb_Text13 {
    background-color: #FF1493;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text13
-{
+#wb_Text13 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 19px;
+   font-weight: normal;
+   line-height: 23px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 23px;
 }
-#Line6
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line6 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line6
-{
+#Line6 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Image4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image4 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line7
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line7 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line7
-{
+#Line7 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#Line8
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line8 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line8
-{
+#Line8 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
+#wb_Text14 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text14
-{
+#wb_Text14 {
    margin: 0;
    padding: 0;
 }
-#Line9
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line9 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line9
-{
+#Line9 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Picture3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line11 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
+#Line11 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Text45
-{
-   visibility: visible;
-   display: block;
+#wb_Text45 {
    background-color: #FFD700;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text45
-{
+#wb_Text45 {
    margin: 0;
    padding: 0;
 }
-#wb_Image21
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image21 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line12 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
+#Line12 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
+#wb_Text15 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text15
-{
+#wb_Text15 {
    margin: 0;
    padding: 0;
 }
-#Line13
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line13 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line13
-{
+#Line13 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
+   display: block  !important;
+   height: 7px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
    border-bottom-width: 7px;
-}
-#wb_YouTube1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
 }
-@media only screen and (min-width: 768px) and (max-width: 799px)
-{
-body
-{
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 348px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#capa1 {
+   background-attachment: scroll;
    background-color: transparent;
    background-image: url(images/EDUCA.jpg);
+   background-position: center center  !important;
    background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 768px;
-}
-#sticker_ADELANTE_
-{
-   height: 57px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 348px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 768px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: #000000;
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 57px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 29px;
-   height: 25px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 25px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 29px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Text1
-{
-   left: 226px;
-   top: 135px;
-   width: 467px;
-   height: 94px;
-   visibility: visible;
-   display: inline;
+#wb_Text1 {
    background-color: transparent;
    background-image: none;
+   display: inline  !important;
+   height: 94px  !important;
+   left: 226px  !important;
+   top: 135px  !important;
+   visibility: visible  !important;
+   width: 467px  !important;
 }
-#wb_Text1
-{
+#wb_Text1 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 75px;
-   margin: 0;
-   padding: 0;
-   text-align: left;
+   font-weight: normal;
    line-height: 94px;
-}
-#wb_Image2
-{
-   left: 55px;
-   top: 135px;
-   width: 163px;
-   height: 129px;
-   visibility: visible;
-   display: inline;
    margin: 0;
    padding: 0;
-}
-#wb_1-BIMESTRE
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #000000;
-   background-image: none;
-}
-#wb_1-BIMESTRE
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#1-BIMESTRE
-{
-   padding: 10px 15px 10px 15px;
-}
-#1-BIMESTRE .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#1-BIMESTRE > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#1-BIMESTRE > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
    text-align: left;
 }
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text2
-{
+#wb_Image2 {
+   display: inline  !important;
+   height: 129px  !important;
+   left: 55px  !important;
    margin: 0;
    padding: 0;
+   top: 135px  !important;
+   visibility: visible  !important;
+   width: 163px  !important;
 }
-#wb_1SEMANA1B
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_1-BIMESTRE {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_1SEMANA1B
-{
-   margin-top: 0px;
+#wb_1-BIMESTRE {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#1SEMANA1B
-{
+#1-BIMESTRE {
    padding: 10px 15px 10px 15px;
 }
-#1SEMANA1B .row
-{
-   margin-right: -15px;
+#1-BIMESTRE .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   padding-right: 15px;
+#1-BIMESTRE > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#1-BIMESTRE > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
-}
-#wb_Text3
-{
-   visibility: visible;
    display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text2 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text3
-{
+#wb_Text2 {
    margin: 0;
    padding: 0;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
+#wb_1SEMANA1B {
+   background-color: #000000;
+   background-image: none;
+   display: table  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#wb_1SEMANA1B {
+   margin-bottom: 0px;
+   margin-top: 0px;
+}
+#1SEMANA1B {
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row {
+   margin-left: -15px;
+   margin-right: -15px;
+}
+#1SEMANA1B > .row > .col-1 {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+#1SEMANA1B > .row > .col-1 {
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text3 {
+   background-color: transparent;
+   background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
+}
+#wb_Text3 {
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1 {
    background-color: #FFFFFF;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
+#wb_LayoutGrid1 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid1
-{
+#LayoutGrid1 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
+#LayoutGrid1 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
-{
-   padding-right: 15px;
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid1 > .row > .col-1
-{
+#LayoutGrid1 > .row > .col-1 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
    grid-column: span 8;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: left;
 }
-#LayoutGrid1 > .row > .col-2
-{
+#LayoutGrid1 > .row > .col-2 {
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
    grid-column: span 4;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
    text-align: left;
 }
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
+#wb_Text9 {
    background-color: #FFFFFF;
    background-image: none;
    border-radius: 15px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text9
-{
+#wb_Text9 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 15px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
+#wb_Text6 {
    background-color: #008B8B;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text6
-{
+#wb_Text6 {
    margin: 0;
    padding: 0;
 }
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
+#wb_Text7 {
    background-color: #FF0000;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text7
-{
+#wb_Text7 {
    margin: 0;
    padding: 0;
 }
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
+#wb_Text8 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text8
-{
+#wb_Text8 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 17px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Picture1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture1 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Image6
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image6 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line1 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
+#Line1 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#Line2
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line2 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line2
-{
+#Line2 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Text46
-{
-   visibility: visible;
-   display: block;
+#wb_Text46 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text46
-{
+#wb_Text46 {
    margin: 0;
    padding: 0;
 }
-#Line3
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line3 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line3
-{
+#Line3 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Image3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line4 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
+#Line4 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_LayoutGrid6
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_LayoutGrid6 {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid6
-{
-   margin-top: 0px;
+#wb_LayoutGrid6 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid6
-{
+#LayoutGrid6 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid6 .row
-{
-   margin-right: -15px;
+#LayoutGrid6 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   padding-right: 15px;
+#LayoutGrid6 > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#LayoutGrid6 > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
-}
-#wb_Text17
-{
-   visibility: visible;
    display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text17 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text17
-{
+#wb_Text17 {
    margin: 0;
    padding: 0;
 }
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
+#wb_Text11 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text11
-{
+#wb_Text11 {
    margin: 0;
    padding: 0;
 }
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
+#wb_Text12 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text12
-{
+#wb_Text12 {
    margin: 0;
    padding: 0;
 }
-#wb_Picture2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture2 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line5 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
+#Line5 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_PANELC
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_PANELC {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Extension1
-{
-   width: 472px;
-   height: 120px;
-   visibility: visible;
-   display: inline-block;
+#Extension1 {
+   display: inline-block  !important;
+   height: 120px  !important;
+   visibility: visible  !important;
+   width: 472px  !important;
 }
-#wb_Text13
-{
-   visibility: visible;
-   display: block;
+#wb_Text13 {
    background-color: #FF1493;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text13
-{
+#wb_Text13 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 19px;
+   font-weight: normal;
+   line-height: 23px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 23px;
 }
-#Line6
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line6 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line6
-{
+#Line6 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Image4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image4 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line7
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line7 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line7
-{
+#Line7 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#Line8
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line8 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line8
-{
+#Line8 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
+#wb_Text14 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text14
-{
+#wb_Text14 {
    margin: 0;
    padding: 0;
 }
-#Line9
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line9 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line9
-{
+#Line9 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Picture3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line11 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
+#Line11 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Text45
-{
-   visibility: visible;
-   display: block;
+#wb_Text45 {
    background-color: #FFD700;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text45
-{
+#wb_Text45 {
    margin: 0;
    padding: 0;
 }
-#wb_Image21
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image21 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line12 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
+#Line12 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
+#wb_Text15 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text15
-{
+#wb_Text15 {
    margin: 0;
    padding: 0;
 }
-#Line13
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
+#Line13 {
+   display: block  !important;
+   height: 7px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line13
-{
+#Line13 {
+   border-bottom-width: 7px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
+   display: block  !important;
+   height: 7px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
    border-bottom-width: 7px;
-}
-#wb_YouTube1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
-   width: 100%;
-   height: 7px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 7px;
 }
 }
-@media only screen and (max-width: 767px)
-{
-body
-{
+@media only screen and (max-width: 767px) {
+body {
    background-color: #A9A9A9;
    background-image: none;
 }
-#capa1
-{
-   height: 340px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#capa1 {
+   background-attachment: scroll;
    background-color: transparent;
    background-image: url(images/EDUCA.jpg);
+   background-position: center center  !important;
    background-repeat: repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-position: 50% 0;
    background-size: cover;
-   margin: 0;
-}
-#capa1
-{
-   width: 100%;
-   margin: 0;
-}
-#capa1_Container
-{
-   width: 320px;
-}
-#sticker_ADELANTE_
-{
-   height: 63px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
+   display: inline  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
+   height: 340px  !important;
+   margin: 0;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#capa1 {
+   margin: 0;
+   width: 100%;
+}
+#capa1_Container {
+   width: 320px  !important;
+}
+#sticker_ADELANTE_ {
    background-color: #000000;
    background-image: none;
+   display: inline  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   height: 63px  !important;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#sticker_ADELANTE_
-{
+#sticker_ADELANTE_ {
    width: 100%;
 }
-#wb_MARCADOR1
-{
-   left: 0px;
-   top: 0px;
-   width: 12px;
-   height: 10px;
-   visibility: hidden;
-   display: none;
+#wb_MARCADOR1 {
+   display: none  !important;
+   height: 10px  !important;
+   left: 0px  !important;
+   top: 0px  !important;
+   visibility: hidden  !important;
+   width: 12px  !important;
 }
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_ResponsiveMenu1 {
+   display: block  !important;
    margin: 0;
    text-align: center;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Text1
-{
-   left: 27px;
-   top: 224px;
-   width: 267px;
-   height: 53px;
-   visibility: visible;
-   display: inline;
+#wb_Text1 {
    background-color: transparent;
    background-image: none;
+   display: inline  !important;
+   height: 53px  !important;
+   left: 27px  !important;
+   top: 224px  !important;
+   visibility: visible  !important;
+   width: 267px  !important;
 }
-#wb_Text1
-{
+#wb_Text1 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 43px;
-   margin: 0;
-   padding: 0;
-   text-align: left;
+   font-weight: normal;
    line-height: 54px;
-}
-#wb_Image2
-{
-   left: 77px;
-   top: 100px;
-   width: 167px;
-   height: 119px;
-   visibility: visible;
-   display: inline;
    margin: 0;
    padding: 0;
-}
-#wb_1-BIMESTRE
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #000000;
-   background-image: none;
-}
-#wb_1-BIMESTRE
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#1-BIMESTRE
-{
-   padding: 10px 15px 10px 15px;
-}
-#1-BIMESTRE .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#1-BIMESTRE > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#1-BIMESTRE > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
    text-align: left;
 }
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text2
-{
+#wb_Image2 {
+   display: inline  !important;
+   height: 119px  !important;
+   left: 77px  !important;
    margin: 0;
    padding: 0;
+   top: 100px  !important;
+   visibility: visible  !important;
+   width: 167px  !important;
 }
-#wb_1SEMANA1B
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_1-BIMESTRE {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_1SEMANA1B
-{
-   margin-top: 0px;
+#wb_1-BIMESTRE {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#1SEMANA1B
-{
+#1-BIMESTRE {
    padding: 10px 15px 10px 15px;
 }
-#1SEMANA1B .row
-{
-   margin-right: -15px;
+#1-BIMESTRE .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   padding-right: 15px;
+#1-BIMESTRE > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#1SEMANA1B > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#1-BIMESTRE > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
-}
-#wb_Text3
-{
-   visibility: visible;
    display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text2 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text3
-{
+#wb_Text2 {
    margin: 0;
    padding: 0;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
+#wb_1SEMANA1B {
+   background-color: #000000;
+   background-image: none;
+   display: table  !important;
    font-family: Arial;
-   font-weight: normal;
+   font-size: 8px;
    font-style: normal;
+   font-weight: normal;
    text-decoration: none;
+   visibility: visible  !important;
+}
+#wb_1SEMANA1B {
+   margin-bottom: 0px;
+   margin-top: 0px;
+}
+#1SEMANA1B {
+   padding: 10px 15px 10px 15px;
+}
+#1SEMANA1B .row {
+   margin-left: -15px;
+   margin-right: -15px;
+}
+#1SEMANA1B > .row > .col-1 {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+#1SEMANA1B > .row > .col-1 {
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text3 {
+   background-color: transparent;
+   background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
+}
+#wb_Text3 {
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1 {
    background-color: #FFFFFF;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
+#wb_LayoutGrid1 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid1
-{
+#LayoutGrid1 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
+#LayoutGrid1 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
-{
-   padding-right: 15px;
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid1 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   grid-column: span 12;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
+#LayoutGrid1 > .row > .col-1 {
    -webkit-align-self: flex-start;
    align-self: flex-start;
-   text-align: left;
-}
-#LayoutGrid1 > .row > .col-2
-{
-   display: block;
-   width: 100%;
-   grid-column: span 12;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
+   display: block;
+   grid-column: span 12;
+   text-align: left;
+   width: 100%;
+}
+#LayoutGrid1 > .row > .col-2 {
    -webkit-align-self: flex-start;
    align-self: flex-start;
-   text-align: left;
-}
-#wb_Text9
-{
-   visibility: visible;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
    display: block;
+   grid-column: span 12;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text9 {
    background-color: #FFFFFF;
    background-image: none;
    border-radius: 15px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text9
-{
+#wb_Text9 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 15px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
+#wb_Text6 {
    background-color: #008B8B;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text6
-{
+#wb_Text6 {
    margin: 0;
    padding: 0;
 }
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
+#wb_Text7 {
    background-color: #FF0000;
    background-image: none;
    border-radius: 10px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text7
-{
+#wb_Text7 {
    margin: 0;
    padding: 0;
 }
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
+#wb_Text8 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text8
-{
+#wb_Text8 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 16px;
+   font-weight: normal;
    margin: 0;
    padding: 0;
    text-align: left;
 }
-#wb_Picture1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture1 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#wb_Image6
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image6 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line1 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line1
-{
+#Line1 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#Line2
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line2 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line2
-{
+#Line2 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#wb_Text46
-{
-   visibility: visible;
-   display: block;
+#wb_Text46 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text46
-{
+#wb_Text46 {
    margin: 0;
    padding: 0;
 }
-#Line3
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line3 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line3
-{
+#Line3 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#wb_Image3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line4 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line4
-{
+#Line4 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#wb_LayoutGrid6
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
+#wb_LayoutGrid6 {
    background-color: #000000;
    background-image: none;
+   display: table  !important;
+   font-family: Arial;
+   font-size: 8px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   visibility: visible  !important;
 }
-#wb_LayoutGrid6
-{
-   margin-top: 0px;
+#wb_LayoutGrid6 {
    margin-bottom: 0px;
+   margin-top: 0px;
 }
-#LayoutGrid6
-{
+#LayoutGrid6 {
    padding: 20px 15px 20px 15px;
 }
-#LayoutGrid6 .row
-{
-   margin-right: -15px;
+#LayoutGrid6 .row {
    margin-left: -15px;
+   margin-right: -15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   padding-right: 15px;
+#LayoutGrid6 > .row > .col-1 {
    padding-left: 15px;
+   padding-right: 15px;
 }
-#LayoutGrid6 > .row > .col-1
-{
-   display: block;
-   width: 100%;
+#LayoutGrid6 > .row > .col-1 {
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
-}
-#wb_Text17
-{
-   visibility: visible;
    display: block;
+   text-align: left;
+   width: 100%;
+}
+#wb_Text17 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text17
-{
+#wb_Text17 {
    margin: 0;
    padding: 0;
 }
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
+#wb_Text11 {
    background-color: #006400;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text11
-{
+#wb_Text11 {
    margin: 0;
    padding: 0;
 }
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
+#wb_Text12 {
    background-color: transparent;
    background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text12
-{
+#wb_Text12 {
    margin: 0;
    padding: 0;
 }
-#wb_Picture2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture2 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line5 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line5
-{
+#Line5 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#wb_PANELC
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_PANELC {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Extension1
-{
-   width: 205px;
-   height: 50px;
-   visibility: visible;
-   display: inline-block;
+#Extension1 {
+   display: inline-block  !important;
+   height: 50px  !important;
+   visibility: visible  !important;
+   width: 205px  !important;
 }
-#wb_Text13
-{
-   visibility: visible;
-   display: block;
+#wb_Text13 {
    background-color: #FF1493;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text13
-{
+#wb_Text13 {
    font-family: Acme;
-   font-weight: normal;
    font-size: 19px;
+   font-weight: normal;
+   line-height: 23px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 23px;
 }
-#Line6
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line6 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line6
-{
+#Line6 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#wb_Image4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image4 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line7
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line7 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line7
-{
+#Line7 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#Line8
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line8 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line8
-{
+#Line8 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
+#wb_Text14 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text14
-{
+#wb_Text14 {
    margin: 0;
    padding: 0;
 }
-#Line9
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line9 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line9
-{
+#Line9 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#wb_Picture3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Picture3 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line11 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line11
-{
+#Line11 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#wb_Text45
-{
-   visibility: visible;
-   display: block;
+#wb_Text45 {
    background-color: #FFD700;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text45
-{
+#wb_Text45 {
    margin: 0;
    padding: 0;
 }
-#wb_Image21
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
+#wb_Image21 {
+   display: block  !important;
    margin: 0;
    padding: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line12 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line12
-{
+#Line12 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
+#wb_Text15 {
    background-color: #004EC0;
    background-image: none;
    border-radius: 20px;
+   display: block  !important;
+   visibility: visible  !important;
 }
-#wb_Text15
-{
+#wb_Text15 {
    margin: 0;
    padding: 0;
 }
-#Line13
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
+#Line13 {
+   display: block  !important;
+   height: 3px  !important;
    margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
 }
-#Line13
-{
+#Line13 {
+   border-bottom-width: 3px;
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
+   display: block  !important;
+   height: 3px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line14 {
    border-bottom-width: 3px;
-}
-#wb_YouTube1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
-   width: 100%;
-   height: 3px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#Line14
-{
    border-color: #FF0000;
    border-color: rgba(255,0,0,0.00);
-   border-bottom-width: 3px;
 }
 }
