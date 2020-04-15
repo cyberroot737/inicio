@@ -9,7 +9,6 @@
 <link href="161.png" rel="icon" sizes="16x16" type="image/png">
 <link href="322.png" rel="icon" sizes="32x32" type="image/png">
 <link href="642.png" rel="icon" sizes="64x64" type="image/png">
-<link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
@@ -17,309 +16,311 @@
 <link href="PROYECTO_PRINCIPAL.css" rel="stylesheet">
 <link href="MENU.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="wb.parallax.min.js"></script>
 <script src="util.min.js"></script>
 <script src="modal.min.js"></script>
 <script src="wwb15.min.js"></script>
-<script>   
-   $(document).ready(function()
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#capa1']").click(function(event)
    {
-      $("a[href*='#capa1']").click(function(event)
-      {
-         event.preventDefault();
-         $('html, body').stop().animate({ scrollTop: $('#capa1').offset().top }, 300, 'linear');
-      });
-      $('#capa1').parallax();
-      $("a[href*='#MARCADOR1']").click(function(event)
-      {
-         event.preventDefault();
-         $('html, body').stop().animate({ scrollTop: $('#wb_MARCADOR1').offset().top }, 600, 'linear');
-      });
-      $("a[href*='#AVISO']").click(function(event)
-      {
-         event.preventDefault();
-         $('html, body').stop().animate({ scrollTop: $('#AVISO').offset().top }, 600, 'linear');
-      });
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#capa1').offset().top }, 300, 'linear');
    });
+   $("a[href*='#sticker_ADELANTE_']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#sticker_ADELANTE_').offset().top }, 300, 'linear');
+   });
+   $("#wb_ResponsiveMenu1 ul li a").click(function(event)
+   {
+      $("#wb_ResponsiveMenu1 input").prop("checked", false);
+   });
+   $("a[href*='#AVISO']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#AVISO').offset().top }, 600, 'linear');
+   });
+});
 </script>
 <!-- Smartsupp Live Chat script -->
-<script>   
-   var _smartsupp = _smartsupp || {};
-   _smartsupp.key = '65262a22affbc4c3d21fb8918855ecf60b2c79b2';
-   window.smartsupp||(function(d) {
-     var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-     s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-     c.type='text/javascript';c.charset='utf-8';c.async=true;
-     c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-   })(document);
+<script>
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = '65262a22affbc4c3d21fb8918855ecf60b2c79b2';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
 </script>
 </head>
 <body>
-   <div id="capa1" style="position:relative;text-align:center;width:100%;height:391px;float:left;clear:left;display:block;z-index:36;">
-      <div id="capa1-overlay"></div>
-      <div id="sticker_ADELANTE_" style="position:relative;text-align:center;width:100%;height:70px;float:left;clear:left;display:block;z-index:1;">
-         <div id="wb_ResponsiveMenu1" style="display:inline-block;width:100%;z-index:0;">
-            <label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menú principal<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
-            <input type="checkbox" id="ResponsiveMenu1-submenu">
-            <ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
-               <li><a role="menuitem" href="./index.html" rel="nofollow"><i class="fa fa-home fa-2x">&nbsp;</i><br>INICIO</a></li>
-            </ul>
-         </div>
-      </div>
-      <div id="wb_Image2" style="display:inline-block;width:101px;height:144px;z-index:2;">
-         <img src="images/MAKARENKOCOVER.png" id="Image2" alt="">
-      </div>
-      <div id="wb_Text10">
-         <p style="color:#DCDCDC;"><span style="color:#DCDCDC;">CENTRO DE CÓMPUTO</span></p>
-      </div>
-      <div id="wb_Text5">
-         <p style="color:#DCDCDC;"><span style="color:#DCDCDC;">IE. ANTÓN MAKARENKO</span></p>
-      </div>
-   </div>
-   <div id="wb_MARCADOR1" style="position:absolute;left:0px;top:0px;width:67px;height:60px;z-index:37;">
-      <a id="MARCADOR1" style="visibility:hidden;">&nbsp;</a>
-   </div>
-   <div id="wb_LayoutGrid3">
-      <div id="LayoutGrid3">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text11">
-                  <p style="color:#DCDCDC;"><span style="color:#DCDCDC;">SELECCIONE UN SALÓN</span></p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid1">
-      <div id="LayoutGrid1">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Shape1" style="display:inline-block;width:228px;height:67px;z-index:7;position:relative;">
-                  <a href="./3PRIMARIA.html"><div id="Shape1"><div id="Shape1_text"><span style="color:#FFD700;font-family:Acme;font-size:29px;">3ro de Primaria</span></div></div></a>
-               </div>
-            </div>
-            <div class="col-2">
-               <div id="wb_Shape2" style="display:inline-block;width:228px;height:67px;z-index:8;position:relative;">
-                  <a href="./4PRIMARIA.html"><div id="Shape2"><div id="Shape2_text"><span style="color:#FFD700;font-family:Acme;font-size:29px;">4to de Primaria</span></div></div></a>
-               </div>
-            </div>
-            <div class="col-3">
-               <div id="wb_Shape3" style="display:inline-block;width:228px;height:67px;z-index:9;position:relative;">
-                  <a href="./5PRIMARIA.html"><div id="Shape3"><div id="Shape3_text"><span style="color:#FFD700;font-family:Acme;font-size:29px;">5to de Primaria</span></div></div></a>
-               </div>
-            </div>
-            <div class="col-4">
-               <div id="wb_Shape4" style="display:inline-block;width:228px;height:67px;z-index:10;position:relative;">
-                  <a href="./6PRIMARIA.html"><div id="Shape4"><div id="Shape4_text"><span style="color:#FFD700;font-family:Acme;font-size:29px;">6to de Primaria</span></div></div></a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid13">
-      <div id="LayoutGrid13">
-         <div class="row">
-            <div class="col-1">
-               <hr id="Line4" style="display:block;width:100%;z-index:11;">
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid4">
-      <div id="LayoutGrid4">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Shape5" style="display:inline-block;width:228px;height:67px;z-index:12;position:relative;">
-                  <a href="./1SECUNDARIA.html"><div id="Shape5"><div id="Shape5_text"><span style="color:#2D2D2D;font-family:Acme;font-size:29px;">1ro de Secundaria</span></div></div></a>
-               </div>
-            </div>
-            <div class="col-2">
-               <div id="wb_Shape6" style="display:inline-block;width:228px;height:67px;z-index:13;position:relative;">
-                  <a href="./2SECUNDARIA.html"><div id="Shape6"><div id="Shape6_text"><span style="color:#2D2D2D;font-family:Acme;font-size:29px;">2do de Secundaria</span></div></div></a>
-               </div>
-            </div>
-            <div class="col-3">
-               <div id="wb_Shape7" style="display:inline-block;width:228px;height:67px;z-index:14;position:relative;">
-                  <a href="./3SECUNDARIA.html"><div id="Shape7"><div id="Shape7_text"><span style="color:#1E1E1E;font-family:Acme;font-size:29px;">3ro de Secundaria</span></div></div></a>
-               </div>
-            </div>
-            <div class="col-4">
-               <div id="wb_Shape8" style="display:inline-block;width:228px;height:67px;z-index:15;position:relative;">
-                  <a href="./4SECUNDARIA.html"><div id="Shape8"><div id="Shape8_text"><span style="color:#DCDCDC;font-family:Acme;font-size:29px;">4to de Secunda</span><span style="color:#FFFFFF;font-family:Acme;font-size:29px;">ria</span></div></div></a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid11">
-      <div id="LayoutGrid11">
-         <div class="row">
-            <div class="col-1">
-               <hr id="Line2" style="display:block;width:100%;z-index:16;">
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid5">
-      <div id="LayoutGrid5">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Shape9" style="display:inline-block;width:228px;height:67px;z-index:17;position:relative;">
-                  <a href="./5SECUNDARIA.html"><div id="Shape9"><div id="Shape9_text"><span style="color:#DCDCDC;font-family:Acme;font-size:29px;">5to de Secundaria</span></div></div></a>
-               </div>
-            </div>
-            <div class="col-2">
-            </div>
-            <div class="col-3">
-            </div>
-            <div class="col-4">
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid12">
-      <div id="LayoutGrid12">
-         <div class="row">
-            <div class="col-1">
-               <hr id="Line3" style="display:block;width:100%;z-index:18;">
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid2">
-      <div id="LayoutGrid2">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text1">
-                  <p style="color:#FF0000;"><span style="font-weight:bold;color:#FF0000;">INFORMACIÓN SOBRE EL COVID-19</span></p>
-                  <p style="color:#4F4F4F;"><span style="color:#4F4F4F;">El SARS CoV-2 pertenece a la familia de los coronavirus, y fue nombrado así por las espinas similares a una corona que están en su superficie.</span></p>
-                  <p style="color:#4F4F4F;"><span style="color:#4F4F4F;">El SARS CoV-2 puede producir COVID-19, una infección viral contagiosa que ataca principalmente tu garganta y tus pulmones.</span></p>
-               </div>
-            </div>
-            <div class="col-2">
-               <div id="wb_YouTube4" style="display:inline-block;width:100%;z-index:20;">
-                  <iframe id="YouTube4" src="https://www.youtube.com/embed/QxQNlPwy-hQ?rel=0&amp;showinfo=0&amp;controls=0&amp;autohide=0&amp;fs=1" allowfullscreen=""></iframe>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid10">
-      <div id="LayoutGrid10">
-         <div class="row">
-            <div class="col-1">
-               <hr id="Line1" style="display:block;width:100%;z-index:21;">
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid6">
-      <div id="LayoutGrid6">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text2">
-                  <p style="color:#FF0000;"><span style="font-weight:bold;color:#FF0000;">PREVENCIÓN DEL COVID-19</span></p>
-                  <p style="color:#4F4F4F;"><span style="color:#4F4F4F;">Muchas enfermedades contagiosas como el COVID-19 se propagan mediante el contacto directo o indirecto de personas. Las bacterias y virus como el nuevo coronavirus, pueden transmitirse transportadas por micropartículas de saliva que expulsamos al toser, estornudar, hablar o a través del contacto de nuestras manos con distintas superficies. Si no se siguen una serie de precauciones, estos elementos patógenos pueden acceder a nuestro cuerpo a través de nuestras vías aéreas o mucosas, después de haber tocado superficies contaminadas o habiendo estado en contacto cercano con una persona infectada.</span></p>
-               </div>
-            </div>
-            <div class="col-2">
-               <div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:23;">
-                  <iframe id="YouTube1" src="https://www.youtube.com/embed/aI1616UFRpM?rel=0&amp;showinfo=0&amp;controls=0&amp;autohide=0&amp;fs=1" allowfullscreen=""></iframe>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid15">
-      <div id="LayoutGrid15">
-         <div class="row">
-            <div class="col-1">
-               <hr id="Line6" style="display:block;width:100%;z-index:24;">
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid7">
-      <div id="LayoutGrid7">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text3">
-                  <p style="color:#4F4F4F;"><span style="color:#4F4F4F;">INFORMACIÓN SOBRE LA DIFERENCIA&nbsp; ENTRE UNA </span><span style="font-weight:bold;color:#4F4F4F;">AFP</span><span style="color:#4F4F4F;"> Y </span><span style="font-weight:bold;color:#4F4F4F;">ONP</span><span style="color:#4F4F4F;"> REALIZADA POR EL INGENIERO HUGO JAVIER.</span></p>
-               </div>
-            </div>
-            <div class="col-2">
-               <div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:26;">
-                  <iframe id="YouTube2" src="https://www.youtube.com/embed/F4989MflZig?rel=0&amp;showinfo=0&amp;autohide=0&amp;fs=1" allowfullscreen=""></iframe>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid14">
-      <div id="LayoutGrid14">
-         <div class="row">
-            <div class="col-1">
-               <hr id="Line5" style="display:block;width:100%;z-index:27;">
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid8">
-      <div id="LayoutGrid8">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text17">
-                  <span style="color:#4F4F4F;">CONTACTO PÚBLICO PARA EL ÁREA DE COMPUTACIÓN 929203123</span>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid9">
-      <div id="LayoutGrid9">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text4">
-                  <span style="color:#00BFFF;font-family:'Open Sans';font-size:15px;">Cyberroot Networks 2020</span>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="AVISO" class="modal fade" role="dialog" style="text-align:left;">
-      <div class="modal-dialog">
-         <div class="modal-content">
-            <div class="modal-body">
-               <div id="wb_Image1" style="position:absolute;left:313px;top:119px;width:275px;height:242px;z-index:30;">
-                  <img src="images/CORONAVIRUS.jpg" id="Image1" alt=""></div>
-               <div id="wb_Shape10" style="position:absolute;left:368px;top:404px;width:185px;height:47px;z-index:31;">
-                  <a href="" onclick="$('#AVISO').modal('hide');return false;"><div id="Shape10"><div id="Shape10_text"><span style="color:#F5F5F5;font-family:Arial;font-size:19px;"><strong>CONTINUAR</strong></span></div></div></a></div>
-               <div id="wb_Text7" style="position:absolute;left:176px;top:19px;width:290px;height:39px;text-align:center;z-index:32;">
-                  <span style="color:#1E1E1E;"><strong>HOLA VISITANTE!</strong></span></div>
-               <div id="wb_Text6" style="position:absolute;left:26px;top:110px;width:270px;height:260px;z-index:33;">
-                  <span style="color:#1E1E1E;">Estamos en estado de pandemia global por el </span><span style="color:#C00000;"><strong>COVID-19</strong></span><span style="color:#1E1E1E;">, así que te pedimos tener calma y siempre mantener el aseo personal muy puntualmente. Evitar el contacto con otras personas, lavarse bien las manos, si sientes tener los síntomas de la enfermedad,&nbsp; entonces comunícate de forma puntual con </span><span style="color:#C00000;"><strong>113</strong></span><span style="color:#1E1E1E;"> asignado por el </span><span style="color:#C00000;"><strong>MINSA</strong></span><span style="color:#1E1E1E;">. <br>Es vital por ahora mantenerse aislado, solo así lograremos salir de esta crisis global que nos afecta enormemente a todos.</span></div>
-               <hr id="Line7" style="position:absolute;left:28px;top:75px;width:586px;z-index:34;">
-               <div id="wb_Text8" style="position:absolute;left:30px;top:407px;width:283px;height:41px;text-align:center;z-index:35;">
-                  <span style="color:#C00000;">#YoMeQuedoEnCasa</span></div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <script>   
-   var wb_Timer1;
-   function TimerStartTimer1()
+<div id="capa1">
+<div id="capa1-overlay"></div>
+<div id="capa1_Container">
+<div id="wb_Text10" class="CustomStyle">
+<p id="wb_uid0"><span id="wb_uid1">CENTRO DE CÓMPUTO</span></p>
+<p id="wb_uid2"><span id="wb_uid3">IE. ANTÓN MAKARENKO</span></p></div>
+<div id="wb_Image2">
+<img src="images/MAKARENKOCOVER.png" id="Image2" alt=""></div>
+<div id="sticker_ADELANTE_">
+<div id="sticker_ADELANTE__Container">
+<div id="wb_ResponsiveMenu1">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li><a role="menuitem" href="./index.html" rel="nofollow">INICIO</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text11">
+<p id="wb_uid4"><span id="wb_uid5">SELECCIONE UN SALÓN</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Shape1">
+<a href="./3PRIMARIA.html"><div id="Shape1"><div id="Shape1_text"><span id="wb_uid6">3ro de Primaria</span></div></div></a>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Shape2">
+<a href="./4PRIMARIA.html"><div id="Shape2"><div id="Shape2_text"><span id="wb_uid7">4to de Primaria</span></div></div></a>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Shape3">
+<a href="./5PRIMARIA.html"><div id="Shape3"><div id="Shape3_text"><span id="wb_uid8">5to de Primaria</span></div></div></a>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_Shape4">
+<a href="./6PRIMARIA.html"><div id="Shape4"><div id="Shape4_text"><span id="wb_uid9">6to de Primaria</span></div></div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid13">
+<div id="LayoutGrid13">
+<div class="row">
+<div class="col-1">
+<hr id="Line4">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div id="wb_Shape5">
+<a href="./1SECUNDARIA.html"><div id="Shape5"><div id="Shape5_text"><span id="wb_uid10">1ro de Secundaria</span></div></div></a>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Shape6">
+<a href="./2SECUNDARIA.html"><div id="Shape6"><div id="Shape6_text"><span id="wb_uid11">2do de Secundaria</span></div></div></a>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Shape7">
+<a href="./3SECUNDARIA.html"><div id="Shape7"><div id="Shape7_text"><span id="wb_uid12">3ro de Secundaria</span></div></div></a>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_Shape8">
+<a href="./4SECUNDARIA.html"><div id="Shape8"><div id="Shape8_text"><span id="wb_uid13">4to de Secunda</span><span id="wb_uid14">ria</span></div></div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid11">
+<div id="LayoutGrid11">
+<div class="row">
+<div class="col-1">
+<hr id="Line2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_Shape9">
+<a href="./5SECUNDARIA.html"><div id="Shape9"><div id="Shape9_text"><span id="wb_uid15">5to de Secundaria</span></div></div></a>
+</div>
+</div>
+<div class="col-2">
+</div>
+<div class="col-3">
+</div>
+<div class="col-4">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid12">
+<div id="LayoutGrid12">
+<div class="row">
+<div class="col-1">
+<hr id="Line3">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text1">
+<p id="wb_uid16"><span id="wb_uid17">INFORMACIÓN SOBRE EL COVID-19</span></p>
+<p id="wb_uid18"><span id="wb_uid19">El SARS CoV-2 pertenece a la familia de los coronavirus, y fue nombrado así por las espinas similares a una corona que están en su superficie.</span></p>
+<p id="wb_uid20"><span id="wb_uid21">El SARS CoV-2 puede producir COVID-19, una infección viral contagiosa que ataca principalmente tu garganta y tus pulmones.</span></p>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_YouTube4">
+<iframe id="YouTube4" src="https://www.youtube.com/embed/QxQNlPwy-hQ?rel=0&amp;showinfo=0&amp;controls=0&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid10">
+<div id="LayoutGrid10">
+<div class="row">
+<div class="col-1">
+<hr id="Line1">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text2">
+<p id="wb_uid22"><span id="wb_uid23">PREVENCIÓN DEL COVID-19</span></p>
+<p id="wb_uid24"><span id="wb_uid25">Muchas enfermedades contagiosas como el COVID-19 se propagan mediante el contacto directo o indirecto de personas. Las bacterias y virus como el nuevo coronavirus, pueden transmitirse transportadas por micropartículas de saliva que expulsamos al toser, estornudar, hablar o a través del contacto de nuestras manos con distintas superficies. Si no se siguen una serie de precauciones, estos elementos patógenos pueden acceder a nuestro cuerpo a través de nuestras vías aéreas o mucosas, después de haber tocado superficies contaminadas o habiendo estado en contacto cercano con una persona infectada.</span></p>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_YouTube1">
+<iframe id="YouTube1" src="https://www.youtube.com/embed/aI1616UFRpM?rel=0&amp;showinfo=0&amp;controls=0&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid15">
+<div id="LayoutGrid15">
+<div class="row">
+<div class="col-1">
+<hr id="Line6">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid7">
+<div id="LayoutGrid7">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text3">
+<p id="wb_uid26"><span id="wb_uid27">INFORMACIÓN SOBRE LA DIFERENCIA&nbsp; ENTRE UNA </span><span id="wb_uid28">AFP</span><span id="wb_uid29"> Y </span><span id="wb_uid30">ONP</span><span id="wb_uid31"> REALIZADA POR EL INGENIERO HUGO JAVIER.</span></p>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_YouTube2">
+<iframe id="YouTube2" src="https://www.youtube.com/embed/F4989MflZig?rel=0&amp;showinfo=0&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid14">
+<div id="LayoutGrid14">
+<div class="row">
+<div class="col-1">
+<hr id="Line5">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid8">
+<div id="LayoutGrid8">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text17">
+<span id="wb_uid32">CONTACTO PÚBLICO PARA EL ÁREA DE COMPUTACIÓN 953385881</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid9">
+<div id="LayoutGrid9">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text4">
+<span id="wb_uid33">Cyberroot Networks 2020</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="AVISO" class="modal fade" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<div id="wb_Image1">
+<img src="images/CORONAVIRUS.jpg" id="Image1" alt=""></div>
+<div id="wb_Shape10">
+<a href="" onclick="$('#AVISO').modal('hide');return false;"><div id="Shape10"><div id="Shape10_text"><span id="wb_uid34"><strong>CONTINUAR</strong></span></div></div></a></div>
+<div id="wb_Text7">
+<span id="wb_uid35"><strong>HOLA VISITANTE!</strong></span></div>
+<div id="wb_Text6">
+<span id="wb_uid36">Estamos en estado de pandemia global por el </span><span id="wb_uid37"><strong>COVID-19</strong></span><span id="wb_uid38">, así que te pedimos tener calma y siempre mantener el aseo personal muy puntualmente. Evitar el contacto con otras personas, lavarse bien las manos, si sientes tener los síntomas de la enfermedad,&nbsp; entonces comunícate de forma puntual con </span><span id="wb_uid39"><strong>113</strong></span><span id="wb_uid40"> asignado por el </span><span id="wb_uid41"><strong>MINSA</strong></span><span id="wb_uid42">. <br>Es vital por ahora mantenerse aislado, solo así lograremos salir de esta crisis global que nos afecta enormemente a todos.</span></div>
+<hr id="Line7">
+<div id="wb_Text8">
+<span id="wb_uid43">#YoMeQuedoEnCasa</span></div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+var wb_Timer1;
+function TimerStartTimer1()
+{
+   wb_Timer1 = setTimeout(function()
    {
-      wb_Timer1 = setTimeout(function()
-      {
-         var event = null;
-         $('#AVISO').modal('show');
-      }, 2300);
-   }
-   function TimerStopTimer1()
-   {
-      clearTimeout(wb_Timer1);
-   }
-   TimerStartTimer1();
-   </script>
+      var event = null;
+      $('#AVISO').modal('show');
+   }, 2300);
+}
+function TimerStopTimer1()
+{
+   clearTimeout(wb_Timer1);
+}
+TimerStartTimer1();
+</script>
+
 </body>
 </html>

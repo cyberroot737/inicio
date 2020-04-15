@@ -19,206 +19,210 @@
 <script src="jquery-1.12.4.min.js"></script>
 <script src="scrollspy.min.js"></script>
 <script src="https://www.youtube.com/iframe_api"></script>
-<script>   
-   var playerYouTube1;
-   var playerYouTube2;
-   var playerYouTube3;
-   function onYouTubeIframeAPIReady() {
-      playerYouTube1 = new YT.Player('YouTube1', {
-         events: {
-         }
-      });
-      playerYouTube2 = new YT.Player('YouTube2', {
-         events: {
-         }
-      });
-      playerYouTube3 = new YT.Player('YouTube3', {
-         events: {
-         }
-      });
-   }
-</script>
-<script>   
-   $(document).ready(function()
-   {
-      $("a[href*='#capa1']").click(function(event)
-      {
-         event.preventDefault();
-         $('html, body').stop().animate({ scrollTop: $('#capa1').offset().top }, 300, 'linear');
-      });
-      $("a[href*='#MARCADOR1']").click(function(event)
-      {
-         event.preventDefault();
-         $('html, body').stop().animate({ scrollTop: $('#wb_MARCADOR1').offset().top }, 600, 'linear');
-      });
+<script>
+var playerYouTube1;
+var playerYouTube2;
+var playerYouTube3;
+function onYouTubeIframeAPIReady() {
+   playerYouTube1 = new YT.Player('YouTube1', {
+      events: {
+      }
    });
+   playerYouTube2 = new YT.Player('YouTube2', {
+      events: {
+      }
+   });
+   playerYouTube3 = new YT.Player('YouTube3', {
+      events: {
+      }
+   });
+}
+</script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#capa1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#capa1').offset().top }, 300, 'linear');
+   });
+   $("a[href*='#MARCADOR1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_MARCADOR1').offset().top }, 600, 'linear');
+   });
+});
 </script>
 </head>
 <body data-spy="scroll">
-   <div id="capa1" style="position:relative;text-align:center;width:100%;height:410px;float:left;clear:left;display:block;z-index:29;">
-      <div id="capa1-overlay"></div>
-      <div id="capa1_Container" style="width:1650px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-         <div id="wb_Image2" style="position:absolute;left:999px;top:65px;width:308px;height:308px;z-index:0;">
-            <img src="images/anime%2dnaruto%2dpng%2d4.png" id="Image2" alt=""></div>
-         <div id="wb_Text1" style="position:absolute;left:369px;top:184px;width:725px;height:121px;z-index:1;">
-            <p style="color:#FFC75D;"><span style="color:#FFC75D;">2do De Secundaria</span></p></div>
-      </div>
-   </div>
-   <div id="sticker_ADELANTE_" style="position:fixed;text-align:center;left:auto;right:0px;top:0px;width:100%;height:65px;z-index:30;">
-      <div id="wb_ResponsiveMenu1" style="display:inline-block;width:100%;z-index:2;">
-         <label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menú principal<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
-         <input type="checkbox" id="ResponsiveMenu1-submenu">
-         <ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
-            <li><a role="menuitem" href="./index.html" rel="nofollow"><i class="fa fa-home fa-2x">&nbsp;</i><br>INICIO</a></li>
-            <li><a role="menuitem" href="./MENU.html" rel="nofollow"><i class="fa fa-graduation-cap fa-2x">&nbsp;</i><br>MEN&#218;</a></li>
-         </ul>
-      </div>
-   </div>
-   <div id="wb_MARCADOR1" style="position:absolute;left:0px;top:0px;width:67px;height:60px;visibility:hidden;z-index:31;">
-      <a id="MARCADOR1" style="visibility:hidden;">&nbsp;</a>
-   </div>
-   <div id="wb_1-BIMESTRE">
-      <div id="1-BIMESTRE">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text2">
-                  <p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFD700;"><span style="font-family:Acme;font-size:29px;line-height:37.5px;color:#FFD700;">ÁREA DE TRABAJO DEL </span><span style="font-family:Acme;font-size:29px;line-height:37.5px;color:#00FFFF;">PRIMER BIMESTRE</span></p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_1SEMANA1B">
-      <div id="1SEMANA1B">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text3">
-                  <p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFFFFF;"><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFFFF;">PRÁCTICA VIRTUAL</span></p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid1">
-      <div id="LayoutGrid1">
-         <div class="row">
-            <div class="col-1">
-               <hr id="Line2" style="display:block;width:100%;z-index:5;">
-               <div id="wb_Text6">
-                  <span style="color:#FFFFFF;font-family:Acme;font-size:27px;"><strong>RECURSOS</strong></span>
-               </div>
-               <hr id="Line9" style="display:block;width:100%;z-index:7;">
-               <div id="wb_Text15">
-                  <p style="color:#7CFC00;"><span style="color:#7CFC00;">¿QUÉ SON LAS BASES DE DATOS?</span></p>
-                  <p>&nbsp;</p>
-                  <p style="color:#00BFFF;"><span style="color:#00BFFF;">Video extenso de 21 minutos producido por EDteam </span><span style="color:#FF0000;">P</span><span style="color:#FFFFFF;">er</span><span style="color:#FF0000;">ú</span></p>
-                  <p style="color:#DDA0DD;"><span style="text-decoration:underline;color:#DDA0DD;">Los sistemas gestores de bases de datos que se usan en los colegios normalmente son:</span></p>
-                  <ul style="color:#FFEBCD;list-style-type:upper-roman;">
-                     <li style="margin:0 0 0 24px;"><p style="color:#FFFFFF;"><span style="color:#FFEBCD;">Microsoft Excel - 2do de secundaria.</span>
-                     </li>
-                     <li style="margin:0 0 0 24px;"><p style="color:#FFEBCD;"><span style="color:#FFEBCD;">Microsoft Access - 3ro de secundaria.</span>
-                     </li>
-                  </ul>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-               </div>
-               <div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:9;">
-                  <iframe id="YouTube1" src="https://www.youtube.com/embed/knVwokXITGI?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen=""></iframe>
-               </div>
-               <hr id="Line14" style="display:block;width:100%;z-index:10;">
-               <div id="wb_Text11">
-                  <p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFFFFF;"><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFFFF;">CREAR UNA TABLA EN EXCEL</span></p>
-               </div>
-               <hr id="Line3" style="display:block;width:100%;z-index:12;">
-               <div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:13;">
-                  <iframe id="YouTube2" src="https://www.youtube.com/embed/WjklAFNhEg0?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen=""></iframe>
-               </div>
-               <hr id="Line4" style="display:block;width:100%;z-index:14;">
-               <hr id="Line7" style="display:block;width:100%;z-index:15;">
-               <div id="wb_Text12">
-                  <p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFFFFF;"><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFFFF;">RELACIONAR TABLAS EN EXCEL</span></p>
-               </div>
-               <hr id="Line5" style="display:block;width:100%;z-index:17;">
-               <div id="wb_YouTube3" style="display:inline-block;width:100%;z-index:18;">
-                  <iframe id="YouTube3" src="https://www.youtube.com/embed/_11h_7AHKKg?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen=""></iframe>
-               </div>
-               <hr id="Line6" style="display:block;width:100%;z-index:19;">
-               <hr id="Line11" style="display:block;width:100%;z-index:20;">
-            </div>
-            <div class="col-2">
-               <hr id="Line1" style="display:block;width:100%;z-index:21;">
-               <div id="wb_Text7">
-                  <span style="color:#FFFFFF;font-family:Acme;font-size:27px;"><strong>ACTIVIDADES</strong></span>
-               </div>
-               <div id="wb_Image3" style="display:inline-block;width:100%;height:auto;z-index:23;">
-                  <img src="images/miauu.png" id="Image3" alt="">
-               </div>
-               <hr id="Line10" style="display:block;width:100%;z-index:24;">
-               <div id="wb_Text4">
-                  <p style="color:#FFFF00;"><span style="text-decoration:underline;font-weight:bold;color:#FFFF00;">RECORDATORIO PARA EL ESTUDIANTE</span></p>
-                  <p>&nbsp;</p>
-                  <p style="color:#FFFF00;"><span style="text-decoration:underline;font-weight:bold;color:#FFFF00;">TAREAS ANTERIOMENTE DEJADAS:</span></p>
-                  <ul style="color:#FFFFFF;list-style-type:upper-roman;">
-                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;"> Introducción a la base de datos, páginas ( 3-7).</span>
-                     </li>
-                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Ordenar y filtrar, páginas ( 8-12).</span>
-                     </li>
-                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Claves y relaciones, páginas ( 13-20).</span>
-                     </li>
-                  </ul>
-                  <p>&nbsp;</p>
-                  <p style="color:#FFFF00;"><span style="text-decoration:underline;font-weight:bold;color:#FFFF00;">ACTIVIDADES QUE SE REVISARÁN</span></p>
-                  <ul style="color:#FFFFFF;list-style-type:decimal;">
-                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Página (7).</span>
-                     </li>
-                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Páginas (11-12).</span>
-                     </li>
-                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Páginas (19-20).</span>
-                     </li>
-                  </ul>
-                  <p>&nbsp;</p>
-                  <p style="color:#7FFFD4;"><span style="text-decoration:underline;font-weight:bold;color:#7FFFD4;">NUEVA TEORÍA A REVISAR</span></p>
-                  <ul style="color:#FFFFFF;list-style-type:upper-roman;">
-                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFF00;"><span style="color:#FFFFFF;"> Recopilación de datos de laboratorio, páginas ( 21-24).</span>
-                     </li>
-                  </ul>
-                  <p>&nbsp;</p>
-                  <p style="color:#7FFFD4;"><span style="text-decoration:underline;font-weight:bold;color:#7FFFD4;">NUEVAS ACTIVIDADES</span></p>
-                  <ul style="color:#FFFFFF;list-style-type:decimal;">
-                     <li style="margin:0 0 0 34.67px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Páginas (23-24).</span>
-                     </li>
-                  </ul>
-                  <p>&nbsp;</p>
-                  <p style="color:#FF0000;"><span style="background-color:#FFFF00;color:#FF0000;">NOTAS: </span></p>
-                  <ul style="color:#FFFFFF;list-style-type:disc;">
-                     <li style="margin:0 0 0 24px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Estas actividades deben realizarse en el manual del estudiante.</span>
-                     </li>
-                     <li style="margin:0 0 0 24px;"><p style="color:#FFFFFF;"><span style="color:#FFFFFF;">Estas actividades serán revisadas y corrregidas al retorno a clases.</span>
-                     </li>
-                  </ul>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-               </div>
-               <div id="wb_Image6" style="display:inline-block;width:100%;height:auto;z-index:26;">
-                  <img src="images/partes%20mouse.png" id="Image6" alt="">
-               </div>
-               <div id="wb_Text46">
-                  <p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFFF00;"><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFF00;">NOTA: </span><span style="font-family:Acme;font-size:20px;line-height:25px;color:#FFFFFF;">Todo el contenido del manual del estudiante será repasado y recuperado al retorno a clases.</span></p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid6">
-      <div id="LayoutGrid6">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text17">
-                  <span style="color:#00BFFF;font-family:Arial;font-size:19px;">Cyberroot Networks 2020</span>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
+<div id="capa1">
+<div id="capa1-overlay"></div>
+<div id="capa1_Container">
+<div id="wb_Image2">
+<img src="images/anime%2dnaruto%2dpng%2d4.png" id="Image2" alt=""></div>
+<div id="wb_Text1">
+<p id="wb_uid0"><span id="wb_uid1">2do De Secundaria</span></p></div>
+</div>
+</div>
+<div id="sticker_ADELANTE_">
+<div id="wb_ResponsiveMenu1">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menú principal<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li><a role="menuitem" href="./index.html" rel="nofollow"><i class="fa fa-home fa-2x">&nbsp;</i><br>INICIO</a></li>
+<li><a role="menuitem" href="./MENU.html" rel="nofollow"><i class="fa fa-graduation-cap fa-2x">&nbsp;</i><br>MEN&#218;</a></li>
+</ul>
+
+</div>
+</div>
+<div id="wb_MARCADOR1">
+<a id="MARCADOR1">&nbsp;</a>
+</div>
+<div id="wb_1-BIMESTRE">
+<div id="1-BIMESTRE">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text2">
+<p id="wb_uid2"><span id="wb_uid3">ÁREA DE TRABAJO DEL </span><span id="wb_uid4">PRIMER BIMESTRE</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_1SEMANA1B">
+<div id="1SEMANA1B">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text3">
+<p id="wb_uid5"><span id="wb_uid6">PRÁCTICA VIRTUAL</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<hr id="Line2">
+<div id="wb_Text6">
+<span id="wb_uid7"><strong>RECURSOS</strong></span>
+</div>
+<hr id="Line9">
+<div id="wb_Text15">
+<p id="wb_uid8"><span id="wb_uid9">¿QUÉ SON LAS BASES DE DATOS?</span></p>
+<p>&nbsp;</p>
+<p id="wb_uid10"><span id="wb_uid11">Video extenso de 21 minutos producido por EDteam </span><span id="wb_uid12">P</span><span id="wb_uid13">er</span><span id="wb_uid14">ú</span></p>
+<p id="wb_uid15"><span id="wb_uid16">Los sistemas gestores de bases de datos que se usan en los colegios normalmente son:</span></p>
+<ul id="wb_uid17">
+<li id="wb_uid18"><p id="wb_uid19"><span id="wb_uid20">Microsoft Excel - 2do de secundaria.</span>
+</li>
+<li id="wb_uid21"><p id="wb_uid22"><span id="wb_uid23">Microsoft Access - 3ro de secundaria.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+<div id="wb_YouTube1">
+<iframe id="YouTube1" src="https://www.youtube.com/embed/knVwokXITGI?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<hr id="Line14">
+<div id="wb_Text11">
+<p id="wb_uid24"><span id="wb_uid25">CREAR UNA TABLA EN EXCEL</span></p>
+</div>
+<hr id="Line3">
+<div id="wb_YouTube2">
+<iframe id="YouTube2" src="https://www.youtube.com/embed/WjklAFNhEg0?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<hr id="Line4">
+<hr id="Line7">
+<div id="wb_Text12">
+<p id="wb_uid26"><span id="wb_uid27">RELACIONAR TABLAS EN EXCEL</span></p>
+</div>
+<hr id="Line5">
+<div id="wb_YouTube3">
+<iframe id="YouTube3" src="https://www.youtube.com/embed/_11h_7AHKKg?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+
+</div>
+<hr id="Line6">
+<hr id="Line11">
+</div>
+<div class="col-2">
+<hr id="Line1">
+<div id="wb_Text7">
+<span id="wb_uid28"><strong>ACTIVIDADES</strong></span>
+</div>
+<div id="wb_Image3">
+<img src="images/miauu.png" id="Image3" alt="">
+</div>
+<hr id="Line10">
+<div id="wb_Text4">
+<p id="wb_uid29"><span id="wb_uid30">RECORDATORIO PARA EL ESTUDIANTE</span></p>
+<p>&nbsp;</p>
+<p id="wb_uid31"><span id="wb_uid32">TAREAS ANTERIOMENTE DEJADAS:</span></p>
+<ul id="wb_uid33">
+<li id="wb_uid34"><p id="wb_uid35"><span id="wb_uid36"> Introducción a la base de datos, páginas ( 3-7).</span>
+</li>
+<li id="wb_uid37"><p id="wb_uid38"><span id="wb_uid39">Ordenar y filtrar, páginas ( 8-12).</span>
+</li>
+<li id="wb_uid40"><p id="wb_uid41"><span id="wb_uid42">Claves y relaciones, páginas ( 13-20).</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p id="wb_uid43"><span id="wb_uid44">ACTIVIDADES QUE SE REVISARÁN</span></p>
+<ul id="wb_uid45">
+<li id="wb_uid46"><p id="wb_uid47"><span id="wb_uid48">Página (7).</span>
+</li>
+<li id="wb_uid49"><p id="wb_uid50"><span id="wb_uid51">Páginas (11-12).</span>
+</li>
+<li id="wb_uid52"><p id="wb_uid53"><span id="wb_uid54">Páginas (19-20).</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p id="wb_uid55"><span id="wb_uid56">NUEVA TEORÍA A REVISAR</span></p>
+<ul id="wb_uid57">
+<li id="wb_uid58"><p id="wb_uid59"><span id="wb_uid60"> Recopilación de datos de laboratorio, páginas ( 21-24).</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p id="wb_uid61"><span id="wb_uid62">NUEVAS ACTIVIDADES</span></p>
+<ul id="wb_uid63">
+<li id="wb_uid64"><p id="wb_uid65"><span id="wb_uid66">Páginas (23-24).</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p id="wb_uid67"><span id="wb_uid68">NOTAS: </span></p>
+<ul id="wb_uid69">
+<li id="wb_uid70"><p id="wb_uid71"><span id="wb_uid72">Estas actividades deben realizarse en el manual del estudiante.</span>
+</li>
+<li id="wb_uid73"><p id="wb_uid74"><span id="wb_uid75">Estas actividades serán revisadas y corrregidas al retorno a clases.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+<div id="wb_Image6">
+<img src="images/partes%20mouse.png" id="Image6" alt="">
+</div>
+<div id="wb_Text46">
+<p id="wb_uid76"><span id="wb_uid77">NOTA: </span><span id="wb_uid78">Todo el contenido del manual del estudiante será repasado y recuperado al retorno a clases.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text17">
+<span id="wb_uid79">Cyberroot Networks 2020</span>
+</div>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
