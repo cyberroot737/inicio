@@ -669,7 +669,7 @@ body {
    height: auto;
    margin-left: auto;
    margin-right: auto;
-   max-width: 450px;
+   max-width: 300px;
    padding: 0;
    vertical-align: top;
    width: 100%;
@@ -927,6 +927,72 @@ body {
 }
 #wb_Text17 div {
    text-align: center;
+}
+#Line5 {
+   border-bottom-width: 35px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-left: 0px;
+   border-right: 0px;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text9 {
+   background-color: #000000;
+   background-image: none;
+   border: 10px solid #000000;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text9 {
+   color: #FFFFFF;
+   font-family: Acme;
+   font-size: 24px;
+   font-weight: normal;
+   line-height: 30px;
+}
+#wb_Text9 p,
+#wb_Text9 ul {
+   margin: 0;
+   padding: 0;
+}
+#YouTube1 {
+   border-width: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+#wb_YouTube1 {
+   box-sizing: border-box;
+   display: block;
+   height: 0;
+   margin: 0;
+   overflow: hidden;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+   position: relative;
+}
+#Line6 {
+   border-bottom-width: 35px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+   border-left: 0px;
+   border-right: 0px;
+   border-style: solid;
+   border-top: 0px;
+   height: 0  !important;
+   line-height: 0px  !important;
+   margin: 0;
+   padding: 0;
 }
 @media only screen and (min-width: 1280px) and (max-width: 1649px) {
 body {
@@ -1402,6 +1468,50 @@ body {
 #wb_Text17 {
    margin: 0;
    padding: 0;
+}
+#Line5 {
+   display: block  !important;
+   height: 21px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line5 {
+   border-bottom-width: 21px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
+#wb_Text9 {
+   background-color: #000000;
+   background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
+}
+#wb_Text9 {
+   font-family: Acme;
+   font-size: 24px;
+   font-weight: normal;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   display: block  !important;
+   height: 21px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   border-bottom-width: 21px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
 }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -1881,6 +1991,51 @@ body {
    margin: 0;
    padding: 0;
 }
+#Line5 {
+   display: block  !important;
+   height: 17px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line5 {
+   border-bottom-width: 17px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
+#wb_Text9 {
+   background-color: #000000;
+   background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
+}
+#wb_Text9 {
+   font-family: Acme;
+   font-size: 19px;
+   font-weight: normal;
+   line-height: 23px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   display: block  !important;
+   height: 17px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   border-bottom-width: 17px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
 }
 @media only screen and (min-width: 980px) and (max-width: 1023px) {
 body {
@@ -2357,6 +2512,51 @@ body {
 #wb_Text17 {
    margin: 0;
    padding: 0;
+}
+#Line5 {
+   display: block  !important;
+   height: 17px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line5 {
+   border-bottom-width: 17px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
+#wb_Text9 {
+   background-color: #000000;
+   background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
+}
+#wb_Text9 {
+   font-family: Acme;
+   font-size: 20px;
+   font-weight: normal;
+   line-height: 25px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   display: block  !important;
+   height: 17px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   border-bottom-width: 17px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
 }
 }
 @media only screen and (min-width: 800px) and (max-width: 979px) {
@@ -2835,6 +3035,51 @@ body {
    margin: 0;
    padding: 0;
 }
+#Line5 {
+   display: block  !important;
+   height: 14px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line5 {
+   border-bottom-width: 14px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
+#wb_Text9 {
+   background-color: #000000;
+   background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
+}
+#wb_Text9 {
+   font-family: Acme;
+   font-size: 19px;
+   font-weight: normal;
+   line-height: 23px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   display: block  !important;
+   height: 14px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   border-bottom-width: 14px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
 }
 @media only screen and (min-width: 768px) and (max-width: 799px) {
 body {
@@ -3195,9 +3440,9 @@ body {
 }
 #wb_Text5 {
    font-family: Acme;
-   font-size: 21px;
+   font-size: 17px;
    font-weight: normal;
-   line-height: 27px;
+   line-height: 22px;
    margin: 0;
    padding: 0;
    text-align: left;
@@ -3311,6 +3556,50 @@ body {
 #wb_Text17 {
    margin: 0;
    padding: 0;
+}
+#Line5 {
+   display: block  !important;
+   height: 14px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line5 {
+   border-bottom-width: 14px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
+#wb_Text9 {
+   background-color: #000000;
+   background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
+}
+#wb_Text9 {
+   font-family: Acme;
+   font-size: 17px;
+   font-weight: normal;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   display: block  !important;
+   height: 14px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   border-bottom-width: 14px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
 }
 }
 @media only screen and (max-width: 767px) {
@@ -3675,7 +3964,7 @@ body {
 }
 #wb_Text5 {
    font-family: Acme;
-   font-size: 16px;
+   font-size: 13px;
    font-weight: normal;
    margin: 0;
    padding: 0;
@@ -3790,5 +4079,49 @@ body {
 #wb_Text17 {
    margin: 0;
    padding: 0;
+}
+#Line5 {
+   display: block  !important;
+   height: 6px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line5 {
+   border-bottom-width: 6px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
+}
+#wb_Text9 {
+   background-color: #000000;
+   background-image: none;
+   display: block  !important;
+   visibility: visible  !important;
+}
+#wb_Text9 {
+   font-family: Acme;
+   font-size: 13px;
+   font-weight: normal;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_YouTube1 {
+   display: block  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   display: block  !important;
+   height: 6px  !important;
+   margin: 0;
+   visibility: visible  !important;
+   width: 100%  !important;
+}
+#Line6 {
+   border-bottom-width: 6px;
+   border-color: #FF0000;
+   border-color: rgba(255,0,0,0.00);
 }
 }

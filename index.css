@@ -328,10 +328,7 @@ body {
    border-top-color: #000000;
 }
 }
-#Image1 {
-   -moz-animation: unfold 1000ms linear 2ms 1 normal both;
-   -webkit-animation: unfold 1000ms linear 2ms 1 normal both;
-   animation: unfold 1000ms linear 2ms 1 normal both;
+#logo_principal {
    border: 0px solid #000000;
    height: 100%;
    left: 0;
@@ -340,7 +337,7 @@ body {
    top: 0;
    width: 100%;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    -moz-animation: transform-wobble-center 2000ms linear 5ms infinite normal both;
    -webkit-animation: transform-wobble-center 2000ms linear 5ms infinite normal both;
    animation: transform-wobble-center 2000ms linear 5ms infinite normal both;
@@ -351,22 +348,19 @@ body {
    padding: 10px 10px 10px 10px;
    text-align: center;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    color: #D3D3D3;
    font-family: "Open Sans";
    font-size: 27px;
    font-weight: normal;
    line-height: 36px;
 }
-#wb_Text1 p,
-#wb_Text1 ul {
+#wb_texto_teamsketch p,
+#wb_texto_teamsketch ul {
    margin: 0;
    padding: 0;
 }
-#wb_Text2 {
-   -moz-animation: transform-pulse 1500ms linear 10ms 1 normal both;
-   -webkit-animation: transform-pulse 1500ms linear 10ms 1 normal both;
-   animation: transform-pulse 1500ms linear 10ms 1 normal both;
+#wb_frase_steve_jobs {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
@@ -374,15 +368,15 @@ body {
    padding: 10px 10px 10px 10px;
    text-align: center;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    color: #D3D3D3;
    font-family: "Open Sans";
    font-size: 20px;
    font-weight: normal;
    line-height: 27.5px;
 }
-#wb_Text2 p,
-#wb_Text2 ul {
+#wb_frase_steve_jobs p,
+#wb_frase_steve_jobs ul {
    margin: 0;
    padding: 0;
 }
@@ -519,7 +513,7 @@ body {
    background-color: rgba(255,255,255,0.00);
    background-image: none;
    border: 1px #D3D3D3 solid;
-   border-radius: 1px;
+   border-radius: 3px;
    height: 58px;
    top: 0px;
    width: 167px;
@@ -530,13 +524,13 @@ body {
    border: 1px #FFFF00 solid;
 }
 #Shape1_text {
-   height: 34px;
-   left: 1px;
+   height: 38px;
+   left: 2px;
    overflow: hidden;
    position: absolute;
    text-align: center;
    top: 12px;
-   width: 164px;
+   width: 162px;
    word-wrap: break-word;
 }
 #Shape1:hover span {
@@ -645,7 +639,7 @@ body {
 #wb_FontAwesomeIcon1:hover i {
    color: #004EC0;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    -moz-animation: push 2000ms linear 0ms 1 normal both;
    -webkit-animation: push 2000ms linear 0ms 1 normal both;
    animation: push 2000ms linear 0ms 1 normal both;
@@ -656,15 +650,15 @@ body {
    padding: 40px 10px 10px 10px;
    text-align: center;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    color: #C00000;
    font-family: "Open Sans";
    font-size: 75px;
    font-weight: normal;
    line-height: 101.5px;
 }
-#wb_Text10 p,
-#wb_Text10 ul {
+#wb_TXTt_gaming p,
+#wb_TXTt_gaming ul {
    margin: 0;
    padding: 0;
 }
@@ -689,7 +683,7 @@ body {
    position: relative;
    width: 100%;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
@@ -697,15 +691,15 @@ body {
    padding: 10px 10px 10px 10px;
    text-align: center;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    color: #C00000;
    font-family: "Open Sans";
    font-size: 35px;
    font-weight: normal;
    line-height: 47px;
 }
-#wb_Text3 p,
-#wb_Text3 ul {
+#wb_TXT_preparamos_pc p,
+#wb_TXT_preparamos_pc ul {
    margin: 0;
    padding: 0;
 }
@@ -747,7 +741,7 @@ body {
    font-size: 8px;
    font-style: normal;
    font-weight: normal;
-   height: 765px  !important;
+   height: 792px  !important;
    margin: 0;
    text-decoration: none;
    visibility: visible  !important;
@@ -839,27 +833,27 @@ body {
    visibility: visible  !important;
    width: 100%  !important;
 }
-#wb_Image1 {
+#wb_logo_principal {
    display: inline  !important;
    height: 165px  !important;
-   left: 314px  !important;
+   left: 313px  !important;
    margin: 0;
    padding: 0;
    top: 260px  !important;
    visibility: visible  !important;
    width: 654px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    background-color: transparent;
    background-image: none;
    display: inline  !important;
    height: 36px  !important;
-   left: 314px  !important;
+   left: 313px  !important;
    top: 224px  !important;
    visibility: visible  !important;
    width: 654px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    font-family: "Open Sans";
    font-size: 27px;
    font-weight: normal;
@@ -868,15 +862,15 @@ body {
    padding: 0;
    text-align: center;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    background-color: transparent;
    background-image: none;
    height: 87px  !important;
-   left: 314px  !important;
+   left: 420px  !important;
    top: 425px  !important;
-   width: 654px  !important;
+   width: 441px  !important;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    font-family: "Open Sans";
    font-size: 21px;
    font-weight: normal;
@@ -1026,10 +1020,10 @@ body {
    width: 157px  !important;
 }
 #Shape1_text {
-   height: 38px;
-   left: 1px;
+   height: 42px;
+   left: 2px;
    top: 12px;
-   width: 156px;
+   width: 154px;
 }
 #wb_Image15 {
    display: inline  !important;
@@ -1149,13 +1143,13 @@ body {
    line-height: 22px;
    width: 18px;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    font-family: "Open Sans";
    font-size: 53px;
    font-weight: normal;
@@ -1169,25 +1163,33 @@ body {
    left: 1034px  !important;
    top: 36px  !important;
    visibility: visible  !important;
-   width: 104px  !important;
+   width: 126px  !important;
 }
 #SlideShow1 {
    display: inline-block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    font-family: "Open Sans";
    font-size: 27px;
    font-weight: normal;
    margin: 0;
    padding: 10px 10px 10px 10px;
    text-align: center;
+}
+#wb_efectos_titulo {
+   display: none  !important;
+   height: 77px  !important;
+   left: 1310px  !important;
+   top: 130px  !important;
+   visibility: hidden  !important;
+   width: 100px  !important;
 }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -1228,7 +1230,7 @@ body {
    font-size: 8px;
    font-style: normal;
    font-weight: normal;
-   height: 670px  !important;
+   height: 618px  !important;
    margin: 0;
    text-decoration: none;
    visibility: visible  !important;
@@ -1320,7 +1322,7 @@ body {
    visibility: visible  !important;
    width: 100%  !important;
 }
-#wb_Image1 {
+#wb_logo_principal {
    display: inline  !important;
    height: 116px  !important;
    left: 284px  !important;
@@ -1330,7 +1332,7 @@ body {
    visibility: visible  !important;
    width: 457px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    background-color: transparent;
    background-image: none;
    display: inline  !important;
@@ -1340,7 +1342,7 @@ body {
    visibility: visible  !important;
    width: 455px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    font-family: "Open Sans";
    font-size: 21px;
    font-weight: normal;
@@ -1348,7 +1350,7 @@ body {
    padding: 0;
    text-align: center;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    background-color: transparent;
    background-image: none;
    height: 76px  !important;
@@ -1356,7 +1358,7 @@ body {
    top: 339px  !important;
    width: 456px  !important;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    font-family: "Open Sans";
    font-size: 19px;
    font-weight: normal;
@@ -1505,10 +1507,10 @@ body {
    width: 157px  !important;
 }
 #Shape1_text {
-   height: 38px;
-   left: 1px;
+   height: 42px;
+   left: 2px;
    top: 12px;
-   width: 156px;
+   width: 154px;
 }
 #wb_Image15 {
    display: inline  !important;
@@ -1628,13 +1630,13 @@ body {
    line-height: 29px;
    width: 24px;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    font-family: "Open Sans";
    font-size: 43px;
    font-weight: normal;
@@ -1654,19 +1656,27 @@ body {
    display: inline-block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    font-family: "Open Sans";
    font-size: 24px;
    font-weight: normal;
    margin: 0;
    padding: 10px 10px 10px 10px;
    text-align: center;
+}
+#wb_efectos_titulo {
+   display: none  !important;
+   height: 79px  !important;
+   left: 1042px  !important;
+   top: 61px  !important;
+   visibility: hidden  !important;
+   width: 98px  !important;
 }
 }
 @media only screen and (min-width: 980px) and (max-width: 1023px) {
@@ -1707,7 +1717,7 @@ body {
    font-size: 8px;
    font-style: normal;
    font-weight: normal;
-   height: 706px  !important;
+   height: 645px  !important;
    margin: 0;
    text-decoration: none;
    visibility: visible  !important;
@@ -1799,7 +1809,7 @@ body {
    visibility: visible  !important;
    width: 100%  !important;
 }
-#wb_Image1 {
+#wb_logo_principal {
    display: inline  !important;
    height: 100px  !important;
    left: 291px  !important;
@@ -1809,7 +1819,7 @@ body {
    visibility: visible  !important;
    width: 394px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    background-color: transparent;
    background-image: none;
    display: inline  !important;
@@ -1819,7 +1829,7 @@ body {
    visibility: visible  !important;
    width: 394px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    font-family: "Open Sans";
    font-size: 21px;
    font-weight: normal;
@@ -1827,7 +1837,7 @@ body {
    padding: 0;
    text-align: center;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    background-color: transparent;
    background-image: none;
    height: 71px  !important;
@@ -1835,7 +1845,7 @@ body {
    top: 311px  !important;
    width: 394px  !important;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    font-family: "Open Sans";
    font-size: 17px;
    font-weight: normal;
@@ -1984,10 +1994,10 @@ body {
    width: 157px  !important;
 }
 #Shape1_text {
-   height: 38px;
-   left: 1px;
+   height: 42px;
+   left: 2px;
    top: 12px;
-   width: 156px;
+   width: 154px;
 }
 #wb_Image15 {
    display: inline  !important;
@@ -2107,13 +2117,13 @@ body {
    line-height: 36px;
    width: 30px;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    font-family: "Open Sans";
    font-size: 43px;
    font-weight: normal;
@@ -2133,19 +2143,27 @@ body {
    display: inline-block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    font-family: "Open Sans";
    font-size: 27px;
    font-weight: normal;
    margin: 0;
    padding: 10px 10px 10px 10px;
    text-align: center;
+}
+#wb_efectos_titulo {
+   display: none  !important;
+   height: 82px  !important;
+   left: 997px  !important;
+   top: 58px  !important;
+   visibility: hidden  !important;
+   width: 113px  !important;
 }
 }
 @media only screen and (min-width: 800px) and (max-width: 979px) {
@@ -2186,7 +2204,7 @@ body {
    font-size: 8px;
    font-style: normal;
    font-weight: normal;
-   height: 626px  !important;
+   height: 569px  !important;
    margin: 0;
    text-decoration: none;
    visibility: visible  !important;
@@ -2278,7 +2296,7 @@ body {
    visibility: visible  !important;
    width: 100%  !important;
 }
-#wb_Image1 {
+#wb_logo_principal {
    display: inline  !important;
    height: 108px  !important;
    left: 184px  !important;
@@ -2288,7 +2306,7 @@ body {
    visibility: visible  !important;
    width: 430px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    background-color: transparent;
    background-image: none;
    display: inline  !important;
@@ -2298,7 +2316,7 @@ body {
    visibility: visible  !important;
    width: 430px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    font-family: "Open Sans";
    font-size: 24px;
    font-weight: normal;
@@ -2306,7 +2324,7 @@ body {
    padding: 0;
    text-align: center;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    background-color: transparent;
    background-image: none;
    height: 76px  !important;
@@ -2314,7 +2332,7 @@ body {
    top: 376px  !important;
    width: 430px  !important;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    font-family: "Open Sans";
    font-size: 19px;
    font-weight: normal;
@@ -2464,10 +2482,10 @@ body {
    width: 157px  !important;
 }
 #Shape1_text {
-   height: 38px;
-   left: 1px;
+   height: 42px;
+   left: 2px;
    top: 12px;
-   width: 156px;
+   width: 154px;
 }
 #wb_Image15 {
    display: inline  !important;
@@ -2587,13 +2605,13 @@ body {
    line-height: 29px;
    width: 24px;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    font-family: "Open Sans";
    font-size: 37px;
    font-weight: normal;
@@ -2613,19 +2631,27 @@ body {
    display: inline-block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    font-family: "Open Sans";
    font-size: 21px;
    font-weight: normal;
    margin: 0;
    padding: 10px 10px 10px 10px;
    text-align: center;
+}
+#wb_efectos_titulo {
+   display: none  !important;
+   height: 80px  !important;
+   left: 820px  !important;
+   top: 90px  !important;
+   visibility: hidden  !important;
+   width: 100px  !important;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 799px) {
@@ -2758,17 +2784,17 @@ body {
    visibility: visible  !important;
    width: 100%  !important;
 }
-#wb_Image1 {
+#wb_logo_principal {
    display: inline  !important;
    height: 84px  !important;
-   left: 219px  !important;
+   left: 217px  !important;
    margin: 0;
    padding: 0;
    top: 340px  !important;
    visibility: visible  !important;
    width: 335px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    background-color: transparent;
    background-image: none;
    display: inline  !important;
@@ -2778,7 +2804,7 @@ body {
    visibility: visible  !important;
    width: 334px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    font-family: "Open Sans";
    font-size: 21px;
    font-weight: normal;
@@ -2786,15 +2812,15 @@ body {
    padding: 0;
    text-align: center;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    background-color: transparent;
    background-image: none;
    height: 65px  !important;
-   left: 219px  !important;
+   left: 217px  !important;
    top: 433px  !important;
    width: 335px  !important;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    font-family: "Open Sans";
    font-size: 16px;
    font-weight: normal;
@@ -2944,10 +2970,10 @@ body {
    width: 157px  !important;
 }
 #Shape1_text {
-   height: 38px;
-   left: 1px;
+   height: 42px;
+   left: 2px;
    top: 12px;
-   width: 156px;
+   width: 154px;
 }
 #wb_Image15 {
    display: inline  !important;
@@ -3068,13 +3094,13 @@ body {
    line-height: 27px;
    width: 22px;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    font-family: "Open Sans";
    font-size: 32px;
    font-weight: normal;
@@ -3094,19 +3120,27 @@ body {
    display: inline-block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    font-family: "Open Sans";
    font-size: 20px;
    font-weight: normal;
    margin: 0;
    padding: 10px 10px 10px 10px;
    text-align: center;
+}
+#wb_efectos_titulo {
+   display: none  !important;
+   height: 80px  !important;
+   left: 790px  !important;
+   top: 120px  !important;
+   visibility: hidden  !important;
+   width: 90px  !important;
 }
 }
 @media only screen and (max-width: 767px) {
@@ -3147,7 +3181,7 @@ body {
    font-size: 8px;
    font-style: normal;
    font-weight: normal;
-   height: 447px  !important;
+   height: 308px  !important;
    margin: 0;
    text-decoration: none;
    visibility: visible  !important;
@@ -3240,7 +3274,7 @@ body {
    visibility: visible  !important;
    width: 100%  !important;
 }
-#wb_Image1 {
+#wb_logo_principal {
    display: inline  !important;
    height: 62px  !important;
    left: 36px  !important;
@@ -3250,17 +3284,17 @@ body {
    visibility: visible  !important;
    width: 248px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    background-color: transparent;
    background-image: none;
    display: inline  !important;
    height: 22px  !important;
-   left: 35px  !important;
+   left: 37px  !important;
    top: 114px  !important;
    visibility: visible  !important;
    width: 227px  !important;
 }
-#wb_Text1 {
+#wb_texto_teamsketch {
    font-family: "Open Sans";
    font-size: 16px;
    font-weight: normal;
@@ -3268,7 +3302,7 @@ body {
    padding: 10px 10px 10px 10px;
    text-align: center;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    background-color: transparent;
    background-image: none;
    height: 87px  !important;
@@ -3276,7 +3310,7 @@ body {
    top: 235px  !important;
    width: 258px  !important;
 }
-#wb_Text2 {
+#wb_frase_steve_jobs {
    font-family: "Open Sans";
    font-size: 16px;
    font-weight: normal;
@@ -3415,22 +3449,22 @@ body {
 }
 #wb_Shape1 {
    display: inline  !important;
-   height: 62px  !important;
+   height: 60px  !important;
    left: 81px  !important;
    margin: 0;
-   top: 287px  !important;
+   top: 282px  !important;
    visibility: visible  !important;
    width: 159px  !important;
 }
 #Shape1 {
-   height: 60px  !important;
+   height: 58px  !important;
    width: 157px  !important;
 }
 #Shape1_text {
-   height: 38px;
-   left: 1px;
-   top: 12px;
-   width: 156px;
+   height: 41px;
+   left: 2px;
+   top: 11px;
+   width: 154px;
 }
 #wb_Image15 {
    display: inline  !important;
@@ -3551,13 +3585,13 @@ body {
    line-height: 21px;
    width: 17px;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    background-color: transparent;
    background-image: none;
    display: block  !important;
    visibility: visible  !important;
 }
-#wb_Text10 {
+#wb_TXTt_gaming {
    font-family: "Open Sans";
    font-size: 24px;
    font-weight: normal;
@@ -3577,18 +3611,26 @@ body {
    display: inline-block  !important;
    visibility: visible  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    background-color: transparent;
    background-image: none;
-   display: block  !important;
-   visibility: visible  !important;
+   display: none  !important;
+   visibility: hidden  !important;
 }
-#wb_Text3 {
+#wb_TXT_preparamos_pc {
    font-family: "Open Sans";
    font-size: 13px;
    font-weight: normal;
    margin: 0;
    padding: 10px 10px 10px 10px;
    text-align: center;
+}
+#wb_efectos_titulo {
+   display: none  !important;
+   height: 43px  !important;
+   left: 340px  !important;
+   top: 63px  !important;
+   visibility: hidden  !important;
+   width: 40px  !important;
 }
 }

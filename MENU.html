@@ -3,10 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>Antón Makarenko</title>
-<meta name="generator" content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
+<meta name="author" content="Cyberroot@Support">
+<meta name="generator" content="Cyberroot@Support">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="161.png" rel="icon" sizes="16x16" type="image/png">
+<link href="322.png" rel="icon" sizes="32x32" type="image/png">
+<link href="642.png" rel="icon" sizes="64x64" type="image/png">
 <link href="font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Almendra+SC" rel="stylesheet">
@@ -14,6 +18,9 @@
 <link href="MENU.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.parallax.min.js"></script>
+<script src="util.min.js"></script>
+<script src="modal.min.js"></script>
+<script src="wwb15.min.js"></script>
 <script>   
    $(document).ready(function()
    {
@@ -28,11 +35,27 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_MARCADOR1').offset().top }, 600, 'linear');
       });
+      $("a[href*='#AVISO']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#AVISO').offset().top }, 600, 'linear');
+      });
    });
+</script>
+<!-- Smartsupp Live Chat script -->
+<script>   
+   var _smartsupp = _smartsupp || {};
+   _smartsupp.key = '65262a22affbc4c3d21fb8918855ecf60b2c79b2';
+   window.smartsupp||(function(d) {
+     var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+     s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+     c.type='text/javascript';c.charset='utf-8';c.async=true;
+     c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+   })(document);
 </script>
 </head>
 <body>
-   <div id="capa1" style="position:relative;text-align:center;width:100%;height:391px;float:left;clear:left;display:block;z-index:30;">
+   <div id="capa1" style="position:relative;text-align:center;width:100%;height:391px;float:left;clear:left;display:block;z-index:36;">
       <div id="capa1-overlay"></div>
       <div id="sticker_ADELANTE_" style="position:relative;text-align:center;width:100%;height:70px;float:left;clear:left;display:block;z-index:1;">
          <div id="wb_ResponsiveMenu1" style="display:inline-block;width:100%;z-index:0;">
@@ -53,7 +76,7 @@
          <p style="color:#DCDCDC;"><span style="color:#DCDCDC;">IE. ANTÓN MAKARENKO</span></p>
       </div>
    </div>
-   <div id="wb_MARCADOR1" style="position:absolute;left:0px;top:0px;width:67px;height:60px;visibility:hidden;z-index:31;">
+   <div id="wb_MARCADOR1" style="position:absolute;left:0px;top:0px;width:67px;height:60px;z-index:37;">
       <a id="MARCADOR1" style="visibility:hidden;">&nbsp;</a>
    </div>
    <div id="wb_LayoutGrid3">
@@ -263,5 +286,40 @@
          </div>
       </div>
    </div>
+   <div id="AVISO" class="modal fade" role="dialog" style="text-align:left;">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-body">
+               <div id="wb_Image1" style="position:absolute;left:313px;top:119px;width:275px;height:242px;z-index:30;">
+                  <img src="images/CORONAVIRUS.jpg" id="Image1" alt=""></div>
+               <div id="wb_Shape10" style="position:absolute;left:368px;top:404px;width:185px;height:47px;z-index:31;">
+                  <a href="" onclick="$('#AVISO').modal('hide');return false;"><div id="Shape10"><div id="Shape10_text"><span style="color:#F5F5F5;font-family:Arial;font-size:19px;"><strong>CONTINUAR</strong></span></div></div></a></div>
+               <div id="wb_Text7" style="position:absolute;left:176px;top:19px;width:290px;height:39px;text-align:center;z-index:32;">
+                  <span style="color:#1E1E1E;"><strong>HOLA VISITANTE!</strong></span></div>
+               <div id="wb_Text6" style="position:absolute;left:26px;top:110px;width:270px;height:260px;z-index:33;">
+                  <span style="color:#1E1E1E;">Estamos en estado de pandemia global por el </span><span style="color:#C00000;"><strong>COVID-19</strong></span><span style="color:#1E1E1E;">, así que te pedimos tener calma y siempre mantener el aseo personal muy puntualmente. Evitar el contacto con otras personas, lavarse bien las manos, si sientes tener los síntomas de la enfermedad,&nbsp; entonces comunícate de forma puntual con </span><span style="color:#C00000;"><strong>113</strong></span><span style="color:#1E1E1E;"> asignado por el </span><span style="color:#C00000;"><strong>MINSA</strong></span><span style="color:#1E1E1E;">. <br>Es vital por ahora mantenerse aislado, solo así lograremos salir de esta crisis global que nos afecta enormemente a todos.</span></div>
+               <hr id="Line7" style="position:absolute;left:28px;top:75px;width:586px;z-index:34;">
+               <div id="wb_Text8" style="position:absolute;left:30px;top:407px;width:283px;height:41px;text-align:center;z-index:35;">
+                  <span style="color:#C00000;">#YoMeQuedoEnCasa</span></div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script>   
+   var wb_Timer1;
+   function TimerStartTimer1()
+   {
+      wb_Timer1 = setTimeout(function()
+      {
+         var event = null;
+         $('#AVISO').modal('show');
+      }, 2300);
+   }
+   function TimerStopTimer1()
+   {
+      clearTimeout(wb_Timer1);
+   }
+   TimerStartTimer1();
+   </script>
 </body>
 </html>
