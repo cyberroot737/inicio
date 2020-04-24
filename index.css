@@ -636,7 +636,7 @@ body
    border: 0px solid #000000;
    padding: 0;
    margin: 0;
-   text-align: center;
+   text-align: left;
 }
 #wb_Text8
 {
@@ -647,7 +647,7 @@ body
 }
 #wb_Text8 div
 {
-   text-align: center;
+   text-align: left;
 }
 #sticker_ADELANTE_
 {
@@ -811,16 +811,16 @@ body
 {
    display: inline-block;
    width: 100%;
-   z-index: 25;
+   z-index: 26;
 }
 #Html1
 {
    position: absolute;
-   left: 1397px;
-   top: 47px;
+   left: 1090px;
+   top: 34px;
    width: 127px;
    height: 70px;
-   z-index: 24;
+   z-index: 25;
 }
 #wb_uid67
 {
@@ -861,7 +861,7 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 29;
+   z-index: 30;
 }
 #wb_Text4
 {
@@ -898,7 +898,7 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 30;
+   z-index: 31;
 }
 #wb_uid71
 {
@@ -1012,11 +1012,11 @@ body
    position: relative;
    text-align: center;
    width: 100%;
-   height: 165px;
+   height: 148px;
    float: left;
    clear: left;
    display: block;
-   z-index: 31;
+   z-index: 32;
 }
 #wb_uid74
 {
@@ -1076,7 +1076,7 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 26;
+   z-index: 27;
 }
 #wb_uid76
 {
@@ -1108,7 +1108,7 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 27;
+   z-index: 28;
 }
 #wb_efectos_titulo
 {
@@ -1117,7 +1117,12 @@ body
    top: 100px;
    width: 130px;
    height: 100px;
-   z-index: 33;
+   z-index: 34;
+}
+#cid0020000248697472105
+{
+   width: 200px;
+   height: 300px;
 }
 #wb_uid77
 {
@@ -1144,7 +1149,7 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 28;
+   z-index: 29;
 }
 #wb_uid57
 {
@@ -1219,7 +1224,7 @@ body
    top: 0px;
    width: 100%;
    height: 58px;
-   z-index: 32;
+   z-index: 33;
 }
 #wb_uid80
 {
@@ -1289,11 +1294,10 @@ body
 #wb_Text8
 {
    position: absolute;
-   left: 472px;
-   top: 20px;
-   width: 695px;
+   left: 21px;
+   top: 33px;
+   width: 371px;
    height: 72px;
-   text-align: center;
    z-index: 23;
 }
 #wb_uid63
@@ -1319,6 +1323,15 @@ body
 #wb_uid7
 {
    color: #C00000;
+}
+#Html2
+{
+   position: absolute;
+   left: 1350px;
+   top: 39px;
+   width: 120px;
+   height: 60px;
+   z-index: 24;
 }
 #wb_Text9
 {
@@ -1795,8 +1808,8 @@ body
 }
 #wb_Text8
 {
-   left: 475px;
-   top: 21px;
+   left: 20px;
+   top: 34px;
    width: 332px;
    height: 65px;
    visibility: visible;
@@ -1811,7 +1824,7 @@ body
    font-size: 12px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: left;
 }
 #sticker_ADELANTE_
 {
@@ -1849,7 +1862,7 @@ body
    font-size: 19px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: left;
 }
 #wb_Image16
 {
@@ -1880,8 +1893,8 @@ body
 }
 #Html1
 {
-   left: 1034px;
-   top: 36px;
+   left: 913px;
+   top: 35px;
    width: 126px;
    height: 63px;
    visibility: visible;
@@ -1916,6 +1929,15 @@ body
    height: 77px;
    visibility: hidden;
    display: none;
+}
+#Html2
+{
+   left: 1120px;
+   top: 44px;
+   width: 93px;
+   height: 46px;
+   visibility: visible;
+   display: inline;
 }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1279px)
@@ -2298,8 +2320,8 @@ body
 }
 #wb_Text8
 {
-   left: 392px;
-   top: 20px;
+   left: 19px;
+   top: 19px;
    width: 265px;
    height: 82px;
    visibility: visible;
@@ -2314,7 +2336,7 @@ body
    font-size: 12px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: left;
 }
 #sticker_ADELANTE_
 {
@@ -2352,7 +2374,7 @@ body
    font-size: 17px;
    margin: 0;
    padding: 20px 20px 20px 20px;
-   text-align: center;
+   text-align: left;
 }
 #wb_Image16
 {
@@ -2383,8 +2405,8 @@ body
 }
 #Html1
 {
-   left: 770px;
-   top: 41px;
+   left: 735px;
+   top: 37px;
    width: 116px;
    height: 47px;
    visibility: visible;
@@ -2419,6 +2441,15 @@ body
    height: 79px;
    visibility: hidden;
    display: none;
+}
+#Html2
+{
+   left: 910px;
+   top: 42px;
+   width: 74px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
 }
 }
 @media only screen and (min-width: 980px) and (max-width: 1023px)
@@ -2801,8 +2832,8 @@ body
 }
 #wb_Text8
 {
-   left: 364px;
-   top: 16px;
+   left: 20px;
+   top: 18px;
    width: 253px;
    height: 91px;
    visibility: visible;
@@ -2817,7 +2848,7 @@ body
    font-size: 13px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: left;
 }
 #sticker_ADELANTE_
 {
@@ -2855,7 +2886,7 @@ body
    font-size: 16px;
    margin: 0;
    padding: 10px 10px 10px 10px;
-   text-align: center;
+   text-align: left;
 }
 #wb_Image16
 {
@@ -2886,8 +2917,8 @@ body
 }
 #Html1
 {
-   left: 743px;
-   top: 39px;
+   left: 685px;
+   top: 41px;
    width: 112px;
    height: 44px;
    visibility: visible;
@@ -2922,6 +2953,15 @@ body
    height: 82px;
    visibility: hidden;
    display: none;
+}
+#Html2
+{
+   left: 866px;
+   top: 47px;
+   width: 70px;
+   height: 34px;
+   visibility: visible;
+   display: inline;
 }
 }
 @media only screen and (min-width: 800px) and (max-width: 979px)
@@ -3305,9 +3345,9 @@ body
 }
 #wb_Text8
 {
-   left: 296px;
-   top: 19px;
-   width: 206px;
+   left: 10px;
+   top: 17px;
+   width: 215px;
    height: 73px;
    visibility: visible;
    display: inline;
@@ -3321,7 +3361,7 @@ body
    font-size: 11px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: left;
 }
 #sticker_ADELANTE_
 {
@@ -3359,7 +3399,7 @@ body
    font-size: 15px;
    margin: 0;
    padding: 20px 20px 20px 20px;
-   text-align: center;
+   text-align: left;
 }
 #wb_Image16
 {
@@ -3390,8 +3430,8 @@ body
 }
 #Html1
 {
-   left: 600px;
-   top: 32px;
+   left: 500px;
+   top: 27px;
    width: 90px;
    height: 47px;
    visibility: visible;
@@ -3426,6 +3466,15 @@ body
    height: 80px;
    visibility: hidden;
    display: none;
+}
+#Html2
+{
+   left: 683px;
+   top: 27px;
+   width: 65px;
+   height: 47px;
+   visibility: visible;
+   display: inline;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 799px)
@@ -3809,9 +3858,9 @@ body
 }
 #wb_Text8
 {
-   left: 286px;
+   left: 15px;
    top: 19px;
-   width: 197px;
+   width: 213px;
    height: 62px;
    visibility: visible;
    display: inline;
@@ -3825,7 +3874,7 @@ body
    font-size: 11px;
    margin: 0;
    padding: 0;
-   text-align: center;
+   text-align: left;
 }
 #sticker_ADELANTE_
 {
@@ -3863,7 +3912,7 @@ body
    font-size: 15px;
    margin: 0;
    padding: 20px 20px 20px 20px;
-   text-align: center;
+   text-align: left;
    line-height: 19px;
 }
 #wb_Image16
@@ -3895,8 +3944,8 @@ body
 }
 #Html1
 {
-   left: 574px;
-   top: 28px;
+   left: 493px;
+   top: 36px;
    width: 105px;
    height: 45px;
    visibility: visible;
@@ -3931,6 +3980,15 @@ body
    height: 80px;
    visibility: hidden;
    display: none;
+}
+#Html2
+{
+   left: 650px;
+   top: 36px;
+   width: 76px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
 }
 }
 @media only screen and (max-width: 767px)
@@ -4407,8 +4465,8 @@ body
 }
 #Html1
 {
-   left: 222px;
-   top: 46px;
+   left: 230px;
+   top: 9px;
    width: 77px;
    height: 36px;
    visibility: visible;
@@ -4443,5 +4501,14 @@ body
    height: 43px;
    visibility: hidden;
    display: none;
+}
+#Html2
+{
+   left: 230px;
+   top: 70px;
+   width: 77px;
+   height: 38px;
+   visibility: visible;
+   display: inline;
 }
 }
