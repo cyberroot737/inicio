@@ -33,13 +33,13 @@ body
 }
 #capa2
 {
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
 #capa3
 {
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -81,8 +81,9 @@ body
    right: 0;
    bottom: 0;
    left: 0;
-   background-color: #000000;
-   opacity: 0.83;
+   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAiSURBVChTY/j79+8VfJgGChiAAIWPzMGGqaAA3U5U/PcKAKK46ytgHTGOAAAAAElFTkSuQmCC);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_ResponsiveMenu1
 {
@@ -443,7 +444,7 @@ body
 }
 #wb_Text4
 {
-   color: #D3D3D3;
+   color: #1E1E1E;
    font-family: "Open Sans";
    font-weight: normal;
    font-size: 32px;
@@ -465,7 +466,7 @@ body
 }
 #wb_Text5
 {
-   color: #87CEFA;
+   color: #1E1E1E;
    font-family: "Open Sans";
    font-weight: normal;
    font-size: 21px;
@@ -625,7 +626,7 @@ body
 }
 #about
 {
-   background-color: #000000;
+   background-color: #1E1E1E;
    background-image: none;
    margin: 0;
 }
@@ -666,7 +667,7 @@ body
 }
 #wb_Text9
 {
-   color: #D3D3D3;
+   color: #2D2D2D;
    font-family: "Open Sans";
    font-weight: normal;
    font-size: 17px;
@@ -693,9 +694,11 @@ body
 #wb_TXTt_gaming 
 {
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXTt_gaming_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
    border: 0px solid #000000;
-   padding: 40px 10px 10px 10px;
+   padding: 60px 10px 10px 10px;
    margin: 0;
    text-align: center;
    -webkit-animation: push 2000ms linear 0ms 1 normal both;
@@ -704,7 +707,7 @@ body
 }
 #wb_TXTt_gaming
 {
-   color: #C00000;
+   color: #FF0000;
    font-family: "Open Sans";
    font-weight: normal;
    font-size: 75px;
@@ -742,7 +745,9 @@ body
 #wb_TXT_preparamos_pc 
 {
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXT_preparamos_pc_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
    border: 0px solid #000000;
    padding: 10px 10px 10px 10px;
    margin: 0;
@@ -750,7 +755,7 @@ body
 }
 #wb_TXT_preparamos_pc
 {
-   color: #C00000;
+   color: #FF0000;
    font-family: "Open Sans";
    font-weight: normal;
    font-size: 35px;
@@ -776,7 +781,7 @@ body
 }
 #wb_uid51
 {
-   color: #87CEFA;
+   color: #1E1E1E;
 }
 #wb_uid24
 {
@@ -792,7 +797,7 @@ body
 }
 #wb_uid60
 {
-   color: #000000;
+   color: #1E1E1E;
    list-style-type: disc;
 }
 #wb_uid23
@@ -817,7 +822,7 @@ body
 {
    position: absolute;
    left: 1090px;
-   top: 34px;
+   top: 39px;
    width: 127px;
    height: 70px;
    z-index: 25;
@@ -844,9 +849,7 @@ body
 }
 #wb_uid70
 {
-   color: #D3D3D3;
-   font-family: Open Sans;
-   font-size: 27px;
+   color: #FFFF00;
 }
 #wb_uid66
 {
@@ -889,6 +892,10 @@ body
 {
    color: #D3D3D3;
 }
+#wb_uid71
+{
+   color: #2D2D2D;
+}
 #capa5
 {
    position: relative;
@@ -900,13 +907,9 @@ body
    display: block;
    z-index: 31;
 }
-#wb_uid71
-{
-   color: #FFFF00;
-}
 #wb_uid65
 {
-   color: #000000;
+   color: #D3D3D3;
 }
 #wb_Text5
 {
@@ -914,7 +917,7 @@ body
    left: 312px;
    top: 410px;
    width: 895px;
-   height: 204px;
+   height: 233px;
    z-index: 13;
 }
 #wb_uid36
@@ -939,7 +942,11 @@ body
 }
 #wb_uid72
 {
-   color: #FFFF00;
+   color: #2D2D2D;
+}
+#wb_uid64
+{
+   color: #D3D3D3;
 }
 #wb_Text6
 {
@@ -950,10 +957,6 @@ body
    height: 142px;
    text-align: center;
    z-index: 14;
-}
-#wb_uid64
-{
-   margin: 0 0 0 53.33px;
 }
 #capa3_Container
 {
@@ -977,7 +980,7 @@ body
 }
 #wb_uid73
 {
-   color: #D3D3D3;
+   color: #2D2D2D;
 }
 #wb_Text7
 {
@@ -1020,11 +1023,11 @@ body
 }
 #wb_uid74
 {
-   color: #D3D3D3;
+   color: #2D2D2D;
 }
 #wb_uid41
 {
-   color: #C00000;
+   color: #FF0000;
 }
 #wb_uid31
 {
@@ -1052,16 +1055,16 @@ body
 }
 #wb_uid75
 {
-   color: #D3D3D3;
+   color: #2D2D2D;
 }
 #wb_uid58
 {
-   color: #87CEFA;
+   color: #1E1E1E;
 }
 #wb_uid40
 {
    font-weight: bold;
-   color: #C00000;
+   color: #FF0000;
 }
 #wb_uid32
 {
@@ -1080,20 +1083,20 @@ body
 }
 #wb_uid76
 {
-   color: #D3D3D3;
+   color: #2D2D2D;
 }
 #wb_uid69
 {
-   color: #D3D3D3;
+   color: #FFFF00;
 }
 #wb_uid59
 {
-   color: #87CEFA;
+   color: #1E1E1E;
 }
 #wb_uid43
 {
    font-weight: bold;
-   color: #D3D3D3;
+   color: #1E1E1E;
 }
 #wb_uid33
 {
@@ -1121,19 +1124,21 @@ body
 }
 #wb_uid77
 {
-   color: #D3D3D3;
+   color: #2D2D2D;
 }
 #wb_uid68
 {
    color: #D3D3D3;
+   font-family: Open Sans;
+   font-size: 27px;
 }
 #wb_uid56
 {
-   color: #87CEFA;
+   color: #1E1E1E;
 }
 #wb_uid42
 {
-   color: #D3D3D3;
+   color: #1E1E1E;
 }
 #capa3
 {
@@ -1148,11 +1153,11 @@ body
 }
 #wb_uid57
 {
-   color: #87CEFA;
+   color: #1E1E1E;
 }
 #wb_uid45
 {
-   color: #87CEFA;
+   color: #1E1E1E;
 }
 #wb_uid29
 {
@@ -1162,21 +1167,17 @@ body
 {
    display: none;
 }
-#wb_uid81
-{
-   color: #D3D3D3;
-}
 #wb_uid78
 {
-   color: #D3D3D3;
+   color: #2D2D2D;
 }
 #wb_uid54
 {
-   color: #FFFFFF;
+   color: #1E1E1E;
 }
 #wb_uid44
 {
-   color: #87CEFA;
+   color: #1E1E1E;
 }
 #Layer1
 {
@@ -1223,7 +1224,7 @@ body
 }
 #wb_uid80
 {
-   color: #D3D3D3;
+   color: #1E90FF;
 }
 #wb_uid79
 {
@@ -1231,7 +1232,7 @@ body
 }
 #wb_uid55
 {
-   color: #D3D3D3;
+   color: #00BFFF;
 }
 #wb_uid47
 {
@@ -1262,12 +1263,12 @@ body
 }
 #wb_uid52
 {
-   color: #FFFFFF;
+   color: #1E1E1E;
    list-style-type: disc;
 }
 #wb_uid46
 {
-   color: #FFFFFF;
+   color: #1E1E1E;
    list-style-type: disc;
 }
 #wb_uid38
@@ -1282,10 +1283,6 @@ body
 {
    display: none;
 }
-#wb_uid82
-{
-   color: #FFFF00;
-}
 #wb_Text8
 {
    position: absolute;
@@ -1297,7 +1294,7 @@ body
 }
 #wb_uid63
 {
-   color: #D3D3D3;
+   color: #00BFFF;
 }
 #wb_uid53
 {
@@ -1305,7 +1302,7 @@ body
 }
 #wb_uid49
 {
-   color: #D3D3D3;
+   color: #00BFFF;
 }
 #wb_uid39
 {
@@ -1317,7 +1314,7 @@ body
 }
 #wb_uid7
 {
-   color: #C00000;
+   color: #FF0000;
 }
 #wb_Text9
 {
@@ -1325,7 +1322,7 @@ body
    left: 310px;
    top: 279px;
    width: 543px;
-   height: 277px;
+   height: 279px;
    text-align: justify;
    z-index: 18;
 }
@@ -1348,15 +1345,15 @@ body
 }
 #wb_uid62
 {
-   color: #FFFFFF;
+   color: #1E1E1E;
 }
 #wb_uid50
 {
-   color: #87CEFA;
+   color: #1E1E1E;
 }
 #wb_uid48
 {
-   color: #87CEFA;
+   color: #1E1E1E;
 }
 #wb_Image15
 {
@@ -1410,7 +1407,7 @@ body
 #wb_uid6
 {
    font-weight: bold;
-   color: #C00000;
+   color: #FF0000;
 }
 @media only screen and (min-width: 1280px) and (max-width: 1649px)
 {
@@ -1457,7 +1454,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -1476,7 +1473,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -1780,7 +1777,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #1E1E1E;
    background-image: none;
    margin: 0;
 }
@@ -1866,7 +1863,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXTt_gaming_bkgrnd1280.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXTt_gaming
 {
@@ -1874,13 +1873,13 @@ body
    font-weight: normal;
    font-size: 53px;
    margin: 0;
-   padding: 10px 0px 10px 0px;
+   padding: 40px 0px 10px 0px;
    text-align: center;
 }
 #Html1
 {
-   left: 913px;
-   top: 35px;
+   left: 908px;
+   top: 44px;
    width: 126px;
    height: 63px;
    visibility: visible;
@@ -1896,7 +1895,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXT_preparamos_pc_bkgrnd1280.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXT_preparamos_pc
 {
@@ -1962,7 +1963,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -1981,7 +1982,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -2283,7 +2284,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #1E1E1E;
    background-image: none;
    margin: 0;
 }
@@ -2369,7 +2370,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXTt_gaming_bkgrnd1024.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXTt_gaming
 {
@@ -2377,7 +2380,7 @@ body
    font-weight: normal;
    font-size: 43px;
    margin: 0;
-   padding: 0;
+   padding: 40px 0px 20px 0px;
    text-align: center;
 }
 #Html1
@@ -2399,7 +2402,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXT_preparamos_pc_bkgrnd1024.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXT_preparamos_pc
 {
@@ -2465,7 +2470,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -2484,7 +2489,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -2786,7 +2791,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #1E1E1E;
    background-image: none;
    margin: 0;
 }
@@ -2872,7 +2877,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXTt_gaming_bkgrnd980.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXTt_gaming
 {
@@ -2902,7 +2909,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXT_preparamos_pc_bkgrnd980.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXT_preparamos_pc
 {
@@ -2968,7 +2977,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -2987,7 +2996,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -3290,7 +3299,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #1E1E1E;
    background-image: none;
    margin: 0;
 }
@@ -3376,7 +3385,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXTt_gaming_bkgrnd800.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXTt_gaming
 {
@@ -3384,7 +3395,7 @@ body
    font-weight: normal;
    font-size: 37px;
    margin: 0;
-   padding: 0;
+   padding: 20px 0px 10px 0px;
    text-align: center;
 }
 #Html1
@@ -3406,7 +3417,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXT_preparamos_pc_bkgrnd800.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXT_preparamos_pc
 {
@@ -3472,7 +3485,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -3491,7 +3504,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -3794,7 +3807,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #1E1E1E;
    background-image: none;
    margin: 0;
 }
@@ -3881,7 +3894,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXTt_gaming_bkgrnd768.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXTt_gaming
 {
@@ -3911,7 +3926,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXT_preparamos_pc_bkgrnd768.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXT_preparamos_pc
 {
@@ -3977,7 +3994,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -3996,7 +4013,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    margin: 0;
 }
@@ -4392,7 +4409,9 @@ body
    visibility: visible;
    display: block;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXTt_gaming_bkgrnd320.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXTt_gaming
 {
@@ -4423,7 +4442,9 @@ body
    visibility: hidden;
    display: none;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_TXT_preparamos_pc_bkgrnd320.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_TXT_preparamos_pc
 {
