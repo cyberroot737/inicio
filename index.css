@@ -1119,11 +1119,6 @@ body
    height: 100px;
    z-index: 34;
 }
-#cid0020000248697472105
-{
-   width: 200px;
-   height: 300px;
-}
 #wb_uid77
 {
    color: #D3D3D3;
@@ -1323,15 +1318,6 @@ body
 #wb_uid7
 {
    color: #C00000;
-}
-#Html2
-{
-   position: absolute;
-   left: 1350px;
-   top: 39px;
-   width: 120px;
-   height: 60px;
-   z-index: 24;
 }
 #wb_Text9
 {
@@ -1930,15 +1916,6 @@ body
    visibility: hidden;
    display: none;
 }
-#Html2
-{
-   left: 1120px;
-   top: 44px;
-   width: 93px;
-   height: 46px;
-   visibility: visible;
-   display: inline;
-}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1279px)
 {
@@ -2442,15 +2419,6 @@ body
    visibility: hidden;
    display: none;
 }
-#Html2
-{
-   left: 910px;
-   top: 42px;
-   width: 74px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
 }
 @media only screen and (min-width: 980px) and (max-width: 1023px)
 {
@@ -2953,15 +2921,6 @@ body
    height: 82px;
    visibility: hidden;
    display: none;
-}
-#Html2
-{
-   left: 866px;
-   top: 47px;
-   width: 70px;
-   height: 34px;
-   visibility: visible;
-   display: inline;
 }
 }
 @media only screen and (min-width: 800px) and (max-width: 979px)
@@ -3467,15 +3426,6 @@ body
    visibility: hidden;
    display: none;
 }
-#Html2
-{
-   left: 683px;
-   top: 27px;
-   width: 65px;
-   height: 47px;
-   visibility: visible;
-   display: inline;
-}
 }
 @media only screen and (min-width: 768px) and (max-width: 799px)
 {
@@ -3980,15 +3930,6 @@ body
    height: 80px;
    visibility: hidden;
    display: none;
-}
-#Html2
-{
-   left: 650px;
-   top: 36px;
-   width: 76px;
-   height: 45px;
-   visibility: visible;
-   display: inline;
 }
 }
 @media only screen and (max-width: 767px)
@@ -4501,14 +4442,5 @@ body
    height: 43px;
    visibility: hidden;
    display: none;
-}
-#Html2
-{
-   left: 230px;
-   top: 70px;
-   width: 77px;
-   height: 38px;
-   visibility: visible;
-   display: inline;
 }
 }
