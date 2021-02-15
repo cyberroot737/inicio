@@ -1,2 +1,0 @@
-# scv
-mi primer proyecto
