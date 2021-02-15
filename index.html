@@ -1,0 +1,1135 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>nuimage</title>
+<meta name="keywords" content="nuimage">
+<meta name="author" content="SCV(Dev)">
+<meta name="categories" content="Informatic support">
+<meta name="generator" content="nuimage@Support">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="ICONO X16-1.png" rel="icon" sizes="16x16" type="image/png">
+<link href="ICONO X32-1.png" rel="icon" sizes="32x32" type="image/png">
+<link href="ICONO X64-1.png" rel="icon" sizes="64x64" type="image/png">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400&subset=latin-ext" rel="stylesheet">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.parallax.min.js"></script>
+<script src="util.min.js"></script>
+<script src="modal.min.js"></script>
+<script src="wwb16.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_frasetxt').addClass('visibility-hidden');
+   $('#wb_cardsuport').addClass('visibility-hidden');
+   $('#wb_cardgaming').addClass('visibility-hidden');
+   $('#wb_cardventa').addClass('visibility-hidden');
+   $('#wb_cardschool').addClass('visibility-hidden');
+   $('#wb_txtasesoria').addClass('visibility-hidden');
+   $('#wb_RollOver1').addClass('visibility-hidden');
+   $('#wb_txtsoporte').addClass('visibility-hidden');
+   $('#wb_RollOver2').addClass('visibility-hidden');
+   $('#wb_txtpasion').addClass('visibility-hidden');
+   $('#wb_RollOver3').addClass('visibility-hidden');
+   $('#wb_txtienda').addClass('visibility-hidden');
+   $('#wb_txteducacion').addClass('visibility-hidden');
+   $('#wb_txtsobre').addClass('visibility-hidden');
+   $('#wb_RollOver4').addClass('visibility-hidden');
+   $('#wb_IconFont1').addClass('visibility-hidden');
+   $('#wb_logoh1').addClass('visibility-hidden');
+   $("a[href*='#capavideo1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#capavideo1').offset().top }, 600, 'linear');
+   });
+   function onScrollcapavideo1DividerTop()
+   {
+      var $obj = $('#capavideo1-divider-top');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollcapavideo1DividerTop();
+   function onScrollcapavideo1DividerBottom()
+   {
+      var $obj = $('#capavideo1-divider-bottom');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollcapavideo1DividerBottom();
+   $(window).scroll(function(event)
+   {
+      onScrollcapavideo1DividerTop();
+      onScrollcapavideo1DividerBottom();
+   });
+   function onScrollfrasetxt()
+   {
+      var $obj = $("#wb_frasetxt");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_frasetxt', 'animate-fade-in-down', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_frasetxt', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_frasetxt').inViewPort(true))
+   {
+      $('#wb_frasetxt').addClass("in-viewport");
+   }
+   onScrollfrasetxt();
+   $(window).scroll(function(event)
+   {
+      onScrollfrasetxt();
+   });
+   $('#wb_capasoluciones').parallax();
+   function onScrollcardsuport()
+   {
+      var $obj = $("#wb_cardsuport");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_cardsuport', 'animate-fade-in-left', 0, 2000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_cardsuport', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_cardsuport').inViewPort(true))
+   {
+      $('#wb_cardsuport').addClass("in-viewport");
+   }
+   onScrollcardsuport();
+   $(window).scroll(function(event)
+   {
+      onScrollcardsuport();
+   });
+   $("a[href*='#capasesoria']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_capasesoria').offset().top }, 600, 'linear');
+   });
+   function onScrollcardgaming()
+   {
+      var $obj = $("#wb_cardgaming");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_cardgaming', 'animate-fade-in-up', 0, 2000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_cardgaming', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_cardgaming').inViewPort(true))
+   {
+      $('#wb_cardgaming').addClass("in-viewport");
+   }
+   onScrollcardgaming();
+   $(window).scroll(function(event)
+   {
+      onScrollcardgaming();
+   });
+   function onScrollcardventa()
+   {
+      var $obj = $("#wb_cardventa");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_cardventa', 'animate-fade-in-up', 0, 2000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_cardventa', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_cardventa').inViewPort(true))
+   {
+      $('#wb_cardventa').addClass("in-viewport");
+   }
+   onScrollcardventa();
+   $(window).scroll(function(event)
+   {
+      onScrollcardventa();
+   });
+   function onScrollcardschool()
+   {
+      var $obj = $("#wb_cardschool");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_cardschool', 'animate-fade-in-right', 0, 2000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_cardschool', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_cardschool').inViewPort(true))
+   {
+      $('#wb_cardschool').addClass("in-viewport");
+   }
+   onScrollcardschool();
+   $(window).scroll(function(event)
+   {
+      onScrollcardschool();
+   });
+   function onScrolltxtasesoria()
+   {
+      var $obj = $("#wb_txtasesoria");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_txtasesoria', 'animate-fade-in-left', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_txtasesoria', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_txtasesoria').inViewPort(true))
+   {
+      $('#wb_txtasesoria').addClass("in-viewport");
+   }
+   onScrolltxtasesoria();
+   $(window).scroll(function(event)
+   {
+      onScrolltxtasesoria();
+   });
+   $("#RollOver1").hover(function(e)
+   {
+      $('#RollOver1 .default, #RollOver1 .hover').removeClass('animate reverse').width(); 
+      $('#RollOver1 .default, #RollOver1 .hover').addClass('animate');
+   }, function()
+   {
+      $('#RollOver1 .default, #RollOver1 .hover').removeClass('animate').width();
+      $('#RollOver1 .default, #RollOver1 .hover').addClass('animate reverse');
+   });
+   function onScrollRollOver1()
+   {
+      var $obj = $("#wb_RollOver1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_RollOver1', 'animate-fade-in-right', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_RollOver1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_RollOver1').inViewPort(true))
+   {
+      $('#wb_RollOver1').addClass("in-viewport");
+   }
+   onScrollRollOver1();
+   $(window).scroll(function(event)
+   {
+      onScrollRollOver1();
+   });
+   $("a[href*='#capasoporte']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_capasoporte').offset().top }, 600, 'linear');
+   });
+   function onScrolltxtsoporte()
+   {
+      var $obj = $("#wb_txtsoporte");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_txtsoporte', 'animate-fade-in-right', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_txtsoporte', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_txtsoporte').inViewPort(true))
+   {
+      $('#wb_txtsoporte').addClass("in-viewport");
+   }
+   onScrolltxtsoporte();
+   $(window).scroll(function(event)
+   {
+      onScrolltxtsoporte();
+   });
+   $("#RollOver2").hover(function(e)
+   {
+      $('#RollOver2 .default, #RollOver2 .hover').removeClass('animate reverse').width(); 
+      $('#RollOver2 .default, #RollOver2 .hover').addClass('animate');
+   }, function()
+   {
+      $('#RollOver2 .default, #RollOver2 .hover').removeClass('animate').width();
+      $('#RollOver2 .default, #RollOver2 .hover').addClass('animate reverse');
+   });
+   function onScrollRollOver2()
+   {
+      var $obj = $("#wb_RollOver2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_RollOver2', 'animate-fade-in-left', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_RollOver2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_RollOver2').inViewPort(true))
+   {
+      $('#wb_RollOver2').addClass("in-viewport");
+   }
+   onScrollRollOver2();
+   $(window).scroll(function(event)
+   {
+      onScrollRollOver2();
+   });
+   $("a[href*='#capagamer']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_capagamer').offset().top }, 600, 'linear');
+   });
+   function onScrollcapagamerDividerTop()
+   {
+      var $obj = $('#capagamer-divider-top');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollcapagamerDividerTop();
+   function onScrollcapagamerDividerBottom()
+   {
+      var $obj = $('#capagamer-divider-bottom');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollcapagamerDividerBottom();
+   $(window).scroll(function(event)
+   {
+      onScrollcapagamerDividerTop();
+      onScrollcapagamerDividerBottom();
+   });
+   $('#wb_capagamer').parallax();
+   function onScrolltxtpasion()
+   {
+      var $obj = $("#wb_txtpasion");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_txtpasion', 'animate-fade-in-left', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_txtpasion', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_txtpasion').inViewPort(true))
+   {
+      $('#wb_txtpasion').addClass("in-viewport");
+   }
+   onScrolltxtpasion();
+   $(window).scroll(function(event)
+   {
+      onScrolltxtpasion();
+   });
+   $("#RollOver3").hover(function(e)
+   {
+      $('#RollOver3 .default, #RollOver3 .hover').removeClass('animate reverse').width(); 
+      $('#RollOver3 .default, #RollOver3 .hover').addClass('animate');
+   }, function()
+   {
+      $('#RollOver3 .default, #RollOver3 .hover').removeClass('animate').width();
+      $('#RollOver3 .default, #RollOver3 .hover').addClass('animate reverse');
+   });
+   function onScrollRollOver3()
+   {
+      var $obj = $("#wb_RollOver3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_RollOver3', 'animate-fade-in-right', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_RollOver3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_RollOver3').inViewPort(true))
+   {
+      $('#wb_RollOver3').addClass("in-viewport");
+   }
+   onScrollRollOver3();
+   $(window).scroll(function(event)
+   {
+      onScrollRollOver3();
+   });
+   $("a[href*='#capatienda']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_capatienda').offset().top }, 600, 'linear');
+   });
+   function onScrolltxtienda()
+   {
+      var $obj = $("#wb_txtienda");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_txtienda', 'animate-fade-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_txtienda', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_txtienda').inViewPort(true))
+   {
+      $('#wb_txtienda').addClass("in-viewport");
+   }
+   onScrolltxtienda();
+   $(window).scroll(function(event)
+   {
+      onScrolltxtienda();
+   });
+   $("a[href*='#capaeducacion']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_capaeducacion').offset().top }, 600, 'linear');
+   });
+   function onScrollcapaeducacionDividerTop()
+   {
+      var $obj = $('#capaeducacion-divider-top');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollcapaeducacionDividerTop();
+   function onScrollcapaeducacionDividerBottom()
+   {
+      var $obj = $('#capaeducacion-divider-bottom');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollcapaeducacionDividerBottom();
+   $(window).scroll(function(event)
+   {
+      onScrollcapaeducacionDividerTop();
+      onScrollcapaeducacionDividerBottom();
+   });
+   $('#wb_capaeducacion').parallax();
+   function onScrolltxteducacion()
+   {
+      var $obj = $("#wb_txteducacion");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_txteducacion', 'animate-fade-in-right', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_txteducacion', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_txteducacion').inViewPort(true))
+   {
+      $('#wb_txteducacion').addClass("in-viewport");
+   }
+   onScrolltxteducacion();
+   $(window).scroll(function(event)
+   {
+      onScrolltxteducacion();
+   });
+   $("a[href*='#capasobrenosotros']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_capasobrenosotros').offset().top }, 600, 'linear');
+   });
+   function onScrollcapasobrenosotrosDividerTop()
+   {
+      var $obj = $('#capasobrenosotros-divider-top');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollcapasobrenosotrosDividerTop();
+   $(window).scroll(function(event)
+   {
+      onScrollcapasobrenosotrosDividerTop();
+   });
+   function onScrolltxtsobre()
+   {
+      var $obj = $("#wb_txtsobre");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_txtsobre', 'animate-fade-in-right', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_txtsobre', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_txtsobre').inViewPort(true))
+   {
+      $('#wb_txtsobre').addClass("in-viewport");
+   }
+   onScrolltxtsobre();
+   $(window).scroll(function(event)
+   {
+      onScrolltxtsobre();
+   });
+   $("#RollOver4").hover(function(e)
+   {
+      $('#RollOver4 .default, #RollOver4 .hover').removeClass('animate reverse').width(); 
+      $('#RollOver4 .default, #RollOver4 .hover').addClass('animate');
+   }, function()
+   {
+      $('#RollOver4 .default, #RollOver4 .hover').removeClass('animate').width();
+      $('#RollOver4 .default, #RollOver4 .hover').addClass('animate reverse');
+   });
+   function onScrollRollOver4()
+   {
+      var $obj = $("#wb_RollOver4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_RollOver4', 'animate-fade-in-left', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_RollOver4', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_RollOver4').inViewPort(true))
+   {
+      $('#wb_RollOver4').addClass("in-viewport");
+   }
+   onScrollRollOver4();
+   $(window).scroll(function(event)
+   {
+      onScrollRollOver4();
+   });
+   function onScrollIconFont1()
+   {
+      var $obj = $("#wb_IconFont1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_IconFont1', 'transform-pulse', 0, 2000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_IconFont1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_IconFont1').inViewPort(true))
+   {
+      $('#wb_IconFont1').addClass("in-viewport");
+   }
+   onScrollIconFont1();
+   $(window).scroll(function(event)
+   {
+      onScrollIconFont1();
+   });
+   $('#AVISO').on('show.bs.modal', function (e) 
+   {
+      $('#AVISO .modal-dialog').removeClass('animate-hide');
+      $('#AVISO .modal-dialog').addClass('animate-show');
+   });
+   $('#AVISO').on('hide.bs.modal', function (e)
+   {
+      $('#AVISO .modal-dialog').removeClass('animate-show');
+      var element = document.getElementById('AVISO');
+      var forceReflow = element.offsetWidth;
+      $('#AVISO .modal-dialog').addClass('animate-hide');
+   });
+   $("a[href*='#AVISO']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#AVISO').offset().top }, 600, 'linear');
+   });
+   function onScrolllogoh1()
+   {
+      var $obj = $("#wb_logoh1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_logoh1', 'puff-in', 100, 2000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_logoh1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_logoh1').inViewPort(true))
+   {
+      $('#wb_logoh1').addClass("in-viewport");
+   }
+   onScrolllogoh1();
+   $(window).scroll(function(event)
+   {
+      onScrolllogoh1();
+   });
+function countUpJavaScript1()
+{
+   var $obj = $('#JavaScript1');
+   var count = $obj.attr('data-count');
+   var bottomObj = $obj.offset().top + $obj.outerHeight();
+   var bottomWnd = $(window).scrollTop() + $(window).height();
+   if (bottomWnd > bottomObj && count != 0)
+   {
+      $({countUp: $obj.text()}).animate({countUp: count},
+      {
+         duration: 4000,
+         step: function() { $obj.text(Math.floor(this.countUp)); },
+         complete: function() { $obj.text(this.countUp); $obj.attr('data-count', 0); }
+      });  
+   }
+}
+$(window).scroll( function()
+{
+   countUpJavaScript1();
+});
+countUpJavaScript1();
+function countUpJavaScript2()
+{
+   var $obj = $('#JavaScript2');
+   var count = $obj.attr('data-count');
+   var bottomObj = $obj.offset().top + $obj.outerHeight();
+   var bottomWnd = $(window).scrollTop() + $(window).height();
+   if (bottomWnd > bottomObj && count != 0)
+   {
+      $({countUp: $obj.text()}).animate({countUp: count},
+      {
+         duration: 4000,
+         step: function() { $obj.text(Math.floor(this.countUp)); },
+         complete: function() { $obj.text(this.countUp); $obj.attr('data-count', 0); }
+      });  
+   }
+}
+$(window).scroll( function()
+{
+   countUpJavaScript2();
+});
+countUpJavaScript2();
+   $("#wb_menuresp ul li a").click(function(event)
+   {
+      $("#wb_menuresp input").prop("checked", false);
+   });
+   $("#wb_ResponsiveMenu1 ul li a").click(function(event)
+   {
+      $("#wb_ResponsiveMenu1 input").prop("checked", false);
+   });
+   $(window).on('resize', function()
+   {
+      ResponsiveVideo('capavideo1-video');
+   });
+   ResponsiveVideo('capavideo1-video');
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
+<!-- Smartsupp Live Chat script -->
+<script>
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = '65262a22affbc4c3d21fb8918855ecf60b2c79b2';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+</head>
+<body>
+<div id="capavideo1">
+<div id="capavideo1-video"><iframe src="https://www.youtube.com/embed/PsE4E-t-rCY?controls=0?controls=0&showinfo=0&rel=0&autoplay=1&mute=1&loop=1&playlist=PsE4E-t-rCY" frameborder="0" allowfullscreen></iframe></div>
+<div id="capavideo1-overlay"></div>
+<div id="capavideo1-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capavideo1-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capavideo1_Container">
+<div id="CAPA-STICKER">
+<div id="CAPA-STICKER_Container">
+<div id="wb_menuresp">
+<label class="toggle" for="menuresp-submenu" id="menuresp-title">Menú principal<span id="menuresp-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="menuresp-submenu">
+<ul class="menuresp" id="menuresp" role="menu">
+<li><a role="menuitem" href="./index.html#capasesoria">Asesor&#237;a&nbsp;inform&#225;tica</a></li>
+<li><a role="menuitem" href="./index.html#capatienda">Dropshipping</a></li>
+<li><a role="menuitem" href="./index.html#capaeducacion">Educaci&#243;n</a></li>
+<li><a role="menuitem" href="./contacto1.php">Contacto</a></li>
+</ul>
+</div>
+<div id="wb_logoh1">
+<a href="#" onmouseover="AnimateCss('wb_logoh1', 'fall', 0, 500);return false;"><img src="images/LOGX100P.png" id="logoh1" alt=""></a></div>
+</div>
+</div>
+<div id="wb_frasetxt" class="h2">
+<span style="color:#FFFFFF;">Nos dedicamos a brindar soporte informático con soluciones creativas y experiencia digital.</span></div>
+</div>
+</div>
+<div id="wb_capasoluciones">
+<div id="capasoluciones-overlay"></div>
+<div id="capasoluciones-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capasoluciones-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capasoluciones">
+<div class="row">
+<div class="col-1">
+<div id="wb_soluciones">
+<span style="color:#DC143C;font-family:'Open Sans';font-size:29px;"><strong>Soluciones</strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_cardsconten">
+<div id="cardsconten">
+<div class="row">
+<div class="col-1">
+<div id="wb_cardsuport">
+   <div id="cardsuport-card-body">
+      <img id="cardsuport-card-item0" src="images/digital.jpg" alt="" title="">
+      <hr id="cardsuport-card-item1">
+      <div id="cardsuport-card-item2">Soporte digital.<br><br><br></div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_cardgaming">
+   <div id="cardgaming-card-body">
+      <img id="cardgaming-card-item0" src="images/gamer2.jpg" alt="" title="">
+      <hr id="cardgaming-card-item1">
+      <div id="cardgaming-card-item2">Pasión por el Gaming y los eSports.</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_cardventa">
+   <div id="cardventa-card-body">
+      <img id="cardventa-card-item0" src="images/pc.jpg" alt="" title="">
+      <hr id="cardventa-card-item1">
+      <div id="cardventa-card-item2">Asesoría y venta de componentes informáticos.</div>
+   </div>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_cardschool">
+   <div id="cardschool-card-body">
+      <img id="cardschool-card-item0" src="images/educacion.jpg" alt="" title="">
+      <hr id="cardschool-card-item1">
+      <div id="cardschool-card-item2">Educación informática.<br><br></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_capasesoria">
+<div id="capasesoria-overlay"></div>
+<div id="capasesoria-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capasesoria-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capasesoria">
+<div class="row">
+<div class="col-1">
+<div id="wb_txtasesoria">
+<span style="color:#C71585;">Asesoría informática</span><span style="color:#000000;"><br></span><span style="color:#4F4F4F;">Expande tu mente a nuevas formas de solucionar un problema a partir nuestra experiencia</span><span style="color:#000000;">.</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_RollOver1">
+<div id="RollOver1">
+<a href="./index.html#capasesoria">
+<img class="hover" alt="" src="images/robot.jpg">
+<span class="default"><img alt="" src="images/asesoria-informatica-1.jpg"></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_capasoporte">
+<div id="capasoporte-overlay"></div>
+<div id="capasoporte-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capasoporte-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capasoporte">
+<div class="row">
+<div class="col-1">
+<div id="wb_RollOver2">
+<div id="RollOver2">
+<a href="./index.html#capasoporte">
+<img class="hover" alt="" src="images/pc3.jpg">
+<span class="default"><img alt="" src="images/marketing-mix.jpg"></span>
+</a>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_txtsoporte">
+<span style="color:#C71585;">Sobre el soporte digital</span><span style="color:#000000;"><br></span><span style="color:#4F4F4F;">Brindamos soporte y asesoría en seguridad de redes informáticas e internet.<br>Brindamos soporte técnico de equipos informáticos en general.<br>Brindamos los servicios de diseño gráfico y marketing.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_capagamer">
+<div id="capagamer-overlay"></div>
+<div id="capagamer-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capagamer-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capagamer">
+<div class="row">
+<div class="col-1">
+<div id="wb_txtpasion">
+<span style="color:#FFFF00;">Pasión por el Gaming y los deportes electrónicos</span><span style="color:#FFFFFF;"><br>Si eres un apasionado por el gaming o los deportes electrónicos y deseas ser un streamer, o simplemente buscas divertirte con un buen desempeño en tus partidas, entonces podemos craftear una computadora adecuada a tus necesidades.</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_RollOver3">
+<div id="RollOver3">
+<a href="./index.html#capagamer">
+<img class="hover" alt="" src="images/starwars-2.jpg">
+<span class="default"><img alt="" src="images/back4blood.jpg"></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_capatienda">
+<div id="capatienda-overlay"></div>
+<div id="capatienda-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capatienda-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capatienda">
+<div class="row">
+<div class="col-1">
+<div id="wb_txtienda">
+<span style="color:#C71585;">Sobre nuestra tienda virtual de venta y asesoría de componentes informáticos</span><span style="color:#4F4F4F;"><br>Contamos con varios </span><span style="color:#1E90FF;">proveedores de importación directa </span><span style="color:#4F4F4F;">en productos para el ensamblaje de computadoras, servidores y componentes informáticos en general, con la </span><span style="color:#1E90FF;">garantía del fabricante </span><span style="color:#4F4F4F;">y nuestra </span><span style="color:#1E90FF;">asesoría personalizada </span><span style="color:#4F4F4F;">con precios accesibles al por mayor y menor. Nuestra modalidad de venta es a través del </span><span style="color:#1E90FF;">dropshipping</span><span style="color:#4F4F4F;"> con disponibilidad de envió a provincias.<br>Por ejemplo, usted consultando por la marca o modelo, puede comprar a través de nuestra </span><span style="color:#1E90FF;">tienda virtual </span><span style="color:#4F4F4F;">productos como: memorias RAM, discos duros, unidades de almacenamiento SSD, gabinetes, microprocesadores, tarjetas de video, rúters wifi, switches, impresoras, etc.<br></span><span style="color:#1E90FF;">También usted puede comprar computadoras o servidores ya ensamblados</span><span style="color:#4F4F4F;"> con los componentes que requiera; por ejemplo, estos equipos pueden ser orientados al uso en oficina, diseño gráfico, ingeniería, videojuegos, inteligencia artificial o </span><span style="color:#228B22;">minería de criptomonedas.<br></span><span style="color:#4F4F4F;">Si usted desea realizar una consulta o recibir </span><span style="color:#1E90FF;">asesoría sobre la compra de un producto</span><span style="color:#4F4F4F;">, póngase en contacto con nosotros.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_capaeducacion">
+<div id="capaeducacion-overlay"></div>
+<div id="capaeducacion-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capaeducacion-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capaeducacion">
+<div class="row">
+<div class="col-1">
+<div id="wb_txteducacion">
+<span style="color:#C71585;">Sobre la educación informática</span><span style="color:#4F4F4F;"><br></span><span style="color:#006400;">&quot;La educación es el arma más poderosa que puedes usar para cambiar el mundo&quot;, Nelson Mandela.</span><span style="color:#4F4F4F;"><br>Brindamos asesoría y servicios educativos en ciencias de la computación, involucra aspectos fundamentales como la ofimática, soporte técnico, robótica educativa y programación tanto para niños como adultos. Creemos que el conocimiento no debe limitarse, por consiguiente, debe ser difundido para fomentar el pensamiento crítico y el progreso de nuestra sociedad.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_capasobrenosotros">
+<div id="capasobrenosotros-overlay"></div>
+<div id="capasobrenosotros-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,33.886L13.281,0L62.225,67.779L88.288,61.436L100,33.886L100,100L0,100L0,33.886z" style="fill-opacity:0.5;"/>
+<path class="divider-fill" d="M0,64.8L10.938,44.6L35.196,65.112L62.225,47L89.063,78.844L100,64.8L100,100L0,100L0,64.8z"/>
+</svg></div>
+<div id="capasobrenosotros">
+<div class="row">
+<div class="col-1">
+<div id="wb_RollOver4">
+<div id="RollOver4">
+<a href="./index.html#capasobrenosotros">
+<img class="hover" alt="" src="images/informaticos.jpg">
+<span class="default"><img alt="" src="images/Servicios-informáticos.jpg"></span>
+</a>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_txtsobre">
+<span style="color:#FFFF00;">Sobre nosotros</span><span style="color:#000000;"><br></span><span style="color:#FFF5EE;">¡Hola! :) somos </span><span style="color:#FFD700;"><strong>nu</strong></span><span style="color:#FFF5EE;"><strong>imagen</strong> (</span><span style="color:#FFD700;">Nueva</span><span style="color:#FFF5EE;"> Imagen). Una empresa (Startup) que está integrada por un staff de personas comprometidas con su trabajo, contamos con la experiencia necesaria para afrontar desafíos. Estamos enfocados en brindar soluciones a los objetivos de nuestros clientes.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_capalinea2">
+<div id="capalinea2">
+<div class="row">
+<div class="col-1">
+<hr id="Line2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_capasociados">
+<div id="capasociados">
+<div class="row">
+<div class="col-1">
+<div id="wb_txtasociados">
+<span style="color:#FFFF00;">Asociados de soporte técnico de computadoras en Lima metropolitana</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_IconFont4">
+<div id="IconFont4"><i class="fa fa-laptop"></i></div>
+</div>
+<div id="wb_IconFont5">
+<div id="IconFont5"><i class="fa fa-gears"></i></div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Shape2">
+<img src="images/img0005.png" id="Shape2" alt="">
+</div>
+<div id="wb_JavaScript2">
+<div data-count="962331781" id="JavaScript2"></div>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_Shape1">
+<img src="images/img0006.png" id="Shape1" alt="">
+</div>
+<div id="wb_JavaScript1">
+<div data-count="953385881" id="JavaScript1"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_capalinea1">
+<div id="capalinea1">
+<div class="row">
+<div class="col-1">
+<hr id="raya">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_capafinal">
+<div id="capafinal">
+<div class="row">
+<div class="col-1">
+<div id="wb_txtdev">
+<span style="color:#D3D3D3;">SOBRE EL EDITOR<br>Aprender para enseñar<br>Developed by David Salomon<br></span><span style="color:#FFD700;"><strong>nu</strong></span><span style="color:#FFF5EE;"><strong>imagen</strong></span><span style="color:#FFFF00;"> </span><span style="color:#00FF00;">V 2.3</span><span style="color:#FFF5EE;"><br></span><span style="color:#7FFFD4;">RIGHTS RESERVED 2021</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_IconFont3">
+<a href="https://www.facebook.com/SmohobyXD/" target="_blank"><div id="IconFont3"><i class="fa fa-facebook-official"></i></div></a>
+</div>
+<div id="wb_IconFont2">
+<a href="https://www.instagram.com/daviidsalomon/" target="_blank"><div id="IconFont2"><i class="fa fa-instagram"></i></div></a>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Text2">
+<span style="color:#D3D3D3;">Contador:</span>
+</div>
+<!-- CONTADOR -->
+<div id="Html2">
+<div id="sfcuqu51ze6t19dec88e4djwb3neg1wure8"></div><script src="https://counter9.stat.ovh/private/counter.js?c=uqu51ze6t19dec88e4djwb3neg1wure8&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas wordpress"><img src="https://counter9.stat.ovh/private/contadorvisitasgratis.php?c=uqu51ze6t19dec88e4djwb3neg1wure8" border="0" title="contador de visitas wordpress" alt="contador de visitas wordpress"></a></noscript></div>
+</div>
+<div class="col-4">
+<div id="wb_IconFont1">
+<a href="#capavideo1"><div id="IconFont1"><i class="fa fa-arrow-circle-o-up"></i></div></a>
+</div>
+<div id="wb_JavaScript9">
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=282835521804758&autoLogAppEvents=1"></script>
+<div class="fb-share-button" data-href="https://www.nuimagen.ml/" data-layout="button" data-size="large"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="AVISO" class="modal fade" role="dialog">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-body">
+<div id="wb_txtittle">
+<span style="color:#DC143C;font-family:'Open Sans';font-size:19px;"><strong>AVISO SOBRE EL COVID-19</strong></span></div>
+<div id="wb_txtcovid">
+<span style="color:#696969;font-family:'Open Sans';font-weight:300;font-size:17px;">Recuerda que estamos en medio de una pandemia, hasta la fecha el coronavirus ya se ha llevado muchas vidas hacia la eternidad. No olvides lo importante que es prevenir el contagio, con tan solo lavarte siempre las manos después de estar en contacto con cualquier superficie pública, estarás empezando a prevenir.</span></div>
+<div id="wb_prevencion">
+<span style="color:#DC143C;font-family:Arial;font-size:20px;">#YoSéPrevenir</span></div>
+<div id="wb_covidimg">
+<img src="images/covid.jpg" id="covidimg" alt=""></div>
+<div id="wb_Line1">
+<img src="images/img0003.png" id="Line1" alt=""></div>
+<div id="wb_Image1">
+<img src="images/ICONO X64-1.png" id="Image1" alt=""></div>
+<div id="wb_botoncont">
+<a href="" onclick="$('#AVISO').modal('hide');return false;"><img class="hover" src="images/img0004_hover.png" alt="" style="border-width:0;width:134px;height:34px;"><span class="default"><img src="images/img0004.png" id="botoncont" alt=""></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var wb_Timer1;
+function TimerStartTimer1()
+{
+   wb_Timer1 = setTimeout(function()
+   {
+      var event = null;
+      $('#AVISO').modal('show');
+   }, 2000);
+}
+function TimerStopTimer1()
+{
+   clearTimeout(wb_Timer1);
+}
+TimerStartTimer1();
+</script>
+
+<div id="stickerclone">
+<div id="wb_ResponsiveMenu1">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menú principal<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li><a role="menuitem" href="./index.html#capasesoria">Asesor&#237;a&nbsp;inform&#225;tica</a></li>
+<li><a role="menuitem" href="./index.html#capatienda">Dropshipping</a></li>
+<li><a role="menuitem" href="./index.html#capaeducacion">Educaci&#243;n</a></li>
+<li><a role="menuitem" href="./contacto1.php">Contacto</a></li>
+</ul>
+
+</div>
+</div>
+<div style="z-index:62">
+<script>
+var disabled_message = "";
+document.oncontextmenu = function() 
+{ 
+   return false; 
+}
+document.onmousedown = function md(e) 
+{ 
+  try 
+  { 
+     if (event.button==2||event.button==3) 
+     {
+        if (disabled_message != '')
+           alert(disabled_message);
+        return false; 
+     }
+  }  
+  catch (e) 
+  { 
+     if (e.which == 3) return false; 
+  } 
+}
+</script>
+</div>
+<div id="preloader"></div>
+</body>
+</html>
