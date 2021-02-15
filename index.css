@@ -1866,14 +1866,14 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    padding: 0;
-   margin: 50px 30px 40px 30px;
+   margin: 60px 30px 40px 30px;
    text-align: left;
 }
 #wb_txtsobre
 {
    color: #FFFF00;
    font-family: "Open Sans";
-   font-weight: normal;
+   font-weight: 300;
    font-size: 24px;
 }
 #wb_txtsobre div
@@ -1883,7 +1883,7 @@ input:focus, textarea:focus, select:focus
 #wb_txtsobre
 {
    display: block;
-   margin: 50px 30px 40px 30px;
+   margin: 60px 30px 40px 30px;
    box-sizing: border-box;
    width: calc(100% - 60px);
 }
@@ -2666,7 +2666,7 @@ input:focus, textarea:focus, select:focus
 #wb_txtasociados
 {
    color: #FFFF00;
-   font-family: Lato;
+   font-family: "Open Sans";
    font-weight: normal;
    font-size: 16px;
 }
@@ -3774,7 +3774,7 @@ input:focus, textarea:focus, select:focus
 }
 #JavaScript1
 {
-   color: #7FFF00;
+   color: #FFFF00;
    font-size: 20px;
    font-family: "Open Sans";
    font-weight: 300;
@@ -3814,7 +3814,7 @@ input:focus, textarea:focus, select:focus
 }
 #JavaScript2
 {
-   color: #7FFF00;
+   color: #FFFF00;
    font-size: 20px;
    font-family: "Open Sans";
    font-weight: 300;
